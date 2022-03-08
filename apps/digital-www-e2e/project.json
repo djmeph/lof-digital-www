@@ -1,0 +1,28 @@
+{
+  "root": "apps/digital-www-e2e",
+  "sourceRoot": "apps/digital-www-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/digital-www-e2e/cypress.json",
+        "devServerTarget": "digital-www:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "digital-www:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/digital-www-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["digital-www"]
+}

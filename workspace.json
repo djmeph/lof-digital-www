@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "digital-www": "apps/digital-www",
+    "digital-www-e2e": "apps/digital-www-e2e"
+  }
+}
