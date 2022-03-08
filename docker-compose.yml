@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  dev:
+    build: .devcontainer/
+    command: sh -c "tail -f /dev/null"
+    working_dir: /src
+    volumes:
+      - ./:/src:delegated
+      - /src/node_modules
+      - ~/.ssh:/root/.ssh:ro
+    ports:
+      - 1337:1337

@@ -1,0 +1,16 @@
+{
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "dev",
+  "workspaceFolder": "/src",
+  "extensions": [
+    "eamodio.gitlens",
+    "redhat.vscode-yaml",
+    "nrwl.angular-console",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "dbaeumer.vscode-eslint"
+  ],
+  "settings": {
+    "editor.tabSize": 2
+  }
+}
