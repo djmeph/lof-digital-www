@@ -1,6 +1,6 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import './styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -8,9 +8,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to digital-www!</title>
       </Head>
-      <main className="app">
-        <Component {...pageProps} />
-      </main>
+      <Component {...pageProps} />
     </>
   );
 }
