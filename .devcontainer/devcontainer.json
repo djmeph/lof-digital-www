@@ -1,5 +1,6 @@
 {
   "dockerComposeFile": ["../docker-compose.yml"],
+  "postStartCommand": "yarn",
   "service": "dev",
   "workspaceFolder": "/src",
   "extensions": [
