@@ -1,14 +1,17 @@
+import DigitalWwwComponent from '../components/DigitalWWW';
 import styles from './index.module.scss';
+import { Container } from 'react-bootstrap';
 
 export function Index() {
   return (
-    <main className='container'>
+    <Container>
       <div className={styles.page}>
         <h1 className="page-title">
           Welcome to digital-www!
         </h1>
+        <DigitalWwwComponent></DigitalWwwComponent>
       </div>
-    </main>
+    </Container>
   );
 }
 
