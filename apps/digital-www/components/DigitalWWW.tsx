@@ -3,7 +3,7 @@ import { DataCoalesce } from "../interfaces/coalesce";
 import WwwEventComponent from "./WwwEvent";
 
 export function DigitalWwwComponent() {
-  const { isLoading, error, data } = useQuery<boolean, Error, DataCoalesce>('repoData', async () => {
+  const { isLoading, error, data } = useQuery<boolean, Error, DataCoalesce>('jsonFeed', async () => {
     const res = await fetch('/api/digital-www');
     return res.json();
   });
