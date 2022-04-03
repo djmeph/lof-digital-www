@@ -9,7 +9,7 @@ export function Index() {
         <h1 className="page-title">
           Welcome to digital-www!
         </h1>
-        <DigitalWwwComponent></DigitalWwwComponent>
+        <DigitalWwwComponent />
       </div>
     </Container>
   );
