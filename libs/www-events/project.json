@@ -1,0 +1,23 @@
+{
+  "root": "libs/www-events",
+  "sourceRoot": "libs/www-events/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/www-events/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/www-events"],
+      "options": {
+        "jestConfig": "libs/www-events/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
