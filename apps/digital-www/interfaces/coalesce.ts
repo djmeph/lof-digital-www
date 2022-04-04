@@ -14,6 +14,7 @@ export enum EventRecurrance {
 }
 
 export interface EventTime {
+  event_time_id: number;
   starting: string;
   ending: string;
   day_of_week: DayOfWeek;
@@ -21,6 +22,7 @@ export interface EventTime {
 }
 
 export interface WwwEvent {
+  event_id: number;
   title: string;
   event_description: string;
   site_id: null,

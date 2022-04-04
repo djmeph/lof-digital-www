@@ -25,8 +25,8 @@ export function WwwEventComponent({ event }: { event: WwwEvent }) {
         </ListGroup>
         <ListGroup>
           <ListGroupItem active>Event times:</ListGroupItem>
-          {event.event_times.map((eventTime, index) =>
-            <EventTimeComponent key={index} eventTime={eventTime} />
+          {event.event_times.map((eventTime) =>
+            <EventTimeComponent key={eventTime.event_time_id} eventTime={eventTime} />
           )}
         </ListGroup>
       </Card.Body>

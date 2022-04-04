@@ -18,8 +18,8 @@ export function DigitalWwwComponent() {
 
   return (
     <>
-      {data.coalesce.map((event, index) =>
-        <WwwEventComponent event={event} key={index} />
+      {data.coalesce.map((event) =>
+        <WwwEventComponent event={event} key={event.event_id} />
       )}
     </>
   )
