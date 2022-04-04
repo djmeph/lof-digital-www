@@ -1,4 +1,4 @@
-import DigitalWwwComponent from '../components/DigitalWWW';
+import { WwwEventsComponent } from '@lof-digital-www/www-events';
 import styles from './index.module.scss';
 import { Container } from 'react-bootstrap';
 
@@ -9,7 +9,7 @@ export function Index() {
         <h1 className="page-title">
           Welcome to digital-www!
         </h1>
-        <DigitalWwwComponent />
+        <WwwEventsComponent />
       </div>
     </Container>
   );
