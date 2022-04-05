@@ -2,6 +2,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { QueryClient, QueryClientProvider } from 'react-query'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { DigitalWwwFeedProvider } from '@lof-digital-www/www-events';
 
 const queryClient = new QueryClient({
   // defaultOptions: {
@@ -14,10 +15,12 @@ const queryClient = new QueryClient({
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <QueryClientProvider client={queryClient}>
-      <Head>
-        <title>Welcome to digital-www!</title>
-      </Head>
-      <Component {...pageProps} />
+      <DigitalWwwFeedProvider>
+        <Head>
+          <title>Welcome to digital-www!</title>
+        </Head>
+        <Component {...pageProps} />
+      </DigitalWwwFeedProvider>
     </QueryClientProvider>
   );
 }

@@ -1,5 +1,5 @@
 import { ListGroupItem } from 'react-bootstrap';
-import { EventTime } from '../www-events.interface';
+import { EventTime } from '../../interfaces/www-events.interface';
 import styles from './event-time.module.scss';
 
 /* eslint-disable-next-line */

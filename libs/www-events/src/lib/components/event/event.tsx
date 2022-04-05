@@ -1,6 +1,6 @@
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import EventTimeComponent from '../event-time/event-time';
-import { WwwEvent } from '../www-events.interface';
+import { WwwEvent } from '../../interfaces/www-events.interface';
 import styles from './event.module.scss';
 
 /* eslint-disable-next-line */
