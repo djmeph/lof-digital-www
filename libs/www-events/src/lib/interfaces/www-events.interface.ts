@@ -1,17 +1,4 @@
-export enum DayOfWeek {
-  MONDAY = 'Monday',
-  TUESDAY = 'Tuesday',
-  WEDNESDAY = 'Wednesday',
-  THURSDAY = 'Thursday',
-  FRIDAY = 'Friday',
-  SATURDAY = 'Saturday',
-  SUNDAY = 'Sunday',
-}
-
-export enum EventRecurrance {
-  SINGLE = 'single',
-  MULTIPLE = 'multiple',
-}
+import { DayOfWeek, EventRecurrance } from "./www-events.enum";
 
 export interface EventTime {
   event_time_id: number;
