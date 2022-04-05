@@ -4,18 +4,23 @@ import { Tab, Tabs } from 'react-bootstrap';
 import styles from './date-selector.module.scss';
 import { useRouter } from 'next/router'
 
-export function DateSelectorComponent() {
+interface DateSelectorProps {
+  day: DayOfWeek;
+}
+
+export function DateSelectorComponent(props: DateSelectorProps) {
   const [key, setKey] = useState('date-selector');
   const router = useRouter();
   const turnThePage = (k: string | null) => {
-    setKey(k || '');
     router.push(`/day-view/${k}`);
+    setKey(k || '');
   };
 
   return (
     <div className={styles['container']}>
       <Tabs
         activeKey={key}
+        defaultActiveKey={props.day}
         onSelect={turnThePage}
       >
         <Tab eventKey={DayOfWeek.WEDNESDAY} title={DayOfWeek.WEDNESDAY}></Tab>
