@@ -1,13 +1,9 @@
 import styles from './index.module.scss';
-import {
-  Scheduler,
-  DayView,
-  Appointments,
-} from '@devexpress/dx-react-scheduler-material-ui';
-import { ViewState } from '@devexpress/dx-react-scheduler';
+
+
 import { datesOfWeek, useEventsFeedContext } from '@lof-digital-www/www-events';
-import Paper from '@mui/material/Paper';
 import { useRouter } from 'next/router'
+import { DayViewComponent } from '@lof-digital-www/calendar';
 
 /* eslint-disable-next-line */
 export interface DayViewProps {}
@@ -39,20 +35,7 @@ export function DayViewPage(props: DayViewProps) {
 
   return (
     <div className={styles['container']}>
-      <Paper>
-        <Scheduler
-          data={schedulerData}
-        >
-          <ViewState
-            currentDate={currentDate}
-          />
-          <DayView
-            startDayHour={0}
-            endDayHour={24}
-          />
-          <Appointments />
-        </Scheduler>
-      </Paper>
+      <DayViewComponent schedulerData={schedulerData} currentDate={currentDate} />
     </div>
   );
 }
