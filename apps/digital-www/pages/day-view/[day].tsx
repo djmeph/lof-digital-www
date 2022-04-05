@@ -1,9 +1,8 @@
 import styles from './index.module.scss';
-
-
 import { datesOfWeek, useEventsFeedContext } from '@lof-digital-www/www-events';
 import { useRouter } from 'next/router'
-import { DayViewComponent } from '@lof-digital-www/calendar';
+import { DateSelectorComponent, DayViewComponent } from '@lof-digital-www/calendar';
+
 
 /* eslint-disable-next-line */
 export interface DayViewProps {}
@@ -35,6 +34,7 @@ export function DayViewPage(props: DayViewProps) {
 
   return (
     <div className={styles['container']}>
+      <DateSelectorComponent />
       <DayViewComponent schedulerData={schedulerData} currentDate={currentDate} />
     </div>
   );
