@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "calendar": "libs/calendar",
     "digital-www": "apps/digital-www",
     "digital-www-e2e": "apps/digital-www-e2e",
     "www-events": "libs/www-events"

@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@lof-digital-www/calendar": ["libs/calendar/src/index.ts"],
       "@lof-digital-www/www-events": ["libs/www-events/src/index.ts"]
     }
   },
