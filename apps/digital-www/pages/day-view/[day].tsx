@@ -18,7 +18,10 @@ export function DayViewPage(props: DayViewProps) {
   return (
     <div className={styles['container']}>
       <DateSelectorComponent day={day as DayOfWeek} />
-      <DayViewComponent schedulerData={schedulerData} currentDate={currentDate} />
+      <DayViewComponent
+        schedulerData={schedulerData}
+        currentDate={currentDate}
+      />
     </div>
   );
 }
