@@ -1,1 +1,2 @@
-export * from './lib/link/link';
+export * from './components/link/link';
+export * from './components/navbar/navbar';

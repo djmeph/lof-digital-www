@@ -6,9 +6,6 @@ export function Index() {
   return (
     <Container>
       <div className={styles.page}>
-        <h1 className="page-title">
-          Welcome to digital-www!
-        </h1>
         <WwwEventsComponent />
       </div>
     </Container>

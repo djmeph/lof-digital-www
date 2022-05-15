@@ -8,8 +8,11 @@ export interface LinkProps {
 }
 
 export function Link(props: LinkProps) {
+
   const router = useRouter();
-  const navigate = () => router.push(props.to);
+  const navigate = () => {
+    router.push(props.to)
+  };
   return (
     <div className={styles['container']} onClick={navigate}>
       {props.children}

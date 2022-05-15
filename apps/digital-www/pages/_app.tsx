@@ -3,6 +3,8 @@ import Head from 'next/head';
 import { QueryClient, QueryClientProvider } from 'react-query'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { DigitalWwwFeedProvider } from '@lof-digital-www/www-events';
+import { NavbarComponent } from '@lof-digital-www/shared';
+import styles from './index.module.scss'
 
 const queryClient = new QueryClient({
   // defaultOptions: {
@@ -17,9 +19,12 @@ function CustomApp({ Component, pageProps }: AppProps) {
     <QueryClientProvider client={queryClient}>
       <DigitalWwwFeedProvider>
         <Head>
-          <title>Welcome to digital-www!</title>
+          <title>Lakes of Fire 2022 Digital WWW</title>
         </Head>
-        <Component {...pageProps} />
+        <NavbarComponent />
+        <div className={styles['page-buffer']}>
+          <Component {...pageProps} />
+        </div>
       </DigitalWwwFeedProvider>
     </QueryClientProvider>
   );
