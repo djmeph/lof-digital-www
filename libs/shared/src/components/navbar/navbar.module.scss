@@ -1,0 +1,13 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.hover {
+  &:hover {
+    background-color: #e3e3e3;
+    cursor: pointer;
+  }
+}
