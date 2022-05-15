@@ -5,3 +5,5 @@ export * from './interfaces/www-events.interface';
 export * from './providers/digital-www-feed/digital-www-feed';
 export * from './context/EventsFeedContext';
 export * from './interfaces/www-events.enum';
+export * from './components/heart-count/heart-count';
+export * from './components/category/category';

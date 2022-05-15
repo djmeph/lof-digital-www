@@ -4,6 +4,7 @@
     "calendar": "libs/calendar",
     "digital-www": "apps/digital-www",
     "digital-www-e2e": "apps/digital-www-e2e",
+    "shared": "libs/shared",
     "www-events": "libs/www-events"
   }
 }

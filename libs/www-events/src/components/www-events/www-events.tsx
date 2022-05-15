@@ -1,5 +1,5 @@
 import styles from './www-events.module.css';
-import Event from '../event/event';
+import EventComponent from '../event/event';
 import { useEventsFeedContext } from '../../context/EventsFeedContext';
 
 /* eslint-disable-next-line */
@@ -11,7 +11,7 @@ export function WwwEventsComponent(props: WwwEventsProps) {
   return (
     <div className={styles['container']}>
       {data.coalesce.map((event) =>
-        <Event event={event} key={event.event_id} />
+        <EventComponent event={event} key={event.event_id} />
       )}
     </div>
   );

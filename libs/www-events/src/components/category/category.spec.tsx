@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import { EventComponent } from './event';
+import Category from './category';
 
-describe('Event', () => {
+describe('Category', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<EventComponent />);
+    const { baseElement } = render(<Category />);
     expect(baseElement).toBeTruthy();
   });
 });
