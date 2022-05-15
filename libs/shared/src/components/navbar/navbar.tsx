@@ -1,6 +1,6 @@
 import styles from './navbar.module.scss';
-import { Nav, Navbar, Container, Button } from 'react-bootstrap'
-import Link from '../link/link';
+import { Navbar, Container, Button } from 'react-bootstrap'
+import { Link } from '../link/link';
 import { useState } from 'react';
 
 /* eslint-disable-next-line */
@@ -14,19 +14,35 @@ export function NavbarComponent(props: NavbarProps) {
         <Container>
           <Navbar.Brand>LoF 2022 Digital WWW</Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} />
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar.Collapse>
             <Navbar className='me-auto'>
-              <Nav.Link>
-                <Link to='/'>
-                  <Button
-                    variant='light'
-                    className={styles['hover']}
-                    onClick={() => setExpanded(false)}
-                  >
-                    Events
-                  </Button>
-                </Link>
-              </Nav.Link>
+              <Link to='/'>
+                <Button
+                  variant='light'
+                  className={styles['hover']}
+                  onClick={() => setExpanded(false)}
+                >
+                  Events
+                </Button>
+              </Link>
+              <Link to='/week-view'>
+                <Button
+                  variant='light'
+                  className={styles['hover']}
+                  onClick={() => setExpanded(false)}
+                >
+                  Week View
+                </Button>
+              </Link>
+              <Link to='/day-view/Wednesday'>
+                <Button
+                  variant='light'
+                  className={styles['hover']}
+                  onClick={() => setExpanded(false)}
+                >
+                  Day View
+                </Button>
+              </Link>
             </Navbar>
           </Navbar.Collapse>
         </Container>
