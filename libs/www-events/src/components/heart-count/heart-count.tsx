@@ -13,7 +13,7 @@ export function HeartCount(props: HeartCountProps) {
       </span>
     );
   }
-  return <span></span>
+  return <span />
 }
 
 export default HeartCount;
