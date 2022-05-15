@@ -1,20 +1,19 @@
-# Environment
-FROM node:16-alpine
-ARG port=8080
-WORKDIR /app
-ENV NODE_ENV production
-
-# Node Dependencies
-COPY dist/apps/digital-www/package.json .
+FROM public.ecr.aws/docker/library/node:16-bullseye as dependencies
+WORKDIR /src
+COPY package.json .
 RUN yarn install
 
-# Copy production build
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
-COPY --chown=nextjs:nodejs dist/apps/digital-www/ .
-
-# Entry point
-USER nextjs
-EXPOSE ${port}
+FROM public.ecr.aws/docker/library/node:16-bullseye as runner
+ARG port=3000
+WORKDIR /src
 ENV PORT ${port}
-CMD ["yarn", "start"]
+ENV NODE_ENV production
+RUN groupadd --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+COPY --chown=nextjs:nodejs next.config.js ./
+COPY --chown=nextjs:nodejs public ./public
+COPY --chown=nextjs:nodejs .next ./.next
+COPY --chown=nextjs:nodejs package.json ./package.json
+COPY --chown=nextjs:nodejs --from=dependencies /src/node_modules ./node_modules
+EXPOSE ${port}
+CMD ["yarn", "start", "-p", "$PORT"]

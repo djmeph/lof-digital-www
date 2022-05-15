@@ -10,11 +10,8 @@ export interface LinkProps {
 export function Link(props: LinkProps) {
 
   const router = useRouter();
-  const navigate = () => {
-    router.push(props.to)
-  };
   return (
-    <div className={styles['container']} onClick={navigate}>
+    <div className={styles['container']} onClick={() => router.push(props.to)}>
       {props.children}
     </div>
   );
