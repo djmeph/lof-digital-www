@@ -12,11 +12,13 @@ export function NavbarComponent(props: NavbarProps) {
     <div className={styles['container']}>
       <Navbar bg='light' expand='lg' fixed='top' expanded={expanded}>
         <Container>
-          <Navbar.Brand>LoF 2022 Digital WWW</Navbar.Brand>
+          <Navbar.Brand className={styles['hover']}>
+            <Link to='/'>LoF 2022 Digital WWW</Link>
+          </Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} />
           <Navbar.Collapse>
             <Navbar className='me-auto'>
-              <Link to='/'>
+              <Link to='/events'>
                 <Button
                   variant='light'
                   className={styles['hover']}
