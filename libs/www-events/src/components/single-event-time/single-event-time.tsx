@@ -1,7 +1,7 @@
 import { Link } from '@lof-digital-www/shared';
 import { Card } from 'react-bootstrap';
 import { WwwEventSingleTime } from '../../interfaces/www-events.interface';
-import Category from '../category/category';
+import CategoriesSelected from '../categories-selected/categories-selected';
 import EventTimeComponent from '../event-time/event-time';
 import HeartCount from '../heart-count/heart-count';
 import styles from './single-event-time.module.scss';
@@ -29,13 +29,7 @@ export function SingleEventTime(props: SingleEventTimeProps) {
             <EventTimeComponent eventTime={props.event.eventTime} />
           </Card.Text>
           <Card.Text>
-            <Category text='Alcohol' booleanValue={props.event.alcohol} />
-            <Category text='Red light' booleanValue={props.event.alcohol} />
-            <Category text='Fire art' booleanValue={props.event.alcohol} />
-            <Category text='Spectale' booleanValue={props.event.alcohol} />
-            <Category text='Crafting' booleanValue={props.event.alcohol} />
-            <Category text='Food' booleanValue={props.event.alcohol} />
-            <Category text='Sober' booleanValue={props.event.alcohol} />
+            <CategoriesSelected  event={props.event} />
           </Card.Text>
         </Card.Body>
       </Card>
