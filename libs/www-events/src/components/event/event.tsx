@@ -4,7 +4,7 @@ import { WwwEvent } from '../../interfaces/www-events.interface';
 import styles from './event.module.scss';
 import { Link } from '@lof-digital-www/shared';
 import HeartCount from '../heart-count/heart-count';
-import Category from '../category/category';
+import CategoriesSelected from '../categories-selected/categories-selected';
 
 /* eslint-disable-next-line */
 export interface EventProps {
@@ -25,13 +25,7 @@ export function EventComponent(props: EventProps) {
             <HeartCount heartCount={props.event.heart_count} />
           </Card.Text>
           <Card.Text>
-            <Category text='Alcohol' booleanValue={props.event.alcohol} />
-            <Category text='Red light' booleanValue={props.event.red_light} />
-            <Category text='Fire art' booleanValue={props.event.fire_art} />
-            <Category text='Spectale' booleanValue={props.event.spectacle} />
-            <Category text='Crafting' booleanValue={props.event.crafting} />
-            <Category text='Food' booleanValue={props.event.food} />
-            <Category text='Sober' booleanValue={props.event.sober} />
+            <CategoriesSelected event={props.event} />
           </Card.Text>
           <ListGroup>
             <ListGroupItem active>Event times:</ListGroupItem>
