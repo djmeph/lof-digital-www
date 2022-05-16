@@ -26,12 +26,12 @@ export function EventComponent(props: EventProps) {
           </Card.Text>
           <Card.Text>
             <Category text='Alcohol' booleanValue={props.event.alcohol} />
-            <Category text='Red light' booleanValue={props.event.alcohol} />
-            <Category text='Fire art' booleanValue={props.event.alcohol} />
-            <Category text='Spectale' booleanValue={props.event.alcohol} />
-            <Category text='Crafting' booleanValue={props.event.alcohol} />
-            <Category text='Food' booleanValue={props.event.alcohol} />
-            <Category text='Sober' booleanValue={props.event.alcohol} />
+            <Category text='Red light' booleanValue={props.event.red_light} />
+            <Category text='Fire art' booleanValue={props.event.fire_art} />
+            <Category text='Spectale' booleanValue={props.event.spectacle} />
+            <Category text='Crafting' booleanValue={props.event.crafting} />
+            <Category text='Food' booleanValue={props.event.food} />
+            <Category text='Sober' booleanValue={props.event.sober} />
           </Card.Text>
           <ListGroup>
             <ListGroupItem active>Event times:</ListGroupItem>
