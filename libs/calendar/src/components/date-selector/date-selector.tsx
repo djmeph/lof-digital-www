@@ -6,13 +6,14 @@ import { useRouter } from 'next/router'
 
 interface DateSelectorProps {
   day: DayOfWeek;
+  route: string;
 }
 
 export function DateSelectorComponent(props: DateSelectorProps) {
   const [key, setKey] = useState('date-selector');
   const router = useRouter();
   const turnThePage = (k: string | null) => {
-    router.push(`/day-view/${k}`);
+    router.push(`/${props.route}/${k}`);
     setKey(k || '');
   };
 
