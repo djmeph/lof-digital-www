@@ -1,17 +1,18 @@
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
-import EventTimeComponent from '../event-time/event-time';
-import { WwwEvent } from '../../interfaces/www-events.interface';
-import styles from './event.module.scss';
 import { Link } from '@lof-digital-www/shared';
-import HeartCount from '../heart-count/heart-count';
+import { Card } from 'react-bootstrap';
+import { WwwEventSingleTime } from '../../interfaces/www-events.interface';
 import Category from '../category/category';
+import EventTimeComponent from '../event-time/event-time';
+import HeartCount from '../heart-count/heart-count';
+import styles from './single-event-time.module.scss';
 
 /* eslint-disable-next-line */
-export interface EventProps {
-  event: WwwEvent
+export interface SingleEventTimeProps {
+  event: WwwEventSingleTime;
 }
 
-export function EventComponent(props: EventProps) {
+export function SingleEventTime(props: SingleEventTimeProps) {
+  console.log(props.event)
   return (
     <div className={styles['container']}>
       <Card className="mb-3">
@@ -25,6 +26,9 @@ export function EventComponent(props: EventProps) {
             <HeartCount heartCount={props.event.heart_count} />
           </Card.Text>
           <Card.Text>
+            <EventTimeComponent eventTime={props.event.eventTime} />
+          </Card.Text>
+          <Card.Text>
             <Category text='Alcohol' booleanValue={props.event.alcohol} />
             <Category text='Red light' booleanValue={props.event.alcohol} />
             <Category text='Fire art' booleanValue={props.event.alcohol} />
@@ -33,18 +37,10 @@ export function EventComponent(props: EventProps) {
             <Category text='Food' booleanValue={props.event.alcohol} />
             <Category text='Sober' booleanValue={props.event.alcohol} />
           </Card.Text>
-          <ListGroup>
-            <ListGroupItem active>Event times:</ListGroupItem>
-            {props.event.event_times.map((eventTime) =>
-              <ListGroupItem>
-                <EventTimeComponent key={eventTime.event_time_id} eventTime={eventTime} />
-              </ListGroupItem>
-            )}
-          </ListGroup>
         </Card.Body>
       </Card>
     </div>
   );
 }
 
-export default EventComponent;
+export default SingleEventTime;

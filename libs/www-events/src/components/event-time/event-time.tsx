@@ -1,4 +1,3 @@
-import { ListGroupItem } from 'react-bootstrap';
 import { EventTime } from '../../interfaces/www-events.interface';
 import styles from './event-time.module.scss';
 
@@ -9,9 +8,9 @@ export interface EventTimeProps {
 
 export function EventTimeComponent(props: EventTimeProps) {
   if (props.eventTime.all_day) return (
-    <ListGroupItem>
+    <span>
       {props.eventTime.day_of_week} All Day
-    </ListGroupItem>
+    </span>
   )
 
   const startDate = new Intl.DateTimeFormat('en-US', {
@@ -26,9 +25,9 @@ export function EventTimeComponent(props: EventTimeProps) {
 
   return (
     <div className={styles['container']}>
-      <ListGroupItem>
-        {props.eventTime.day_of_week} Starting: {startDate} Ending: {endDate}
-      </ListGroupItem>
+      <span>
+        {props.eventTime.day_of_week} {startDate} - {endDate}
+      </span>
     </div>
   );
 }

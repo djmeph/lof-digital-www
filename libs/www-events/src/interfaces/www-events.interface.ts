@@ -26,6 +26,10 @@ export interface WwwEvent {
   event_times: EventTime[];
 }
 
+export interface WwwEventSingleTime extends WwwEvent {
+  eventTime: EventTime
+}
+
 export interface DataCoalesce {
   coalesce: WwwEvent[];
 }

@@ -18,7 +18,7 @@ export function NavbarComponent(props: NavbarProps) {
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} />
           <Navbar.Collapse>
             <Navbar className='me-auto'>
-              <Link to='/events'>
+              <Link to='/events/Wednesday'>
                 <Button
                   variant='light'
                   className={styles['hover']}
