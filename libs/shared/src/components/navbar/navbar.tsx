@@ -14,7 +14,7 @@ export function NavbarComponent(props: NavbarProps) {
       <Navbar bg='dark' variant='dark' expand='lg' fixed='top' expanded={expanded}>
         <Container>
           <Navbar.Brand className={styles['hover']}>
-            <Link to='/'><ThemedBurnLogo /><span className='text-light mx-3'>LAKES IN SPACE</span></Link>
+            <Link to='/' ><ThemedBurnLogo /><span className={'text-light mx-3 ' + styles['title-font']}>LAKES IN SPACE</span></Link>
           </Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} />
           <Navbar.Collapse>
