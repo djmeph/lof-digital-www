@@ -1,0 +1,16 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+@import '../../index.scss';
+
+.prompt {
+  background-image: url($asset-url + 'banner.png');
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
