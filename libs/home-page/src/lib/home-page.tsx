@@ -1,4 +1,5 @@
 import styles from './home-page.module.scss';
+import { Prompt } from '@lof-digital-www/shared';
 
 /* eslint-disable-next-line */
 export interface HomePageProps {}
@@ -6,7 +7,7 @@ export interface HomePageProps {}
 export function HomePage(props: HomePageProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to HomePage!</h1>
+      <Prompt />
     </div>
   );
 }

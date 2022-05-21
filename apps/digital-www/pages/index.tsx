@@ -5,7 +5,7 @@ import { HomePage } from '@lof-digital-www/home-page';
 export function Index() {
   return (
     <Container>
-      <div className={styles.page}>
+      <div className={"px-0 " + styles.page}>
         <HomePage />
       </div>
     </Container>
