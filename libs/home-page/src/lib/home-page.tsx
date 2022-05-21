@@ -6,8 +6,8 @@ export interface HomePageProps {}
 
 export function HomePage(props: HomePageProps) {
   return (
-    <div className={styles['container']}>
-      <Prompt />
+    <div>
+      <Prompt title="Welcome to Lakes of Fire 2022!" />
     </div>
   );
 }

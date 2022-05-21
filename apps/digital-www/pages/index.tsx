@@ -4,10 +4,8 @@ import { HomePage } from '@lof-digital-www/home-page';
 
 export function Index() {
   return (
-    <Container>
-      <div className={"px-0 " + styles.page}>
+    <Container className="px-0">
         <HomePage />
-      </div>
     </Container>
   );
 }
