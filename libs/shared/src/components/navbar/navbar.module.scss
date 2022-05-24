@@ -5,9 +5,15 @@
  * .container {
  * }
 */
+@use '../../index.scss';
+
 .hover {
   &:hover {
     background-color: #e3e3e3;
     cursor: pointer;
   }
+}
+
+.title-font {
+  font-family: 'Russo One', sans-serif;
 }

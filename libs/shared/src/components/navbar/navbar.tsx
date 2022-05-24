@@ -2,6 +2,7 @@ import styles from './navbar.module.scss';
 import { Navbar, Container, Button } from 'react-bootstrap'
 import { Link } from '../link/link';
 import { useState } from 'react';
+import { ThemedBurnLogo } from '../themed-burn-logo/themed-burn-logo';
 
 /* eslint-disable-next-line */
 export interface NavbarProps {}
@@ -9,11 +10,11 @@ export interface NavbarProps {}
 export function NavbarComponent(props: NavbarProps) {
   const [expanded, setExpanded] = useState(false);
   return (
-    <div className={styles['container']}>
-      <Navbar bg='light' expand='lg' fixed='top' expanded={expanded}>
+    <div>
+      <Navbar bg='dark' variant='dark' expand='lg' fixed='top' expanded={expanded}>
         <Container>
           <Navbar.Brand className={styles['hover']}>
-            <Link to='/'>LoF 2022 Digital WWW</Link>
+            <Link to='/' ><ThemedBurnLogo /><span className={'text-light mx-3 ' + styles['title-font']}>LAKES IN SPACE</span></Link>
           </Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} />
           <Navbar.Collapse>
