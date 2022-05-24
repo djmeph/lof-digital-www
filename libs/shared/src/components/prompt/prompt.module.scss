@@ -6,8 +6,10 @@
  * }
 */
 
+@import '../../index.scss';
+
 .prompt {
-  background-image: url('../../img/banner.png');
+  background-image: url($asset-url + 'banner.png');
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
