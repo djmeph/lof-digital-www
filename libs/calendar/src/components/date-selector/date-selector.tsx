@@ -10,18 +10,15 @@ interface DateSelectorProps {
 }
 
 export function DateSelectorComponent(props: DateSelectorProps) {
-  const [key, setKey] = useState('date-selector');
   const router = useRouter();
-  const turnThePage = (k: string | null) => {
-    router.push(`/${props.route}/${k}`);
-    setKey(k || '');
+  const turnThePage = (day: string | null) => {
+    router.push(`/${props.route}/${day}`);
   };
 
   return (
     <div className={styles['container']}>
       <Tabs
-        activeKey={key}
-        defaultActiveKey={props.day}
+        activeKey={props.day}
         onSelect={turnThePage}
       >
         <Tab eventKey={DayOfWeek.WEDNESDAY} title={DayOfWeek.WEDNESDAY}></Tab>
