@@ -1,5 +1,9 @@
-import { WwwEvent, WwwEventSingleTime } from '../../interfaces/www-events.interface';
+import {
+  WwwEvent,
+  WwwEventSingleTime,
+} from '../../interfaces/www-events.interface';
 import Category from '../category/category';
+
 import styles from './categories-selected.module.scss';
 
 /* eslint-disable-next-line */
@@ -7,16 +11,16 @@ export interface CategoriesSelectedProps {
   event: WwwEvent | WwwEventSingleTime;
 }
 
-export function CategoriesSelected(props: CategoriesSelectedProps) {
+export function CategoriesSelected({ event }: CategoriesSelectedProps) {
   return (
     <div className={styles['container']}>
-      <Category text='Alcohol' booleanValue={props.event.alcohol} />
-      <Category text='Red light' booleanValue={props.event.red_light} />
-      <Category text='Fire art' booleanValue={props.event.fire_art} />
-      <Category text='Spectale' booleanValue={props.event.spectacle} />
-      <Category text='Crafting' booleanValue={props.event.crafting} />
-      <Category text='Food' booleanValue={props.event.food} />
-      <Category text='Sober' booleanValue={props.event.sober} />
+      <Category text="Alcohol" booleanValue={event.alcohol} />
+      <Category text="Red light" booleanValue={event.red_light} />
+      <Category text="Fire art" booleanValue={event.fire_art} />
+      <Category text="Spectale" booleanValue={event.spectacle} />
+      <Category text="Crafting" booleanValue={event.crafting} />
+      <Category text="Food" booleanValue={event.food} />
+      <Category text="Sober" booleanValue={event.sober} />
     </div>
   );
 }

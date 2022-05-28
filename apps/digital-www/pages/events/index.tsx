@@ -1,11 +1,10 @@
-import { WwwEventsComponent } from '@lof-digital-www/www-events';
 import { Container } from 'react-bootstrap';
+
+import { WwwEventsComponent } from '@lof-digital-www/www-events';
+
 import styles from './index.module.scss';
 
-/* eslint-disable-next-line */
-export interface EventsProps {}
-
-export function Events(props: EventsProps) {
+export function Events() {
   return (
     <Container>
       <div className={styles.page}>

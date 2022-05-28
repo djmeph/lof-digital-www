@@ -1,7 +1,8 @@
-import { useQuery } from "react-query";
-import { DataCoalesce } from "../../interfaces/www-events.interface";
+import { FC } from 'react';
+import { useQuery } from 'react-query';
+
 import { EventsFeedContext } from '../../context/EventsFeedContext';
-import { FC } from "react";
+import { DataCoalesce } from '../../interfaces/www-events.interface';
 
 export const DigitalWwwFeedProvider: FC = ({ children }) => {
   const { data, error, isLoading } = useQuery<DataCoalesce, Error>(
@@ -12,17 +13,15 @@ export const DigitalWwwFeedProvider: FC = ({ children }) => {
     }
   );
 
-  if (error) return (
-    <div>An error has occured: {error.message}</div>
-  )
+  if (error) return <div>An error has occured: {error.message}</div>;
 
-  if (isLoading || !data) return (
-    <div>Loading ...</div>
-  );
+  if (isLoading || !data) return <div>Loading ...</div>;
 
   return (
-    <EventsFeedContext.Provider value={data}>{children}</EventsFeedContext.Provider>
+    <EventsFeedContext.Provider value={data}>
+      {children}
+    </EventsFeedContext.Provider>
   );
-}
+};
 
 export default DigitalWwwFeedProvider;

@@ -1,4 +1,8 @@
-import { DayOfWeek, WwwEvent, WwwEventSingleTime } from "@lof-digital-www/www-events";
+import {
+  DayOfWeek,
+  WwwEvent,
+  WwwEventSingleTime,
+} from '@lof-digital-www/www-events';
 
 /**
  * Returns a single event or an array of events by event ID
@@ -11,9 +15,9 @@ export function getEventById(
     return events.filter((n) => n.event_id === Number(eventId));
   }
 
-  return events.filter(n => eventId
-    .map(n => Number(n))
-    .includes(n.event_id));
+  return events.filter((n) =>
+    eventId.map((n) => Number(n)).includes(n.event_id)
+  );
 }
 
 /**
@@ -32,9 +36,14 @@ export function getEventsByDay(
 /**
  * Filter list to all events that match the selected day
  */
-export function getEventMatchesByDay(events: WwwEvent[], day: DayOfWeek): WwwEvent[] {
+export function getEventMatchesByDay(
+  events: WwwEvent[],
+  day: DayOfWeek
+): WwwEvent[] {
   return events.filter((n) => {
-    const eventsThatMatch = n.event_times.filter((nn) => nn.day_of_week === day);
+    const eventsThatMatch = n.event_times.filter(
+      (nn) => nn.day_of_week === day
+    );
     return eventsThatMatch.length;
   });
 }
@@ -42,13 +51,18 @@ export function getEventMatchesByDay(events: WwwEvent[], day: DayOfWeek): WwwEve
 /**
  * Create an array with an instance of each event time for each WwwEvent
  */
-export function separateEventsByInstance(events: WwwEvent[], day: DayOfWeek): WwwEventSingleTime[] {
+export function separateEventsByInstance(
+  events: WwwEvent[],
+  day: DayOfWeek
+): WwwEventSingleTime[] {
   return events.reduce<WwwEventSingleTime[]>((previousValue, currentValue) => {
-    const eventTimesThatMatch = currentValue.event_times.filter((n) => n.day_of_week === day);
+    const eventTimesThatMatch = currentValue.event_times.filter(
+      (n) => n.day_of_week === day
+    );
     for (const match of eventTimesThatMatch) {
       previousValue.push({
         ...currentValue,
-        eventTime: match
+        eventTime: match,
       });
     }
     return previousValue;
@@ -58,7 +72,9 @@ export function separateEventsByInstance(events: WwwEvent[], day: DayOfWeek): Ww
 /**
  * Sort event instances by start time
  */
-export function sortEventInstancesByStartTime(eventInstances: WwwEventSingleTime[]): WwwEventSingleTime[] {
+export function sortEventInstancesByStartTime(
+  eventInstances: WwwEventSingleTime[]
+): WwwEventSingleTime[] {
   return eventInstances.sort((a, b) => {
     if (a.eventTime.all_day && b.eventTime.all_day) return 0;
     if (a.eventTime.all_day) return -1;

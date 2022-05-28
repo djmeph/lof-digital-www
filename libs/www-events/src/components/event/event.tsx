@@ -1,39 +1,44 @@
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
-import EventTimeComponent from '../event-time/event-time';
-import { WwwEvent } from '../../interfaces/www-events.interface';
-import styles from './event.module.scss';
+
 import { Link } from '@lof-digital-www/shared';
-import HeartCount from '../heart-count/heart-count';
+
+import { WwwEvent } from '../../interfaces/www-events.interface';
 import CategoriesSelected from '../categories-selected/categories-selected';
+import EventTimeComponent from '../event-time/event-time';
+import HeartCount from '../heart-count/heart-count';
+
+import styles from './event.module.scss';
 
 /* eslint-disable-next-line */
 export interface EventProps {
-  event: WwwEvent
+  event: WwwEvent;
 }
 
-export function EventComponent(props: EventProps) {
+export function EventComponent({ event }: EventProps) {
   return (
     <div className={styles['container']}>
       <Card className="mb-3">
-        <Link to={`/event/${props.event.event_id}`}><Card.Header className={styles['hover']}><h3>{props.event.title}</h3></Card.Header></Link>
+        <Link to={`/event/${event.event_id}`}>
+          <Card.Header className={styles['hover']}>
+            <h3>{event.title}</h3>
+          </Card.Header>
+        </Link>
         <Card.Body>
+          <Card.Text>{event.event_description}</Card.Text>
           <Card.Text>
-            {props.event.event_description}
+            Location: {event.hosting_location}
+            <HeartCount heartCount={event.heart_count} />
           </Card.Text>
           <Card.Text>
-            Location: {props.event.hosting_location}
-            <HeartCount heartCount={props.event.heart_count} />
-          </Card.Text>
-          <Card.Text>
-            <CategoriesSelected event={props.event} />
+            <CategoriesSelected event={event} />
           </Card.Text>
           <ListGroup>
             <ListGroupItem active>Event times:</ListGroupItem>
-            {props.event.event_times.map((eventTime) =>
-              <ListGroupItem>
-                <EventTimeComponent key={eventTime.event_time_id} eventTime={eventTime} />
+            {event.event_times.map((eventTime) => (
+              <ListGroupItem key={eventTime.event_time_id}>
+                <EventTimeComponent eventTime={eventTime} />
               </ListGroupItem>
-            )}
+            ))}
           </ListGroup>
         </Card.Body>
       </Card>

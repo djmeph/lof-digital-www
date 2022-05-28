@@ -1,11 +1,6 @@
-import styles from './home-page.module.scss';
-import { Prompt } from '@lof-digital-www/shared';
-import { TagFilterGroupComponent } from '@lof-digital-www/shared';
+import { Prompt, TagFilterGroupComponent } from '@lof-digital-www/shared';
 
-/* eslint-disable-next-line */
-export interface HomePageProps {}
-
-export function HomePage(props: HomePageProps) {
+export function HomePage() {
   return (
     <div>
       <Prompt title="Welcome to Lakes of Fire 2022!">

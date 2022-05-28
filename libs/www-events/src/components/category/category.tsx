@@ -6,15 +6,19 @@ export interface CategoryProps {
   booleanValue: boolean;
 }
 
-export function Category(props: CategoryProps) {
-  if (props.booleanValue) {
+export function Category({ booleanValue, text }: CategoryProps) {
+  if (booleanValue) {
     return (
       <span className={styles['container']}>
-        <span role='img' aria-label={props.text}> ☑️</span>&nbsp;{props.text}
+        <span role="img" aria-label={text}>
+          {' '}
+          ☑️
+        </span>
+        &nbsp;{text}
       </span>
     );
   }
-  return <span />
+  return <span />;
 }
 
 export default Category;

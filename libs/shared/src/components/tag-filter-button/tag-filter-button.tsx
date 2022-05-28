@@ -1,5 +1,6 @@
-import styles from './tag-filter-button.module.scss';
 import { Button } from 'react-bootstrap';
+
+import styles from './tag-filter-button.module.scss';
 
 /* eslint-disable-next-line */
 export interface TagFilterButtonProps {
@@ -8,21 +9,34 @@ export interface TagFilterButtonProps {
   children?: React.ReactNode;
   isToggled: boolean;
   className?: string;
-  onToggle: (event:React.MouseEvent<HTMLButtonElement> | React.TouchEvent<HTMLButtonElement>) => void;
+  onToggle: (
+    event:
+      | React.MouseEvent<HTMLButtonElement>
+      | React.TouchEvent<HTMLButtonElement>
+  ) => void;
 }
 
-export function TagFilterButtonComponent(props: TagFilterButtonProps) {
-  const buttonClasses = (props.isToggled ? styles['toggled-on'] : styles['toggled-off']) + " " + 
-  props.className ? props.className : "";
-
+export function TagFilterButtonComponent({
+  isToggled,
+  className,
+  id,
+  onToggle,
+  children,
+  title,
+}: TagFilterButtonProps) {
+  const buttonClasses = `${
+    isToggled ? styles['toggled-on'] : styles['toggled-off']
+  } ${className ? className : ''}`;
   return (
-    <Button id={props.id}
-    className={buttonClasses} 
-    variant={props.isToggled ? "outline-red" : "outline-light"}
-    onClick={props.onToggle}
+    <Button
+      id={id}
+      className={buttonClasses}
+      variant={isToggled ? 'outline-red' : 'outline-light'}
+      onClick={onToggle}
     >
-      { props.children ? props.children : "" }
-      <br/><span>{props.title}</span>
+      {children ? children : ''}
+      <br />
+      <span>{title}</span>
     </Button>
   );
 }

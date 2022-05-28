@@ -1,10 +1,12 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { QueryClient, QueryClientProvider } from 'react-query'
+import { QueryClient, QueryClientProvider } from 'react-query';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { DigitalWwwFeedProvider } from '@lof-digital-www/www-events';
 import { NavbarComponent } from '@lof-digital-www/shared';
-import styles from './index.module.scss'
+import { DigitalWwwFeedProvider } from '@lof-digital-www/www-events';
+
+import styles from './index.module.scss';
 
 const queryClient = new QueryClient({
   // defaultOptions: {

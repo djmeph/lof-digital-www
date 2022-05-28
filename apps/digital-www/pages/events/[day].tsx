@@ -1,13 +1,20 @@
-import { DateSelectorComponent, getEventsByDay } from '@lof-digital-www/calendar';
-import { DayOfWeek, SingleEventTime, useEventsFeedContext } from '@lof-digital-www/www-events';
 import { useRouter } from 'next/router';
 import { Container } from 'react-bootstrap';
+
+import {
+  DateSelectorComponent,
+  getEventsByDay,
+} from '@lof-digital-www/calendar';
+import {
+  DayOfWeek,
+  FiltersComponent,
+  SingleEventTime,
+  useEventsFeedContext,
+} from '@lof-digital-www/www-events';
+
 import styles from './index.module.scss';
 
-/* eslint-disable-next-line */
-export interface EventsProps {}
-
-export function Events(props: EventsProps) {
+export function Events() {
   const router = useRouter();
   const { day } = router.query;
   if (typeof day !== 'string') throw Error('Invalid Parameter');
@@ -17,10 +24,11 @@ export function Events(props: EventsProps) {
   return (
     <Container>
       <div className={styles.page}>
-        <DateSelectorComponent day={day as DayOfWeek} route='events' />
-        {matchingEvents.map((event) =>
+        <FiltersComponent />
+        <DateSelectorComponent day={day as DayOfWeek} route="events" />
+        {matchingEvents.map((event) => (
           <SingleEventTime event={event} key={event.event_id} />
-        )}
+        ))}
       </div>
     </Container>
   );

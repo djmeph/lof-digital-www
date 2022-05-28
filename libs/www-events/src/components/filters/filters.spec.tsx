@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Index from '../pages/index';
+import Filters from './filters';
 
-describe('Index', () => {
+describe('Filters', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Index />);
+    const { baseElement } = render(<Filters />);
     expect(baseElement).toBeTruthy();
   });
 });

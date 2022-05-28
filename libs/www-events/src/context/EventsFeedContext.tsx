@@ -1,8 +1,9 @@
-import { createContext, useContext } from "react";
-import { DataCoalesce } from "../interfaces/www-events.interface";
+import { createContext, useContext } from 'react';
+
+import { DataCoalesce } from '../interfaces/www-events.interface';
 
 export const EventsFeedContext = createContext<DataCoalesce>({
-  coalesce: []
+  coalesce: [],
 });
 
 export const useEventsFeedContext = () => useContext(EventsFeedContext);

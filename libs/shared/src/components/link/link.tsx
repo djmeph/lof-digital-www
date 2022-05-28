@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+
 import styles from './link.module.scss';
 
 /* eslint-disable-next-line */
@@ -7,12 +8,11 @@ export interface LinkProps {
   children: React.ReactNode;
 }
 
-export function Link(props: LinkProps) {
-
+export function Link({ to, children }: LinkProps) {
   const router = useRouter();
   return (
-    <div className={styles['container']} onClick={() => router.push(props.to)}>
-      {props.children}
+    <div className={styles['container']} onClick={() => router.push(to)}>
+      {children}
     </div>
   );
 }

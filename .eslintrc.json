@@ -1,35 +1,122 @@
 {
   "root": true,
   "ignorePatterns": ["**/*"],
-  "plugins": ["@nrwl/nx"],
-  "overrides": [
-    {
-      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
-      "rules": {
-        "@nrwl/nx/enforce-module-boundaries": [
-          "error",
+  "plugins": ["@nrwl/nx", "import", "unicorn"],
+  "extends": ["plugin:import/recommended"],
+  "rules": {
+    "curly": "warn",
+    "no-multiple-empty-lines": "warn",
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
           {
-            "enforceBuildableLibDependency": true,
-            "allow": [],
-            "depConstraints": [
-              {
-                "sourceTag": "*",
-                "onlyDependOnLibsWithTags": ["*"]
-              }
-            ]
+            "name": "react",
+            "importNames": ["default"],
+            "message": "Do not import React. Use named imports instead."
           }
         ]
       }
+    ],
+    "import/newline-after-import": "warn",
+    "import/no-absolute-path": "error",
+    "import/no-anonymous-default-export": "error",
+    "import/no-dynamic-require": "error",
+    "import/no-extraneous-dependencies": "error",
+    "import/no-mutable-exports": "error",
+    "import/no-self-import": "error",
+    "import/no-useless-path-segments": "error",
+    "import/no-webpack-loader-syntax": "error",
+    "import/default": "off",
+    "import/named": "off",
+    "import/namespace": "off",
+    "import/no-cycle": "off",
+    "import/no-deprecated": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "import/no-namespace": "off",
+    "import/no-unused-modules": "off",
+    "import/order": [
+      "warn",
+      {
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "newlines-between": "always",
+        "groups": [
+          ["builtin", "external"],
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "@lof-digital-www/**",
+            "group": "internal"
+          }
+        ]
+      }
+    ],
+    "unicorn/catch-error-name": ["warn", { "name": "err" }],
+    "prefer-template": "warn",
+    "template-curly-spacing": ["warn", "never"]
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "parser": "espree",
+      "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+      },
+      "extends": ["eslint:recommended", "prettier"]
     },
     {
       "files": ["*.ts", "*.tsx"],
-      "extends": ["plugin:@nrwl/nx/typescript"],
-      "rules": {}
+      "extends": ["plugin:@nrwl/nx/typescript", "plugin:import/typescript"],
+      "settings": {
+        "import/resolver": {
+          "typescript": {
+            "alwaysTryTypes": true,
+            "project": ["libs/*/tsconfig.*?.json", "apps/*/tsconfig.*?.json"]
+          }
+        }
+      },
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-floating-promises": "error",
+        "@typescript-eslint/no-unused-vars": [
+          "warn",
+          { "ignoreRestSiblings": true }
+        ],
+        "@typescript-eslint/no-non-null-assertion": "off"
+      }
     },
     {
-      "files": ["*.js", "*.jsx"],
-      "extends": ["plugin:@nrwl/nx/javascript"],
-      "rules": {}
+      "files": ["*.jsx", "*.tsx"],
+      "plugins": ["react-prefer-function-component"],
+      "extends": ["plugin:react-prefer-function-component/recommended"],
+      "rules": {
+        "react/button-has-type": "error",
+        "react/destructuring-assignment": "warn",
+        "react/jsx-curly-brace-presence": ["warn", "never"],
+        "react/jsx-fragments": ["warn", "syntax"],
+        "react/jsx-key": [
+          "error",
+          {
+            "checkFragmentShorthand": true,
+            "checkKeyMustBeforeSpread": true
+          }
+        ],
+        "react/jsx-no-constructed-context-values": "error",
+        "react/no-children-prop": "warn",
+        "react/no-unknown-property": "error",
+        "react/self-closing-comp": "warn",
+        "react/void-dom-elements-no-children": "error"
+      }
     }
   ]
 }

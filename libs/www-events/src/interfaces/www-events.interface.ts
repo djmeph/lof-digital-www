@@ -1,4 +1,4 @@
-import { DayOfWeek, EventRecurrance } from "./www-events.enum";
+import { DayOfWeek, EventRecurrance } from './www-events.enum';
 
 export interface EventTime {
   event_time_id: number;
@@ -12,7 +12,7 @@ export interface WwwEvent {
   event_id: number;
   title: string;
   event_description: string;
-  site_id: null,
+  site_id: null;
   hosting_location: string;
   event_recurrence: EventRecurrance;
   heart_count: number;
@@ -27,7 +27,7 @@ export interface WwwEvent {
 }
 
 export interface WwwEventSingleTime extends WwwEvent {
-  eventTime: EventTime
+  eventTime: EventTime;
 }
 
 export interface DataCoalesce {
