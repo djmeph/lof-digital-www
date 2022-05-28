@@ -12,5 +12,6 @@ export const useTagFilterContext = () => {
   if (!context) {
     throw Error('useTagFilter must be used inside a `TagFilterProvider`');
   }
+
   return context;
 };

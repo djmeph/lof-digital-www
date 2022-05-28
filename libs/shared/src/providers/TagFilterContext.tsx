@@ -1,16 +1,27 @@
-/* eslint-disable react/jsx-no-constructed-context-values */
 import { FC, useState } from 'react';
 
 import { TagFilterContext } from '../context/tag-filter';
-import { TagFilters } from '../interfaces/tag-filter.interface';
+
+const initState: Record<string, boolean> = {
+  food: false,
+  alcohol: false,
+  sober: false,
+  shows: false,
+  fire: false,
+  crafts: false,
+  explicit: false,
+  favorites: false,
+  spectacle: false,
+};
 
 export const TagFilterProvider: FC = ({ children }) => {
-  const [state, setState] = useState<TagFilters>();
+  const [tagFilterState, setTagFilterState] =
+    useState<Record<string, boolean>>(initState);
   return (
     <TagFilterContext.Provider
       value={{
-        state,
-        setState,
+        tagFilterState,
+        setTagFilterState,
       }}
     >
       {children}

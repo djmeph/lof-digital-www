@@ -111,7 +111,7 @@
             "checkKeyMustBeforeSpread": true
           }
         ],
-        "react/jsx-no-constructed-context-values": "error",
+        "react/jsx-no-constructed-context-values": "off",
         "react/no-children-prop": "warn",
         "react/no-unknown-property": "error",
         "react/self-closing-comp": "warn",
