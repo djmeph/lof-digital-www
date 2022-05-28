@@ -9,32 +9,40 @@ import {
   faStar,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 
 import TagFilterButtonComponent from '../tag-filter-button/tag-filter-button';
 
-function onToggle(
-  event:
-    | React.MouseEvent<HTMLButtonElement>
-    | React.TouchEvent<HTMLButtonElement>
-) {
-  console.log('onToggle!');
-  console.log(event.currentTarget.id);
-  //TODO assign the logical opposite of the current state value for this filter
-}
-
-// this.state = {
-//   food: false,
-//   alcohol: false,
-//   sober: false,
-//   shows: false,
-//   fire: false,
-//   crafts: false,
-//   explicit: false,
-//   favorites: false
-// };
+const initState: Record<string, boolean> = {
+  food: false,
+  alcohol: false,
+  sober: false,
+  shows: false,
+  fire: false,
+  crafts: false,
+  explicit: false,
+  favorites: false,
+  spectacle: false,
+};
 
 export function TagFilterGroupComponent() {
+  const [state, setState] = useState(initState);
+  useEffect(() => {
+    setState(initState);
+  }, []);
+
+  const onToggle = (
+    event:
+      | React.MouseEvent<HTMLButtonElement>
+      | React.TouchEvent<HTMLButtonElement>
+  ) => {
+    setState({
+      ...state,
+      [event.currentTarget.id]: !state[event.currentTarget.id],
+    });
+  };
+
   return (
     <Container>
       <Row>
@@ -42,7 +50,7 @@ export function TagFilterGroupComponent() {
           className="col-3"
           id="food"
           title="Food"
-          isToggled={false}
+          isToggled={state['food']}
           onToggle={onToggle}
         >
           <FontAwesomeIcon icon={faUtensils} />
@@ -51,7 +59,7 @@ export function TagFilterGroupComponent() {
           className="col-3"
           id="alcohol"
           title="Alcohol"
-          isToggled={false}
+          isToggled={state['alcohol']}
           onToggle={onToggle}
         >
           <FontAwesomeIcon icon={faChampagneGlasses} />
@@ -60,7 +68,7 @@ export function TagFilterGroupComponent() {
           className="col-3"
           id="sober"
           title="Sober"
-          isToggled={false}
+          isToggled={state['sober']}
           onToggle={onToggle}
         >
           <FontAwesomeIcon icon={faScaleBalanced} />
@@ -69,7 +77,7 @@ export function TagFilterGroupComponent() {
           className="col-3"
           id="spectacle"
           title="Shows"
-          isToggled={false}
+          isToggled={state['spectacle']}
           onToggle={onToggle}
         >
           <FontAwesomeIcon icon={faIcons} />
@@ -80,7 +88,7 @@ export function TagFilterGroupComponent() {
           className="col-3"
           id="fire"
           title="Fire Art"
-          isToggled={false}
+          isToggled={state['fire']}
           onToggle={onToggle}
         >
           <FontAwesomeIcon icon={faFire} />
@@ -89,7 +97,7 @@ export function TagFilterGroupComponent() {
           className="col-3"
           id="crafts"
           title="Crafts"
-          isToggled={false}
+          isToggled={state['crafts']}
           onToggle={onToggle}
         >
           <FontAwesomeIcon icon={faPalette} />
@@ -98,7 +106,7 @@ export function TagFilterGroupComponent() {
           className="col-3"
           id="explicit"
           title="Explicit"
-          isToggled={false}
+          isToggled={state['explicit']}
           onToggle={onToggle}
         >
           <FontAwesomeIcon icon={faLightbulb} />
@@ -107,7 +115,7 @@ export function TagFilterGroupComponent() {
           className="col-3"
           id="favorites"
           title="Favorites"
-          isToggled={false}
+          isToggled={state['favorites']}
           onToggle={onToggle}
         >
           <FontAwesomeIcon icon={faStar} />

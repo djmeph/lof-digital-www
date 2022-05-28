@@ -1,26 +1,16 @@
 import { createContext, useContext } from 'react';
 
-const TagFilterContext = createContext(undefined);
+import { TagFiltersContextParams } from '../interfaces/tag-filter.interface';
 
-export function TagFilterProvider({ children }) {
-  const [state, setState] = useState();
-  return (
-    <TagFilterContext.Provider
-      value={{
-        state,
-        setState,
-      }}
-    >
-      {children}
-    </TagFilterContext.Provider>
-  );
-}
+export const TagFilterContext = createContext<TagFiltersContextParams>(
+  {} as TagFiltersContextParams
+);
 
-export function useTagFilter() {
+export const useTagFilterContext = () => {
   const context = useContext(TagFilterContext);
 
   if (!context) {
     throw Error('useTagFilter must be used inside a `TagFilterProvider`');
   }
   return context;
-}
+};
