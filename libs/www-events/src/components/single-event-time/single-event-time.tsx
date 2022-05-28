@@ -15,7 +15,6 @@ export interface SingleEventTimeProps {
 }
 
 export function SingleEventTime({ event }: SingleEventTimeProps) {
-  console.log(event);
   return (
     <div className={styles['container']}>
       <Card className="mb-3">

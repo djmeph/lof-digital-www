@@ -84,3 +84,27 @@ export function sortEventInstancesByStartTime(
     return aDate.getTime() - bDate.getTime();
   });
 }
+
+export function filterEvents(
+  events: WwwEventSingleTime[],
+  filters: Record<string, boolean>,
+  allDayFilterState: boolean
+): WwwEventSingleTime[] {
+  return events.filter((event: any) => {
+    // All Day filter acts on its own.
+    if (allDayFilterState && event.eventTime.all_day) {
+      return false;
+    }
+    // Match any of the other filters to return true
+    const enabledFilters = Object.keys(filters).filter(
+      (key: string) => !filters[key]
+    );
+    let enabled = false;
+    for (const filter of enabledFilters) {
+      if (event[filter]) {
+        enabled = true;
+      }
+    }
+    return enabled;
+  });
+}

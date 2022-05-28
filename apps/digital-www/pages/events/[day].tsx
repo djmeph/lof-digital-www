@@ -3,14 +3,16 @@ import { Container } from 'react-bootstrap';
 
 import {
   DateSelectorComponent,
+  filterEvents,
   getEventsByDay,
 } from '@lof-digital-www/calendar';
+import { Prompt, TagFilterGroupComponent } from '@lof-digital-www/shared';
 import {
   DayOfWeek,
-  FiltersComponent,
   SingleEventTime,
   useEventsFeedContext,
 } from '@lof-digital-www/www-events';
+import { useTagFilterContext } from 'libs/shared/src/context/tag-filter';
 
 import styles from './index.module.scss';
 
@@ -19,14 +21,24 @@ export function Events() {
   const { day } = router.query;
   if (typeof day !== 'string') throw Error('Invalid Parameter');
   const data = useEventsFeedContext();
+  const { tagFilterState, allDayFilterState } = useTagFilterContext();
   const matchingEvents = getEventsByDay(data.coalesce, day as DayOfWeek);
+  const filteredEvents = filterEvents(
+    matchingEvents,
+    tagFilterState,
+    allDayFilterState
+  );
 
   return (
     <Container>
       <div className={styles.page}>
-        <FiltersComponent />
+        <div className="mb-3">
+          <Prompt title={`${day} Events`}>
+            <TagFilterGroupComponent />
+          </Prompt>
+        </div>
         <DateSelectorComponent day={day as DayOfWeek} route="events" />
-        {matchingEvents.map((event) => (
+        {filteredEvents.map((event) => (
           <SingleEventTime event={event} key={event.event_id} />
         ))}
       </div>
