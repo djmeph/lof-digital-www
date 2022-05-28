@@ -22,6 +22,7 @@ export function TagFilterGroupComponent() {
     allDayFilterState,
     setAllDayFilterState,
   } = useTagFilterContext();
+
   const onToggle = (
     event:
       | React.MouseEvent<HTMLButtonElement>

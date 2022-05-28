@@ -95,6 +95,7 @@ export function filterEvents(
     if (allDayFilterState && event.eventTime.all_day) {
       return false;
     }
+
     // Match any of the other filters to return true
     const enabledFilters = Object.keys(filters).filter(
       (key: string) => !filters[key]
@@ -105,6 +106,7 @@ export function filterEvents(
         enabled = true;
       }
     }
+
     return enabled;
   });
 }

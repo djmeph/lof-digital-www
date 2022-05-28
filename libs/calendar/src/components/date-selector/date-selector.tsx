@@ -23,6 +23,7 @@ export function DateSelectorComponent({ route, day }: DateSelectorProps) {
         <Tab eventKey={DayOfWeek.THURSDAY} title={DayOfWeek.THURSDAY} />
         <Tab eventKey={DayOfWeek.FRIDAY} title={DayOfWeek.FRIDAY} />
         <Tab eventKey={DayOfWeek.SATURDAY} title={DayOfWeek.SATURDAY} />
+        <Tab eventKey={DayOfWeek.SUNDAY} title={DayOfWeek.SUNDAY} />
       </Tabs>
     </div>
   );
