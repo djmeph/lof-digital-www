@@ -4,11 +4,16 @@ import { FavoritesContext } from '../context/favorites';
 
 export const FavoritesProvider: FC = ({ children }) => {
   let restoreFavorites: number[] = [];
+
   if (typeof window !== 'undefined') {
     const getFavorites = localStorage.getItem('favorites');
-    restoreFavorites = getFavorites ? JSON.parse(getFavorites) : [];
+    restoreFavorites = getFavorites
+      ? JSON.parse(getFavorites)
+      : restoreFavorites;
   }
+
   const [favorites, setFavorites] = useState<number[]>(restoreFavorites);
+
   return (
     <FavoritesContext.Provider
       value={{

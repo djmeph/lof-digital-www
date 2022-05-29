@@ -1,10 +1,16 @@
-import { Dispatch, SetStateAction } from 'react';
+interface SetAllDayFilterStateFn {
+  (newState: boolean): void;
+}
+
+interface SetTagFilterStateFn {
+  (newState: Record<string, boolean>): void;
+}
 
 export interface TagFiltersContextParams {
   tagFilterState: Record<string, boolean>;
-  setTagFilterState: Dispatch<SetStateAction<Record<string, boolean>>>;
+  setTagFilterState: SetTagFilterStateFn;
   allDayFilterState: boolean;
-  setAllDayFilterState: Dispatch<SetStateAction<boolean>>;
+  setAllDayFilterState: SetAllDayFilterStateFn;
 }
 
 export enum TagFilter {
