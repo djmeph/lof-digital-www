@@ -1,8 +1,4 @@
-import {
-  AppointmentModel,
-  BaseView,
-  ViewState,
-} from '@devexpress/dx-react-scheduler';
+import { BaseView, ViewState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,
   WeekView,
@@ -10,19 +6,21 @@ import {
 } from '@devexpress/dx-react-scheduler-material-ui';
 import Paper from '@mui/material/Paper';
 import { useRouter } from 'next/router';
-import { ComponentType, ReactElement } from 'react';
+
+import { useFavoritesContext } from '@lof-digital-www/shared';
+import { datesOfWeek, useEventsFeedContext } from '@lof-digital-www/www-events';
+
+import { getFavorites } from '../../methods/events-feed';
+import { coalesce2Scheduler } from '../../methods/scheduler-convert';
 
 import styles from './week-view.module.scss';
 
-export interface WeekViewProps {
-  schedulerData: AppointmentModel[];
-  currentDate: string;
-}
-
-export function WeekViewComponent({
-  schedulerData,
-  currentDate,
-}: WeekViewProps) {
+export function WeekViewComponent() {
+  const currentDate = `${datesOfWeek.Wednesday}T00:00:00`;
+  const data = useEventsFeedContext();
+  const { favorites } = useFavoritesContext();
+  const savedEvents = getFavorites(data.coalesce, favorites);
+  const schedulerData = coalesce2Scheduler({ coalesce: savedEvents });
   return (
     <div className={styles['container']}>
       <Paper>
