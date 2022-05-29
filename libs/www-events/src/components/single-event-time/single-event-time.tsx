@@ -5,11 +5,11 @@ import { Link } from '@lof-digital-www/shared';
 import { WwwEventSingleTime } from '../../interfaces/www-events.interface';
 import CategoriesSelected from '../categories-selected/categories-selected';
 import EventTimeComponent from '../event-time/event-time';
+import FavoriteComponent from '../favorite/favorite';
 import HeartCount from '../heart-count/heart-count';
 
 import styles from './single-event-time.module.scss';
 
-/* eslint-disable-next-line */
 export interface SingleEventTimeProps {
   event: WwwEventSingleTime;
 }
@@ -24,7 +24,10 @@ export function SingleEventTime({ event }: SingleEventTimeProps) {
           </Card.Header>
         </Link>
         <Card.Body>
-          <Card.Text>{event.event_description}</Card.Text>
+          <Card.Text>
+            <FavoriteComponent active={false} eventId={event.event_id} />
+            {event.event_description}
+          </Card.Text>
           <Card.Text>
             Location: {event.hosting_location}
             <HeartCount heartCount={event.heart_count} />

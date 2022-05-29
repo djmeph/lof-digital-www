@@ -1,0 +1,14 @@
+.active {
+  color: #ffff00 !important;
+}
+
+.favorite {
+  float: right;
+  background-color: #e3e3e3;
+  color: #999;
+  -webkit-text-stroke: 1px black;
+  &:hover {
+    color: #666;
+    cursor: pointer;
+  }
+}
