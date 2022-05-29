@@ -1,6 +1,10 @@
-.hover {
-  &:hover {
-    background-color: #e3e3e3;
-    cursor: pointer;
+.container {
+  padding-top: 3em;
+
+  .hover {
+    &:hover {
+      background-color: #e3e3e3;
+      cursor: pointer;
+    }
   }
 }

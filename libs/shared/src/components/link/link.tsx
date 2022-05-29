@@ -11,9 +11,16 @@ export interface LinkProps {
 export function Link({ to, children }: LinkProps) {
   const router = useRouter();
   return (
-    <div className={styles['container']} onClick={() => router.push(to)}>
+    <a
+      href={to}
+      className={styles['link']}
+      onClick={(e) => {
+        e.preventDefault();
+        return router.push(to);
+      }}
+    >
       {children}
-    </div>
+    </a>
   );
 }
 
