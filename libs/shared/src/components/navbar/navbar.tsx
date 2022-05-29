@@ -56,6 +56,15 @@ export function NavbarComponent() {
                   Day View
                 </Button>
               </Link>
+              <Link to="/favorites/Wednesday">
+                <Button
+                  variant="light"
+                  className={styles['hover']}
+                  onClick={() => setExpanded(false)}
+                >
+                  Favorites
+                </Button>
+              </Link>
             </Navbar>
           </Navbar.Collapse>
         </Container>

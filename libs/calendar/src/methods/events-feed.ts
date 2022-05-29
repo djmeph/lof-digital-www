@@ -85,6 +85,9 @@ export function sortEventInstancesByStartTime(
   });
 }
 
+/**
+ * Filter Events
+ */
 export function filterEvents(
   events: WwwEventSingleTime[],
   filters: Record<string, boolean>,
@@ -109,4 +112,14 @@ export function filterEvents(
 
     return enabled;
   });
+}
+
+/**
+ * Filter Events by Favorites
+ */
+export function getFavorites(
+  events: WwwEvent[],
+  favorites: number[]
+): WwwEvent[] {
+  return events.filter((event) => favorites.includes(event.event_id));
 }
