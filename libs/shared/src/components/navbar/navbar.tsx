@@ -38,24 +38,6 @@ export function NavbarComponent() {
                   Events
                 </Button>
               </Link>
-              <Link to="/week-view">
-                <Button
-                  variant="light"
-                  className={styles['hover']}
-                  onClick={() => setExpanded(false)}
-                >
-                  Week View
-                </Button>
-              </Link>
-              <Link to="/day-view/Wednesday">
-                <Button
-                  variant="light"
-                  className={styles['hover']}
-                  onClick={() => setExpanded(false)}
-                >
-                  Day View
-                </Button>
-              </Link>
               <Link to="/favorites/Wednesday">
                 <Button
                   variant="light"
@@ -63,6 +45,15 @@ export function NavbarComponent() {
                   onClick={() => setExpanded(false)}
                 >
                   Favorites
+                </Button>
+              </Link>
+              <Link to="/week-view">
+                <Button
+                  variant="light"
+                  className={styles['hover']}
+                  onClick={() => setExpanded(false)}
+                >
+                  Agenda
                 </Button>
               </Link>
             </Navbar>

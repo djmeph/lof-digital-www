@@ -4,7 +4,9 @@ import {
   coalesce2Scheduler,
   DateSelectorComponent,
   DayViewComponent,
+  getFavorites,
 } from '@lof-digital-www/calendar';
+import { useFavoritesContext } from '@lof-digital-www/shared';
 import {
   datesOfWeek,
   DayOfWeek,
@@ -19,7 +21,9 @@ export function DayViewPage() {
   if (typeof day !== 'string') throw Error('Invalid Parameter');
   const currentDate = `${datesOfWeek[day]}T00:00:00`;
   const data = useEventsFeedContext();
-  const schedulerData = coalesce2Scheduler(data);
+  const { favorites } = useFavoritesContext();
+  const savedEvents = getFavorites(data.coalesce, favorites);
+  const schedulerData = coalesce2Scheduler({ coalesce: savedEvents });
 
   return (
     <div className={styles['container']}>
