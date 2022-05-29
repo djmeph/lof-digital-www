@@ -9,3 +9,4 @@ export * from './components/heart-count/heart-count';
 export * from './components/category/category';
 export * from './components/single-event-time/single-event-time';
 export * from './components/events-day/events-day';
+export * from './components/events-single-time/events-single-time';
