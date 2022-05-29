@@ -5,6 +5,7 @@ import { Link } from '@lof-digital-www/shared';
 import { WwwEvent } from '../../interfaces/www-events.interface';
 import CategoriesSelected from '../categories-selected/categories-selected';
 import EventTimeComponent from '../event-time/event-time';
+import FavoriteComponent from '../favorite/favorite';
 import HeartCount from '../heart-count/heart-count';
 
 import styles from './event.module.scss';
@@ -29,17 +30,20 @@ export function EventComponent({ event }: EventProps) {
             Location: {event.hosting_location}
             <HeartCount heartCount={event.heart_count} />
           </Card.Text>
-          <Card.Text>
+          <div className="mb-3">
+            <FavoriteComponent eventId={event.event_id} />
             <CategoriesSelected event={event} />
-          </Card.Text>
-          <ListGroup>
-            <ListGroupItem active>Event times:</ListGroupItem>
-            {event.event_times.map((eventTime) => (
-              <ListGroupItem key={eventTime.event_time_id}>
-                <EventTimeComponent eventTime={eventTime} />
-              </ListGroupItem>
-            ))}
-          </ListGroup>
+          </div>
+          <div className={styles['clear']}>
+            <ListGroup>
+              <ListGroupItem active>Event times:</ListGroupItem>
+              {event.event_times.map((eventTime) => (
+                <ListGroupItem key={eventTime.event_time_id}>
+                  <EventTimeComponent eventTime={eventTime} />
+                </ListGroupItem>
+              ))}
+            </ListGroup>
+          </div>
         </Card.Body>
       </Card>
     </div>

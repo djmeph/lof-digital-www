@@ -3,7 +3,11 @@ import Head from 'next/head';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavbarComponent, TagFilterProvider } from '@lof-digital-www/shared';
+import {
+  FavoritesProvider,
+  NavbarComponent,
+  TagFilterProvider,
+} from '@lof-digital-www/shared';
 import { DigitalWwwFeedProvider } from '@lof-digital-www/www-events';
 
 import styles from './index.module.scss';
@@ -21,13 +25,15 @@ function CustomApp({ Component, pageProps }: AppProps) {
     <QueryClientProvider client={queryClient}>
       <DigitalWwwFeedProvider>
         <TagFilterProvider>
-          <Head>
-            <title>Lakes of Fire 2022 Digital WWW</title>
-          </Head>
-          <NavbarComponent />
-          <div className={styles['page-buffer']}>
-            <Component {...pageProps} />
-          </div>
+          <FavoritesProvider>
+            <Head>
+              <title>Lakes of Fire 2022 Digital WWW</title>
+            </Head>
+            <NavbarComponent />
+            <div className={styles['page-buffer']}>
+              <Component {...pageProps} />
+            </div>
+          </FavoritesProvider>
         </TagFilterProvider>
       </DigitalWwwFeedProvider>
     </QueryClientProvider>

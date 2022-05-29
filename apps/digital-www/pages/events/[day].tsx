@@ -6,13 +6,16 @@ import {
   filterEvents,
   getEventsByDay,
 } from '@lof-digital-www/calendar';
-import { Prompt, TagFilterGroupComponent } from '@lof-digital-www/shared';
+import {
+  Prompt,
+  TagFilterGroupComponent,
+  useTagFilterContext,
+} from '@lof-digital-www/shared';
 import {
   DayOfWeek,
   SingleEventTime,
   useEventsFeedContext,
 } from '@lof-digital-www/www-events';
-import { useTagFilterContext } from 'libs/shared/src/context/tag-filter';
 
 import styles from './index.module.scss';
 

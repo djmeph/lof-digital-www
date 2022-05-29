@@ -24,20 +24,16 @@ export function SingleEventTime({ event }: SingleEventTimeProps) {
           </Card.Header>
         </Link>
         <Card.Body>
-          <Card.Text>
-            <FavoriteComponent active={false} eventId={event.event_id} />
-            {event.event_description}
-          </Card.Text>
+          <Card.Text>{event.event_description}</Card.Text>
           <Card.Text>
             Location: {event.hosting_location}
             <HeartCount heartCount={event.heart_count} />
           </Card.Text>
-          <Card.Text>
+          <div className="mb-3">
             <EventTimeComponent eventTime={event.eventTime} />
-          </Card.Text>
-          <Card.Text>
-            <CategoriesSelected event={event} />
-          </Card.Text>
+          </div>
+          <FavoriteComponent eventId={event.event_id} />
+          <CategoriesSelected event={event} />
         </Card.Body>
       </Card>
     </div>

@@ -4,3 +4,6 @@ export * from './components/themed-burn-logo/themed-burn-logo';
 export * from './components/prompt/prompt';
 export * from './components/tag-filter-group/tag-filter-group';
 export * from './providers/TagFilterContext';
+export * from './context/tag-filter';
+export * from './providers/FavoritesContext';
+export * from './context/favorites';
