@@ -1,11 +1,3 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
-
 @import '../../index.scss';
 
 .prompt {
@@ -13,4 +5,7 @@
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
+  color: #999;
+  text-shadow: 3px 3px 0 #666, -1px -1px 0 #666, 1px -1px 0 #666,
+    -1px 1px 0 #666, 1px 1px 0 #666;
 }
