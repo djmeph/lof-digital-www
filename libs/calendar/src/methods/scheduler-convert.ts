@@ -12,12 +12,14 @@ export const coalesce2Scheduler = (data: DataCoalesce) =>
             startDate: `${datesOfWeek[eventTime.day_of_week]}T00:00:00`,
             endDate: `${datesOfWeek[eventTime.day_of_week]}T23:59:59`,
             title: currentValue.title,
+            id: currentValue.event_id,
           };
         }
         return {
           startDate: eventTime.starting,
           endDate: eventTime.ending,
           title: currentValue.title,
+          id: currentValue.event_id,
         };
       }),
     ];

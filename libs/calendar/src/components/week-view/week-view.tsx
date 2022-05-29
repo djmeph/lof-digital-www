@@ -12,6 +12,7 @@ import { datesOfWeek, useEventsFeedContext } from '@lof-digital-www/www-events';
 
 import { getFavorites } from '../../methods/events-feed';
 import { coalesce2Scheduler } from '../../methods/scheduler-convert';
+import AppointmentContentComponent from '../appointment-content/appointment-content';
 
 import styles from './week-view.module.scss';
 
@@ -32,7 +33,9 @@ export function WeekViewComponent() {
             excludedDays={[0, 1, 2]}
             dayScaleLayoutComponent={DayScaleLayoutComponent}
           />
-          <Appointments />
+          <Appointments
+            appointmentContentComponent={AppointmentContentComponent}
+          />
         </Scheduler>
       </Paper>
     </div>

@@ -11,6 +11,7 @@ import { useEventsFeedContext } from '@lof-digital-www/www-events';
 
 import { getFavorites } from '../../methods/events-feed';
 import { coalesce2Scheduler } from '../../methods/scheduler-convert';
+import AppointmentContentComponent from '../appointment-content/appointment-content';
 
 import styles from './day-view.module.scss';
 
@@ -30,7 +31,9 @@ export function DayViewComponent({ currentDate }: DayViewProps) {
         <Scheduler data={schedulerData}>
           <ViewState currentDate={currentDate} />
           <DayView startDayHour={0} endDayHour={24} />
-          <Appointments />
+          <Appointments
+            appointmentContentComponent={AppointmentContentComponent}
+          />
         </Scheduler>
       </Paper>
     </div>
