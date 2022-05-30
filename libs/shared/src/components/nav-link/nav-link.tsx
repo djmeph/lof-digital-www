@@ -1,16 +1,17 @@
 import { useRouter } from 'next/router';
+import { Nav } from 'react-bootstrap';
 
-import styles from './link.module.scss';
+import styles from './nav-link.module.scss';
 
-export interface LinkProps {
+export interface NavLinkProps {
   to: string;
   children: React.ReactNode;
 }
 
-export function Link({ to, children }: LinkProps) {
+export function NavLink({ to, children }: NavLinkProps) {
   const router = useRouter();
   return (
-    <a
+    <Nav.Link
       href={to}
       className={styles['link']}
       onClick={(e) => {
@@ -19,8 +20,8 @@ export function Link({ to, children }: LinkProps) {
       }}
     >
       {children}
-    </a>
+    </Nav.Link>
   );
 }
 
-export default Link;
+export default NavLink;
