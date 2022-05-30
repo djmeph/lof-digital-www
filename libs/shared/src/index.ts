@@ -7,3 +7,4 @@ export * from './providers/TagFilterContext';
 export * from './context/tag-filter';
 export * from './providers/FavoritesContext';
 export * from './context/favorites';
+export * from './components/head/head';
