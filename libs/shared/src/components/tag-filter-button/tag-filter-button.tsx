@@ -25,7 +25,7 @@ export function TagFilterButtonComponent({
   title,
 }: TagFilterButtonProps) {
   const buttonClasses = `${styles['filter-btn']} ${
-    isToggled ? styles['filter-included'] : styles['filter-excluded']
+    isToggled ? styles['filter-excluded'] : styles['filter-included']
   } ${className ? className : ''}`;
   return (
     <Button
