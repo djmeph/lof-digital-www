@@ -1,11 +1,10 @@
-import { BaseView, ViewState } from '@devexpress/dx-react-scheduler';
+import { ViewState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,
   WeekView,
   Appointments,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import Paper from '@mui/material/Paper';
-import { useRouter } from 'next/router';
 
 import { useFavoritesContext } from '@lof-digital-www/shared';
 import { datesOfWeek, useEventsFeedContext } from '@lof-digital-www/www-events';
@@ -13,6 +12,7 @@ import { datesOfWeek, useEventsFeedContext } from '@lof-digital-www/www-events';
 import { getFavorites } from '../../methods/events-feed';
 import { coalesce2Scheduler } from '../../methods/scheduler-convert';
 import AppointmentContentComponent from '../appointment-content/appointment-content';
+import { DayScaleCellComponent } from '../day-scale-cell/day-scale-cell';
 
 import styles from './week-view.module.scss';
 
@@ -31,7 +31,7 @@ export function WeekViewComponent() {
             startDayHour={0}
             endDayHour={24}
             excludedDays={[0, 1, 2]}
-            dayScaleLayoutComponent={DayScaleLayoutComponent}
+            dayScaleCellComponent={DayScaleCellComponent}
           />
           <Appointments
             appointmentContentComponent={AppointmentContentComponent}
@@ -43,29 +43,3 @@ export function WeekViewComponent() {
 }
 
 export default WeekViewComponent;
-
-function DayScaleLayoutComponent({
-  cellsData,
-  cellComponent,
-  rowComponent,
-  formatDate,
-}: WeekView.DayScaleLayoutProps): JSX.Element {
-  const router = useRouter();
-  return (
-    <WeekView.DayScaleLayout
-      cellsData={cellsData}
-      cellComponent={(props: BaseView.DayScaleCellProps) => {
-        return cellComponent({
-          ...props,
-          className: styles['link'],
-          onClick: () =>
-            router.push(
-              `/day-view/${formatDate(props.startDate, { weekday: 'long' })}`
-            ),
-        });
-      }}
-      rowComponent={rowComponent}
-      formatDate={formatDate}
-    />
-  );
-}
