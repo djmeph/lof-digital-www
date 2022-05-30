@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Navbar, Container, Button } from 'react-bootstrap';
+import { Navbar, Container, Button, Nav } from 'react-bootstrap';
 
 import { Link } from '../link/link';
 import { ThemedBurnLogo } from '../themed-burn-logo/themed-burn-logo';
@@ -28,35 +28,41 @@ export function NavbarComponent() {
           </Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} />
           <Navbar.Collapse>
-            <Navbar className="me-auto">
+            <Nav className="me-auto">
               <Link to="/events/Wednesday">
-                <Button
-                  variant="light"
-                  className={styles['hover']}
-                  onClick={() => setExpanded(false)}
-                >
-                  Events
-                </Button>
+                <Nav.Link>
+                  <Button
+                    variant="light"
+                    className={styles['hover']}
+                    onClick={() => setExpanded(false)}
+                  >
+                    Events
+                  </Button>
+                </Nav.Link>
               </Link>
-              <Link to="/favorites/Wednesday">
-                <Button
-                  variant="light"
-                  className={styles['hover']}
-                  onClick={() => setExpanded(false)}
-                >
-                  Favorites
-                </Button>
-              </Link>
-              <Link to="/week-view">
-                <Button
-                  variant="light"
-                  className={styles['hover']}
-                  onClick={() => setExpanded(false)}
-                >
-                  Agenda
-                </Button>
-              </Link>
-            </Navbar>
+              <Nav.Link>
+                <Link to="/favorites/Wednesday">
+                  <Button
+                    variant="light"
+                    className={styles['hover']}
+                    onClick={() => setExpanded(false)}
+                  >
+                    Favorites
+                  </Button>
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="/week-view">
+                  <Button
+                    variant="light"
+                    className={styles['hover']}
+                    onClick={() => setExpanded(false)}
+                  >
+                    Agenda
+                  </Button>
+                </Link>
+              </Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
