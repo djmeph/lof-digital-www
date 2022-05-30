@@ -6,10 +6,17 @@
  * }
 */
 
-.toggled-off {
-  background-color: rgba(0, 0, 0, 0.5);
+.filter-btn {
+  color: #444;
 }
 
-.toggled-on {
-  background-color: rgba(128, 0, 0, 0.5);
+.filter-excluded {
+  color: #666;
+  background-color: #f8f9fa;
+  border-color: rgba(209,213,219,1);
+}
+
+.filter-included {
+  background-color: rgba(254,243,199,1);
+  border-color: rgba(252,211,77,1);
 }
