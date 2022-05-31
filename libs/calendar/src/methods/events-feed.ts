@@ -3,6 +3,7 @@ import {
   WwwEvent,
   WwwEventSingleTime,
 } from '@lof-digital-www/www-events';
+import { TagFilter } from 'libs/shared/src/interfaces/tag-filter.interface';
 
 /**
  * Returns a single event or an array of events by event ID
@@ -90,8 +91,8 @@ export function sortEventInstancesByStartTime(
  */
 export function filterEvents(
   events: WwwEventSingleTime[],
-  filters: Record<string, boolean>,
-  allDayFilterState: boolean
+  allDayFilterState: boolean,
+  filter?: TagFilter
 ): WwwEventSingleTime[] {
   return events.filter((event: any) => {
     // All Day filter acts on its own.
@@ -99,18 +100,9 @@ export function filterEvents(
       return false;
     }
 
-    // Match any of the other filters to return true
-    const enabledFilters = Object.keys(filters).filter(
-      (key: string) => !filters[key]
-    );
-    let enabled = false;
-    for (const filter of enabledFilters) {
-      if (event[filter]) {
-        enabled = true;
-      }
-    }
+    if (!filter) return true;
 
-    return enabled;
+    return event[filter];
   });
 }
 

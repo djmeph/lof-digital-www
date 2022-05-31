@@ -1,16 +1,7 @@
+import { Dispatch, SetStateAction } from 'react';
+
 interface SetAllDayFilterStateFn {
   (newState: boolean): void;
-}
-
-interface SetTagFilterStateFn {
-  (newState: Record<string, boolean>): void;
-}
-
-export interface TagFiltersContextParams {
-  tagFilterState: Record<string, boolean>;
-  setTagFilterState: SetTagFilterStateFn;
-  allDayFilterState: boolean;
-  setAllDayFilterState: SetAllDayFilterStateFn;
 }
 
 export enum TagFilter {
@@ -21,4 +12,11 @@ export enum TagFilter {
   CRAFTING = 'crafting',
   RED_LIGHT = 'red_light',
   SPECTACLE = 'spectacle',
+}
+
+export interface TagFiltersContextParams {
+  tagFilterState?: TagFilter;
+  setTagFilterState: Dispatch<SetStateAction<TagFilter | undefined>>;
+  allDayFilterState: boolean;
+  setAllDayFilterState: SetAllDayFilterStateFn;
 }

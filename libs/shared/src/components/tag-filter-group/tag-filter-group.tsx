@@ -24,14 +24,12 @@ export function TagFilterGroupComponent() {
   } = useTagFilterContext();
 
   const onToggle = (
-    event:
-      | React.MouseEvent<HTMLButtonElement>
-      | React.TouchEvent<HTMLButtonElement>
+    e: React.MouseEvent<HTMLButtonElement> | React.TouchEvent<HTMLButtonElement>
   ) => {
-    setTagFilterState({
-      ...tagFilterState,
-      [event.currentTarget.id]: !tagFilterState[event.currentTarget.id],
-    });
+    if (tagFilterState === e.currentTarget.id) {
+      return setTagFilterState(undefined);
+    }
+    setTagFilterState(e.currentTarget.id as TagFilter);
   };
 
   return (
@@ -41,7 +39,7 @@ export function TagFilterGroupComponent() {
           <TagFilterButtonComponent
             className="w-100"
             id="all_day"
-            title="All Day"
+            title={`${allDayFilterState ? 'Show' : 'Hide'} All Day`}
             isToggled={allDayFilterState}
             onToggle={() => setAllDayFilterState(!allDayFilterState)}
           >
@@ -53,7 +51,7 @@ export function TagFilterGroupComponent() {
             className="w-100"
             id={TagFilter.FOOD}
             title="Food"
-            isToggled={tagFilterState[TagFilter.FOOD]}
+            isToggled={tagFilterState === TagFilter.FOOD}
             onToggle={onToggle}
           >
             <FontAwesomeIcon icon={faUtensils} />
@@ -64,7 +62,7 @@ export function TagFilterGroupComponent() {
             className="w-100"
             id={TagFilter.ALCOHOL}
             title="Alcohol"
-            isToggled={tagFilterState[TagFilter.ALCOHOL]}
+            isToggled={tagFilterState === TagFilter.ALCOHOL}
             onToggle={onToggle}
           >
             <FontAwesomeIcon icon={faChampagneGlasses} />
@@ -75,7 +73,7 @@ export function TagFilterGroupComponent() {
             className="w-100"
             id={TagFilter.SOBER}
             title="Sober"
-            isToggled={tagFilterState[TagFilter.SOBER]}
+            isToggled={tagFilterState === TagFilter.SOBER}
             onToggle={onToggle}
           >
             <FontAwesomeIcon icon={faScaleBalanced} />
@@ -86,7 +84,7 @@ export function TagFilterGroupComponent() {
             className="w-100"
             id={TagFilter.FIRE_ART}
             title="Fire Art"
-            isToggled={tagFilterState[TagFilter.FIRE_ART]}
+            isToggled={tagFilterState === TagFilter.FIRE_ART}
             onToggle={onToggle}
           >
             <FontAwesomeIcon icon={faFire} />
@@ -97,7 +95,7 @@ export function TagFilterGroupComponent() {
             className="w-100"
             id={TagFilter.CRAFTING}
             title="Crafting"
-            isToggled={tagFilterState[TagFilter.CRAFTING]}
+            isToggled={tagFilterState === TagFilter.CRAFTING}
             onToggle={onToggle}
           >
             <FontAwesomeIcon icon={faPalette} />
@@ -108,7 +106,7 @@ export function TagFilterGroupComponent() {
             className="w-100"
             id={TagFilter.RED_LIGHT}
             title="Red Light"
-            isToggled={tagFilterState[TagFilter.RED_LIGHT]}
+            isToggled={tagFilterState === TagFilter.RED_LIGHT}
             onToggle={onToggle}
           >
             <FontAwesomeIcon icon={faLightbulb} />
@@ -119,7 +117,7 @@ export function TagFilterGroupComponent() {
             className="w-100"
             id={TagFilter.SPECTACLE}
             title="Spectacle"
-            isToggled={tagFilterState[TagFilter.SPECTACLE]}
+            isToggled={tagFilterState === TagFilter.SPECTACLE}
             onToggle={onToggle}
           >
             <FontAwesomeIcon icon={faIcons} />

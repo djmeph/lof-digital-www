@@ -25,8 +25,8 @@ export function EventsDayComponent({ day }: EventsDayProps) {
   const matchingEvents = getEventsByDay(data.coalesce, day as DayOfWeek);
   const filteredEvents = filterEvents(
     matchingEvents,
-    tagFilterState,
-    allDayFilterState
+    allDayFilterState,
+    tagFilterState
   );
   return (
     <div className={styles['container']}>
