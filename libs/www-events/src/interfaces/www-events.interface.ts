@@ -33,3 +33,21 @@ export interface WwwEventSingleTime extends WwwEvent {
 export interface DataCoalesce {
   coalesce: WwwEvent[];
 }
+
+export interface ArtFeed {
+  art: any[];
+}
+
+export interface CampsFeed {
+  camps: any[];
+}
+
+export interface VehiclesFeed {
+  vehicles: any[];
+}
+
+export interface MainFeed
+  extends DataCoalesce,
+    ArtFeed,
+    CampsFeed,
+    VehiclesFeed {}
