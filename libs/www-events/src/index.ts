@@ -11,3 +11,6 @@ export * from './components/single-event-time/single-event-time';
 export * from './components/events-day/events-day';
 export * from './components/events-single-time/events-single-time';
 export * from './components/favorites/favorites';
+export * from './components/art/art';
+export * from './components/camps/camps';
+export * from './components/vehicles/vehicles';
