@@ -1,4 +1,4 @@
-import { Prompt } from '@lof-digital-www/shared';
+import { Prompt, TagFilterGroupComponent } from '@lof-digital-www/shared';
 import {
   ArtComponent,
   CampsComponent,
@@ -8,7 +8,9 @@ import {
 export function HomePage() {
   return (
     <div>
-      <Prompt title="Welcome to Lakes of Fire 2022!" />
+      <Prompt title="Welcome to Lakes of Fire 2022!">
+        <TagFilterGroupComponent />
+      </Prompt>
       <ArtComponent />
       <CampsComponent />
       <VehiclesComponent />
