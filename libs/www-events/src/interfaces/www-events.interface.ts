@@ -34,16 +34,38 @@ export interface DataCoalesce {
   coalesce: WwwEvent[];
 }
 
+export interface ArtItem {
+  id: string;
+  type: string;
+  artist: string;
+  title: string;
+  description: string;
+}
+
 export interface ArtFeed {
-  art: any[];
+  art: ArtItem[];
+}
+
+export interface CampItem {
+  id: string;
+  name: string;
+  neighborhood: string;
+  description: string;
+  site: string;
 }
 
 export interface CampsFeed {
-  camps: any[];
+  camps: CampItem[];
+}
+
+export interface VehicleItem {
+  id: string;
+  title: string;
+  description: string;
 }
 
 export interface VehiclesFeed {
-  vehicles: any[];
+  vehicles: VehicleItem[];
 }
 
 export interface MainFeed
