@@ -11,8 +11,12 @@ export function ArtComponent(props: ArtProps) {
   return (
     <div className={styles['container']}>
       <h1>Welcome to Art!</h1>
-      {art.map((a) => (
-        <h1 key={a.id}>Art Item</h1>
+      {art.map((item) => (
+        <div key={item.id} className="art-item">
+          <h2 className="art-item-name">{item.title}</h2>
+          <h3 className="art-item-type">{item.type}</h3>
+          <div className="art-item-description">{item.description}</div>
+        </div>
       ))}
     </div>
   );

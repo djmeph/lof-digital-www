@@ -11,8 +11,14 @@ export function CampsComponent(props: CampsProps) {
   return (
     <div className={styles['container']}>
       <h1>Welcome to Camps!</h1>
-      {camps.map((camp) => (
-        <h1 key={camp.id}>Art Item</h1>
+      {camps.map((item) => (
+        <div key={item.id} className="camp-item">
+          <h2 className="camp-item-name">{item.name}</h2>
+          <h3 className="camp-item-location">
+            In the {item.neighborhood} at {item.site}
+          </h3>
+          <div className="camp-item-description">{item.description}</div>
+        </div>
       ))}
     </div>
   );
