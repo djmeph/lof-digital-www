@@ -4,55 +4,55 @@ import { Container, Row, CardGroup, Card, Button } from 'react-bootstrap';
 import CountUp from 'react-countup';
 
 import { Banner } from '@lof-digital-www/shared';
-// import {
-//   ArtComponent,
-//   CampsComponent,
-//   VehiclesComponent,
-// } from '@lof-digital-www/www-events';
+
+import styles from './home-page.module.scss';
 
 export function HomePage() {
   return (
     <Container fluid className="px-0">
       <Banner title="Welcome to Lakes of Fire 2022!" />
-      <CardGroup className="col-12 mx-auto my-5 text-center text-warning">
-        <Card className="me-2">
+      <CardGroup className="col-12 mx-auto my-2 text-center text-warning">
+        <Card className={`mx-2 ${styles['count-up-card']}`}>
           <Card.Body>
             <Card.Title>
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faFire} />
               </div>
-              <CountUp end={2415} separator="," />
+              <div className="text-white">
+                <CountUp end={2415} duration={10} separator="," />
+              </div>
             </Card.Title>
             <Card.Text className="">Participants</Card.Text>
           </Card.Body>
         </Card>
-        <Card className="me-2">
+        <Card className={`mx-2 ${styles['count-up-card']}`}>
           <Card.Body>
             <Card.Title>
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faTent} />
               </div>
-              <CountUp end={93} separator="," />
+              <div className="text-white">
+                <CountUp end={93} duration={10} separator="," />
+              </div>
             </Card.Title>
             <Card.Text>Theme Camps</Card.Text>
           </Card.Body>
         </Card>
-        <Card className="me-2">
+        <Card className={`mx-2 ${styles['count-up-card']}`}>
           <Card.Body>
             <Card.Title>
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faHandshake} />
               </div>
-              <CountUp end={2694} separator="," />
+              <div className="text-white">
+                <CountUp end={2694} duration={10} separator="," />
+              </div>
             </Card.Title>
             <Card.Text>Volunteer Shifts</Card.Text>
           </Card.Body>
         </Card>
       </CardGroup>
       <Container>
-        <Row>
-          <h2>Welcome to the Digital WhatWhereWhen v1.0</h2>
-        </Row>
         <Row>
           <p>
             At Lakes in Space, we are pleased to offer this slimmed-down digital
