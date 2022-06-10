@@ -59,7 +59,7 @@ export function NavbarComponent() {
               <NavLink to={`/events/${weekday}`}>
                 <Button
                   variant="light"
-                  className={styles['hover']}
+                  className={`col-12 ${styles['hover']}`}
                   onClick={() => setExpanded(false)}
                 >
                   Events
@@ -68,7 +68,7 @@ export function NavbarComponent() {
               <NavLink to={`/favorites/${weekday}`}>
                 <Button
                   variant="light"
-                  className={styles['hover']}
+                  className={`col-12 ${styles['hover']}`}
                   onClick={() => setExpanded(false)}
                 >
                   Favorites
@@ -77,7 +77,7 @@ export function NavbarComponent() {
               <NavLink to="/week-view">
                 <Button
                   variant="light"
-                  className={styles['hover']}
+                  className={`col-12 ${styles['hover']}`}
                   onClick={() => setExpanded(false)}
                 >
                   Agenda
@@ -86,28 +86,28 @@ export function NavbarComponent() {
               <NavLink to="/art">
                 <Button
                   variant="light"
-                  className={styles['hover']}
+                  className={`col-12 ${styles['hover']}`}
                   onClick={() => setExpanded(false)}
                 >
-                  Art Hub
+                  Art
                 </Button>
               </NavLink>
               <NavLink to="/camps">
                 <Button
                   variant="light"
-                  className={styles['hover']}
+                  className={`col-12 ${styles['hover']}`}
                   onClick={() => setExpanded(false)}
                 >
-                  Theme Camps
+                  Camps
                 </Button>
               </NavLink>
               <NavLink to="/vehicles">
                 <Button
                   variant="light"
-                  className={styles['hover']}
+                  className={`col-12 ${styles['hover']}`}
                   onClick={() => setExpanded(false)}
                 >
-                  Mutant Vehicles
+                  Vehicles
                 </Button>
               </NavLink>
             </Nav>
