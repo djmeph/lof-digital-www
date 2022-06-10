@@ -94,7 +94,7 @@ export function HomePage() {
             <tr />
           </table>
         </Row>
-        <Row>
+        <Row className="mx-2">
           <a
             target="_blank"
             href="https://docs.google.com/forms/d/e/1FAIpQLScOfYr_3Beox_QRfdoLjvbm7FLqj5ECbQMhjctO_bUgSqYtEg/viewform"
