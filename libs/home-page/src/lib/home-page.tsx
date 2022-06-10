@@ -1,4 +1,4 @@
-import { Prompt } from '@lof-digital-www/shared';
+import { Banner } from '@lof-digital-www/shared';
 import {
   ArtComponent,
   CampsComponent,
@@ -8,7 +8,7 @@ import {
 export function HomePage() {
   return (
     <div>
-      <Prompt title="Welcome to Lakes of Fire 2022!" />
+      <Banner title="Welcome to Lakes of Fire 2022!" />
       <ArtComponent />
       <CampsComponent />
       <VehiclesComponent />
