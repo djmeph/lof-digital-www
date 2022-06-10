@@ -1,26 +1,52 @@
+import { Container, Row } from 'react-bootstrap';
+
 import { useEventsFeedContext } from '../../context/EventsFeedContext';
 
 import styles from './camps.module.scss';
 
-/* eslint-disable-next-line */
-export interface CampsProps {}
-
-export function CampsComponent(props: CampsProps) {
+export function CampsComponent() {
   const { camps } = useEventsFeedContext();
 
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Camps!</h1>
-      {camps.map((item) => (
-        <div key={item.id} className="camp-item">
-          <h2 className="camp-item-name">{item.name}</h2>
-          <h3 className="camp-item-location">
-            In the {item.neighborhood} at {item.site}
-          </h3>
-          <div className="camp-item-description">{item.description}</div>
-        </div>
-      ))}
-    </div>
+    <Container className={`px-5 $styles['container']`}>
+      {camps
+        .sort((a, b) => {
+          if (a.name < b.name) return -1;
+          if (a.name > b.name) return 1;
+          return 0;
+        })
+        .map((item) => (
+          <Container key={item.id} className="my-5 mx-1">
+            <Row className="mb-2">
+              <h2 className={`col-8 ${styles['camp-item-name']}`}>
+                {item.name}
+              </h2>
+              <div className="col-4 text-right">
+                <span
+                  className={`badge badge-pill ${
+                    styles[`camp-item-badge-neighborhood`]
+                  }`}
+                >
+                  {item.neighborhood}
+                </span>
+                <span>&nbsp;</span>
+                <span
+                  className={`badge badge-pill ${
+                    styles[`camp-item-badge-site`]
+                  }`}
+                >
+                  Site {item.site}
+                </span>
+              </div>
+            </Row>
+            <Row className="col-12">
+              <div className={` ${styles['camp-item-description']}`}>
+                {item.description}
+              </div>
+            </Row>
+          </Container>
+        ))}
+    </Container>
   );
 }
 
