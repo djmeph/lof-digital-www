@@ -4,7 +4,7 @@ import {
   getEventsByDay,
 } from '@lof-digital-www/calendar';
 import {
-  Prompt,
+  Banner,
   TagFilterGroupComponent,
   useTagFilterContext,
 } from '@lof-digital-www/shared';
@@ -31,9 +31,9 @@ export function EventsDayComponent({ day }: EventsDayProps) {
   return (
     <div className={styles['container']}>
       <div className="mb-3">
-        <Prompt title={`${day} Events`}>
+        <Banner title={`${day} Events`}>
           <TagFilterGroupComponent />
-        </Prompt>
+        </Banner>
       </div>
       <DateSelectorComponent day={day} route="events" />
       {filteredEvents.map((event) => (
