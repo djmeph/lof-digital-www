@@ -7,14 +7,20 @@ export function VehiclesComponent() {
 
   return (
     <div className="">
-      {vehicles.map((item) => (
-        <div key={item.id} className={styles['vehicle-item']}>
-          <h2 className={styles['vehicle-item-name']}>{item.title}</h2>
-          <div className={styles['vehicle-item-description']}>
-            {item.description}
+      {vehicles
+        .sort((a, b) => {
+          if (a.title < b.title) return -1;
+          if (a.title > b.title) return 1;
+          return 0;
+        })
+        .map((item) => (
+          <div key={item.id} className={`my-5 mx-1 ${styles['vehicle-item']}`}>
+            <h2 className={styles['vehicle-item-name']}>{item.title}</h2>
+            <div className={` ${styles['vehicle-item-description']}`}>
+              {item.description}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
     </div>
   );
 }
