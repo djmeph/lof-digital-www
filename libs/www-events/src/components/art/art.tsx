@@ -1,20 +1,45 @@
+import { Container, Row } from 'react-bootstrap';
+
 import { useEventsFeedContext } from '../../context/EventsFeedContext';
 
 import styles from './art.module.scss';
 
-/* eslint-disable-next-line */
-export interface ArtProps {}
-
-export function ArtComponent(props: ArtProps) {
+export function ArtComponent() {
   const { art } = useEventsFeedContext();
 
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Art!</h1>
-      {art.map((a) => (
-        <h1 key={a.id}>Art Item</h1>
-      ))}
-    </div>
+    <Container className={`px-5 $styles['container']`}>
+      {art
+        .sort((a, b) => {
+          if (a.title < b.title) return -1;
+          if (a.title > b.title) return 1;
+          return 0;
+        })
+        .map((item) => (
+          <Container key={item.id} className="my-5 mx-1">
+            <Row className="mb-2">
+              <h2 className={`text-secondary ${styles['art-item-name']}`}>
+                {item.title}
+              </h2>
+              <span
+                className={`col-lg-2 align-middle badge badge-pill ${
+                  styles[`art-item-badge-${item.type}`]
+                }`}
+              >
+                {item.type}
+              </span>
+            </Row>
+            <Row className="col-12">
+              <span>By {item.artist}</span>
+            </Row>
+            <Row className="col-12">
+              <div className={` ${styles['art-item-description']}`}>
+                {item.description}
+              </div>
+            </Row>
+          </Container>
+        ))}
+    </Container>
   );
 }
 

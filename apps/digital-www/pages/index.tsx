@@ -4,7 +4,7 @@ import { HomePage } from '@lof-digital-www/home-page';
 
 export function Index() {
   return (
-    <Container className="px-0">
+    <Container fluid className="px-0">
       <HomePage />
     </Container>
   );

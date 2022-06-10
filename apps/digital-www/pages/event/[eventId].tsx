@@ -3,18 +3,14 @@ import { Container } from 'react-bootstrap';
 
 import { EventsSingleTimeComponent } from '@lof-digital-www/www-events';
 
-import styles from './index.module.scss';
-
 export function Event() {
   const router = useRouter();
   const { eventId } = router.query;
 
   return (
-    <div className={styles['container']}>
-      <Container>
-        <EventsSingleTimeComponent eventId={eventId} />
-      </Container>
-    </div>
+    <Container fluid className="px-0">
+      <EventsSingleTimeComponent eventId={eventId} />
+    </Container>
   );
 }
 

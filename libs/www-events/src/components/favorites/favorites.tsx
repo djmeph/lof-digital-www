@@ -3,7 +3,7 @@ import {
   getEventsByDay,
   getFavorites,
 } from '@lof-digital-www/calendar';
-import { Prompt, useFavoritesContext } from '@lof-digital-www/shared';
+import { Banner, useFavoritesContext } from '@lof-digital-www/shared';
 
 import { useEventsFeedContext } from '../../context/EventsFeedContext';
 import { DayOfWeek } from '../../interfaces/www-events.enum';
@@ -24,7 +24,7 @@ export function FavoritesComponent({ day }: FavoritesProps) {
   return (
     <div className={styles['container']}>
       <div className="mb-3">
-        <Prompt title="Favorites" />
+        <Banner title="Favorites" />
       </div>
       <DateSelectorComponent day={day} route="favorites" />
       {matchingEvents.map((event) => (

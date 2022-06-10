@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Prompt from './prompt';
+import OutsideLink from './outside-link';
 
-describe('Prompt', () => {
+describe('OutsideLink', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Prompt />);
+    const { baseElement } = render(<OutsideLink />);
     expect(baseElement).toBeTruthy();
   });
 });

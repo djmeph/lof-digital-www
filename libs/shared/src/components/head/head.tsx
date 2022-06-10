@@ -7,6 +7,10 @@ export function HeadComponent() {
       <link rel="icon" type="image/x-icon" href="favicon.ico" />
       <link rel="shortcut icon" href="favicon.ico" />
       <link
+        href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=PT+Sans&family=Russo+One&display=swap"
+        rel="stylesheet"
+      />
+      <link
         rel="apple-touch-icon"
         sizes="180x180"
         href="/apple-touch-icon.png"

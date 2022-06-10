@@ -1,7 +1,19 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.art-item-name {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.art-item-description {
+  font-family: 'KDam Thmor Pro', sans-serif;
+}
+
+.art-item-badge-project {
+  background-color: rgb(171, 131, 102);
+}
+
+.art-item-badge-grant {
+  background-color: rgb(0, 137, 196);
+}
+
+.art-item-badge-honoraria {
+  background-color: rgb(79, 191, 153);
+}

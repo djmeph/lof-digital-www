@@ -1,3 +1,4 @@
+import { faLink } from '@fortawesome/react-fontawesome';
 import { useRouter } from 'next/router';
 
 import styles from './link.module.scss';

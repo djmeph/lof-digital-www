@@ -9,7 +9,7 @@ export function Events() {
   if (typeof day !== 'string') throw Error('Invalid Parameter');
 
   return (
-    <Container>
+    <Container fluid className="px-0">
       <EventsDayComponent day={day as DayOfWeek} />
     </Container>
   );
