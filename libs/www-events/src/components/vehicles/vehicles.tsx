@@ -6,7 +6,7 @@ export function VehiclesComponent() {
   const { vehicles } = useEventsFeedContext();
 
   return (
-    <div className="px-sm-5">
+    <div className="px-5">
       {vehicles
         .sort((a, b) => {
           if (a.title < b.title) return -1;
