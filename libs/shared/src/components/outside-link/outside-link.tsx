@@ -10,12 +10,7 @@ export interface OutsideLinkProps {
 
 export function OutsideLink({ to, children }: OutsideLinkProps) {
   return (
-    <Nav.Link
-      href={to}
-      className={styles['link']}
-      target="_blank"
-      rel="noreferrer"
-    >
+    <Nav.Link href={to} className="py-1" target="_blank" rel="noreferrer">
       {children}
     </Nav.Link>
   );

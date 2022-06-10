@@ -13,7 +13,7 @@ export function NavLink({ to, children }: NavLinkProps) {
   return (
     <Nav.Link
       href={to}
-      className={styles['link']}
+      className="py-1"
       onClick={(e) => {
         e.preventDefault();
         return router.push(to);

@@ -107,7 +107,7 @@ export function NavbarComponent() {
               <NavLink to="/vehicles">
                 <Button
                   variant="light"
-                  className={`my-1 col-12 ${styles['hover']}`}
+                  className={`col-12 ${styles['hover']}`}
                   onClick={() => setExpanded(false)}
                 >
                   Vehicles
