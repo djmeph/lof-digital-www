@@ -62,6 +62,38 @@ export function HomePage() {
             questions and get you back into your Burn as quickly as possible.
           </p>
         </Row>
+        <Row className="mx-2 my-2">
+          <h2>Gate Hours</h2>
+          <table>
+            <tr>
+              <td>Wednesday</td>
+              <td colSpan={2}>8:00 A.M. EST – 11:00 PM EST</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td colSpan={2}>8:00 A.M. EST – 11:00 PM EST</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td colSpan={2}>8:00 A.M. EST – 11:00 PM EST</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>8:00 A.M. EST – 2:00 PM EST</td>
+              <td>Participants only! No spectators, please.</td>
+            </tr>
+            <tr />
+            <tr>
+              <td>Sunday</td>
+              <td>8:00 A.M. EST – 3:00 PM EST</td>
+              <td>
+                Exodus only. All participants except for organizers, DPW, and
+                LNT must be off the property by 3:00 P.M.
+              </td>
+            </tr>
+            <tr />
+          </table>
+        </Row>
         <Row>
           <a
             target="_blank"
