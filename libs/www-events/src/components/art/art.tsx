@@ -17,19 +17,17 @@ export function ArtComponent() {
         })
         .map((item) => (
           <Container key={item.id} className="my-5 mx-1">
-            <Row>
-              <h2 className={`col-10 ${styles['art-item-name']}`}>
+            <Row className="mb-2">
+              <h2 className={`text-secondary ${styles['art-item-name']}`}>
                 {item.title}
               </h2>
-              <div className="col-2 text-right">
-                <span
-                  className={`align-middle badge badge-pill ${
-                    styles[`art-item-badge-${item.type}`]
-                  }`}
-                >
-                  {item.type}
-                </span>
-              </div>
+              <span
+                className={`col-lg-2 align-middle badge badge-pill ${
+                  styles[`art-item-badge-${item.type}`]
+                }`}
+              >
+                {item.type}
+              </span>
             </Row>
             <Row className="col-12">
               <span>By {item.artist}</span>

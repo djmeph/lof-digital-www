@@ -16,28 +16,23 @@ export function CampsComponent() {
           return 0;
         })
         .map((item) => (
-          <Container key={item.id} className="my-5 mx-1">
+          <Container key={item.id} className="mt-5">
             <Row className="mb-2">
-              <h2 className={`col-8 ${styles['camp-item-name']}`}>
-                {item.name}
-              </h2>
-              <div className="col-4 text-right">
-                <span
-                  className={`badge badge-pill ${
-                    styles[`camp-item-badge-neighborhood`]
-                  }`}
-                >
-                  {item.neighborhood}
-                </span>
-                <span>&nbsp;</span>
-                <span
-                  className={`badge badge-pill ${
-                    styles[`camp-item-badge-site`]
-                  }`}
-                >
-                  Site {item.site}
-                </span>
-              </div>
+              <h2 className={`${styles['camp-item-name']}`}>{item.name}</h2>
+              <span
+                className={`col-lg-2 badge badge-pill ${
+                  styles[`camp-item-badge-neighborhood`]
+                }`}
+              >
+                {item.neighborhood}
+              </span>
+              <span
+                className={`col-lg-2 badge badge-pill ${
+                  styles[`camp-item-badge-site`]
+                }`}
+              >
+                Site {item.site}
+              </span>
             </Row>
             <Row className="col-12">
               <div className={` ${styles['camp-item-description']}`}>
