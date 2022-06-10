@@ -9,7 +9,7 @@ export function Favorites() {
   if (typeof day !== 'string') throw Error('Invalid Parameter');
 
   return (
-    <Container>
+    <Container fluid className="px-0">
       <FavoritesComponent day={day as DayOfWeek} />
     </Container>
   );

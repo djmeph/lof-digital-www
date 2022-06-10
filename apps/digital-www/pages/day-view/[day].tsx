@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import { Container } from 'react-bootstrap';
 
 import {
   DateSelectorComponent,
@@ -15,10 +16,10 @@ export function DayViewPage() {
   const currentDate = `${datesOfWeek[day]}T00:00:00`;
 
   return (
-    <div className={styles['container']}>
+    <Container fluid className="px-0">
       <DateSelectorComponent day={day as DayOfWeek} route="day-view" />
       <DayViewComponent currentDate={currentDate} />
-    </div>
+    </Container>
   );
 }
 

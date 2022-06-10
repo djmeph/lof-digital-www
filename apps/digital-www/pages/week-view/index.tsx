@@ -1,12 +1,12 @@
-import { WeekViewComponent } from '@lof-digital-www/calendar';
+import { Container } from 'react-bootstrap';
 
-import styles from './index.module.scss';
+import { WeekViewComponent } from '@lof-digital-www/calendar';
 
 export function WeekView() {
   return (
-    <div className={styles['container']}>
+    <Container fluid className="px-0">
       <WeekViewComponent />
-    </div>
+    </Container>
   );
 }
 
