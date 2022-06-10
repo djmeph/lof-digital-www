@@ -1,8 +1,11 @@
+import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { Navbar, Container, Button, Nav } from 'react-bootstrap';
 
 import { Link } from '../link/link';
 import NavLink from '../nav-link/nav-link';
+import { OutsideLink } from '../outside-link/outside-link';
 import { ThemedBurnLogo } from '../themed-burn-logo/themed-burn-logo';
 
 import styles from './navbar.module.scss';
@@ -104,12 +107,42 @@ export function NavbarComponent() {
               <NavLink to="/vehicles">
                 <Button
                   variant="light"
-                  className={`col-12 ${styles['hover']}`}
+                  className={`my-1 col-12 ${styles['hover']}`}
                   onClick={() => setExpanded(false)}
                 >
                   Vehicles
                 </Button>
               </NavLink>
+              <OutsideLink to="http://lakesoffire.org/the-event/covid-19-policy/">
+                <Button
+                  variant="light"
+                  className={`col-12 ${styles['hover']}`}
+                  onClick={() => setExpanded(false)}
+                >
+                  <FontAwesomeIcon icon={faLink} />
+                  COVID-19 Policy
+                </Button>
+              </OutsideLink>
+              <OutsideLink to="http://lakesoffire.org/the-event/code-of-conduct/">
+                <Button
+                  variant="light"
+                  className={`col-12 ${styles['hover']}`}
+                  onClick={() => setExpanded(false)}
+                >
+                  <FontAwesomeIcon icon={faLink} />
+                  Code of Conduct
+                </Button>
+              </OutsideLink>
+              <OutsideLink to="http://lakesoffire.org/the-event/survival-guide/">
+                <Button
+                  variant="light"
+                  className={`col-12 ${styles['hover']}`}
+                  onClick={() => setExpanded(false)}
+                >
+                  <FontAwesomeIcon icon={faLink} />
+                  Survival Guide
+                </Button>
+              </OutsideLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
