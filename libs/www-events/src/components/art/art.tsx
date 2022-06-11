@@ -1,6 +1,9 @@
 import { Container, Row } from 'react-bootstrap';
 
-import { useEventsFeedContext } from '../../context/EventsFeedContext';
+import {
+  useEventsFeedContext,
+  tidyAlphaSort,
+} from '../../context/EventsFeedContext';
 
 import styles from './art.module.scss';
 
@@ -10,11 +13,7 @@ export function ArtComponent() {
   return (
     <Container className={`px-5 $styles['container']`}>
       {art
-        .sort((a, b) => {
-          if (a.title < b.title) return -1;
-          if (a.title > b.title) return 1;
-          return 0;
-        })
+        .sort((a, b) => tidyAlphaSort(a, b, 'title'))
         .map((item) => (
           <Container key={item.id} className="my-5 mx-1">
             <Row className="mb-2">
