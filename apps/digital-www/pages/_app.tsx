@@ -1,5 +1,5 @@
 import { AppProps } from 'next/app';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,11 +14,11 @@ import { DigitalWwwFeedProvider } from '@lof-digital-www/www-events';
 import styles from './index.module.scss';
 
 const queryClient = new QueryClient({
-  // defaultOptions: {
-  //   queries: {
-  //     cacheTime: 1000 * 60 * 60 * 24, // 24 hours
-  //   },
-  // },
+  defaultOptions: {
+    queries: {
+      cacheTime: 1000 * 60 * 60 * 24, // 24 hours
+    },
+  },
 });
 
 function CustomApp({ Component, pageProps }: AppProps) {

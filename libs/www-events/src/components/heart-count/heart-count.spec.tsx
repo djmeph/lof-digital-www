@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import HeartCount from './heart-count';
+import HeartCountComponent from './heart-count';
 
-describe('HeartCount', () => {
+describe('HeartCountComponent', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<HeartCount />);
+    const { baseElement } = render(<HeartCountComponent />);
     expect(baseElement).toBeTruthy();
   });
 });

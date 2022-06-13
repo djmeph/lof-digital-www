@@ -6,7 +6,7 @@ import { WwwEvent } from '../../interfaces/www-events.interface';
 import CategoriesSelected from '../categories-selected/categories-selected';
 import EventTimeComponent from '../event-time/event-time';
 import FavoriteComponent from '../favorite/favorite';
-import HeartCount from '../heart-count/heart-count';
+import HeartCountComponent from '../heart-count/heart-count';
 
 import styles from './event.module.scss';
 
@@ -28,7 +28,7 @@ export function EventComponent({ event }: EventProps) {
           <Card.Text>{event.event_description}</Card.Text>
           <Card.Text>
             Location: {event.hosting_location}
-            <HeartCount heartCount={event.heart_count} />
+            <HeartCountComponent heartCount={event.heart_count} />
           </Card.Text>
           <div className="mb-3">
             <FavoriteComponent eventId={event.event_id} />

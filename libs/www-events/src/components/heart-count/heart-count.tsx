@@ -5,13 +5,11 @@ export interface HeartCountProps {
   heartCount: number;
 }
 
-export function HeartCount({ heartCount }: HeartCountProps) {
+export function HeartCountComponent({ heartCount }: HeartCountProps) {
   if (heartCount > 0) {
-    return (
-      <span className={styles['container']}>Heart Count: {heartCount}</span>
-    );
+    return <div className={styles['container']}>Heart Count: {heartCount}</div>;
   }
   return <span />;
 }
 
-export default HeartCount;
+export default HeartCountComponent;
