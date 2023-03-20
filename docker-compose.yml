@@ -7,6 +7,8 @@ services:
     volumes:
       - ./:/src:delegated
       - /src/node_modules
+      - /src/dist
+      - /src/.yarn/cache
       - ~/.ssh:/root/.ssh:ro
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
