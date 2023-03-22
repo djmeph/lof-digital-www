@@ -1,8 +1,12 @@
-import { FC, useState } from 'react';
+import { FC, ReactNode, useState } from 'react';
 
 import { FavoritesContext } from '../context/favorites';
 
-export const FavoritesProvider: FC = ({ children }) => {
+type Props = {
+  children?: ReactNode;
+};
+
+export const FavoritesProvider: FC<Props> = ({ children }) => {
   let restoreFavorites: number[] = [];
 
   if (typeof window !== 'undefined') {

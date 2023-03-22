@@ -1,10 +1,14 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 import { useQuery } from 'react-query';
 
 import { EventsFeedContext } from '../../context/EventsFeedContext';
 import { MainFeed } from '../../interfaces/www-events.interface';
 
-export const DigitalWwwFeedProvider: FC = ({ children }) => {
+type Props = {
+  children?: ReactNode;
+};
+
+export const DigitalWwwFeedProvider: FC<Props> = ({ children }) => {
   const { data, error, isLoading } = useQuery<MainFeed, Error>(
     'jsonFeed',
     async (): Promise<MainFeed> => {

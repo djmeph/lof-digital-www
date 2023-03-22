@@ -1,6 +1,6 @@
-import { ViewState } from '@devexpress/dx-react-scheduler';
+import { Scheduler, ViewState } from '@devexpress/dx-react-scheduler';
 import {
-  Scheduler,
+  Scheduler as MuiSchedular,
   WeekView,
   Appointments,
 } from '@devexpress/dx-react-scheduler-material-ui';
@@ -17,6 +17,9 @@ import { DayScaleCellComponent } from '../day-scale-cell/day-scale-cell';
 import styles from './week-view.module.scss';
 
 export function WeekViewComponent() {
+  const rootComponent = (props: Scheduler.RootProps) => {
+    return <MuiSchedular.Root {...props} />;
+  };
   const currentDate = `${datesOfWeek.Wednesday}T00:00:00`;
   const data = useEventsFeedContext();
   const { favorites } = useFavoritesContext();
@@ -25,7 +28,13 @@ export function WeekViewComponent() {
   return (
     <div className={styles['container']}>
       <Paper>
-        <Scheduler data={schedulerData}>
+        <Scheduler
+          data={schedulerData}
+          rootComponent={rootComponent}
+          locale="US-English"
+          firstDayOfWeek={1}
+          height="auto"
+        >
           <ViewState currentDate={currentDate} />
           <WeekView
             startDayHour={0}
