@@ -1,5 +1,6 @@
 {
-  "root": "apps/digital-www",
+  "name": "digital-www",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/digital-www",
   "projectType": "application",
   "targets": {
@@ -12,11 +13,14 @@
         "outputPath": "dist/apps/digital-www"
       },
       "configurations": {
-        "production": {}
+        "production": {},
+        "development": {
+          "outputPath": "apps/digital-www"
+        }
       }
     },
     "docker-build": {
-      "executor": "@nrwl/workspace:run-commands",
+      "executor": "nx:run-commands",
       "options": {
         "command": "docker build -t digital-www . -f apps/digital-www/Dockerfile"
       }
@@ -31,8 +35,13 @@
         "production": {
           "buildTarget": "digital-www:build:production",
           "dev": false
+        },
+        "development": {
+          "buildTarget": "digital-www:build:development",
+          "dev": true
         }
-      }
+      },
+      "defaultConfiguration": "development"
     },
     "export": {
       "executor": "@nrwl/next:export",
@@ -44,7 +53,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/apps/digital-www"],
       "options": {
-        "jestConfig": "apps/digital-www/jest.config.js",
+        "jestConfig": "apps/digital-www/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -56,7 +65,7 @@
       }
     },
     "prepare-code": {
-      "executor": "@nrwl/workspace:run-commands",
+      "executor": "nx:run-commands",
       "options": {
         "command": "cp apps/digital-www/Dockerfile dist/apps/digital-www/"
       },

@@ -1,5 +1,6 @@
 {
-  "root": "libs/home-page",
+  "name": "home-page",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/home-page/src",
   "projectType": "library",
   "tags": [],
@@ -15,7 +16,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/libs/home-page"],
       "options": {
-        "jestConfig": "libs/home-page/jest.config.js",
+        "jestConfig": "libs/home-page/jest.config.ts",
         "passWithNoTests": true
       }
     }
