@@ -1,5 +1,6 @@
 {
-  "root": "libs/calendar",
+  "name": "calendar",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/calendar/src",
   "projectType": "library",
   "tags": [],
@@ -15,7 +16,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/libs/calendar"],
       "options": {
-        "jestConfig": "libs/calendar/jest.config.js",
+        "jestConfig": "libs/calendar/jest.config.ts",
         "passWithNoTests": true
       }
     }
