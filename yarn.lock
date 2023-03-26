@@ -1714,6 +1714,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@devexpress/dx-scheduler-core@patch:@devexpress/dx-scheduler-core@npm%3A4.0.3#./.yarn/patches/@devexpress-dx-scheduler-core-npm-4.0.3-6019e1f4b8.patch::locator=lof-digital-www%40workspace%3A.":
+  version: 4.0.3
+  resolution: "@devexpress/dx-scheduler-core@patch:@devexpress/dx-scheduler-core@npm%3A4.0.3#./.yarn/patches/@devexpress-dx-scheduler-core-npm-4.0.3-6019e1f4b8.patch::version=4.0.3&hash=e03f04&locator=lof-digital-www%40workspace%3A."
+  dependencies:
+    moment: ^2.24.0
+    rrule: 2.7.1
+  peerDependencies:
+    "@devexpress/dx-core": 4.0.3
+  checksum: 30beab80595815464335ca2b0b6cc296afea8d93e989043f72fee20097e9a6e7904ee5389a004c47f94346ba50c40eba729c12b3f3e00d4cb33a248c72820f99
+  languageName: node
+  linkType: hard
+
 "@emotion/babel-plugin@npm:^11.10.5":
   version: 11.10.6
   resolution: "@emotion/babel-plugin@npm:11.10.6"

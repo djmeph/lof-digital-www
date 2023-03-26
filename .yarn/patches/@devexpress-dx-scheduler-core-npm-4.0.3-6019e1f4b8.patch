@@ -1,5 +1,5 @@
 diff --git a/dist/dx-scheduler-core.es.js b/dist/dx-scheduler-core.es.js
-index d85024c3961588bda2a29870aab99471836c3be6..67ad00d0b8aa2264b19100ffa931c75a82cd86ca 100644
+index d85024c3961588bda2a29870aab99471836c3be6..cbebc9eae8dd929a1e1ba7760b7619138decd35a 100644
 --- a/dist/dx-scheduler-core.es.js
 +++ b/dist/dx-scheduler-core.es.js
 @@ -6,7 +6,8 @@
@@ -8,7 +8,7 @@ index d85024c3961588bda2a29870aab99471836c3be6..67ad00d0b8aa2264b19100ffa931c75a
  import moment from 'moment';
 -import { RRuleSet, RRule } from 'rrule';
 +import pkg from 'rrule';
-+import { RRuleSet, RRule } from pkg;
++const { RRuleSet, RRule } = pkg;
  import { slice } from '@devexpress/dx-core';
  
  /*! *****************************************************************************
