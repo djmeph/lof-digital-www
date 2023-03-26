@@ -84,6 +84,7 @@
   },
   "packageManager": "yarn@3.5.0",
   "resolutions": {
-    "@devexpress/dx-scheduler-core@4.0.3": "patch:@devexpress/dx-scheduler-core@npm%3A4.0.3#./.yarn/patches/@devexpress-dx-scheduler-core-npm-4.0.3-6019e1f4b8.patch"
+    "@devexpress/dx-scheduler-core@4.0.3": "patch:@devexpress/dx-scheduler-core@npm%3A4.0.3#./.yarn/patches/@devexpress-dx-scheduler-core-npm-4.0.3-6019e1f4b8.patch",
+    "@devexpress/dx-react-scheduler-material-ui@4.0.3": "patch:@devexpress/dx-react-scheduler-material-ui@npm%3A4.0.3#./.yarn/patches/@devexpress-dx-react-scheduler-material-ui-npm-4.0.3-db21fed42f.patch"
   }
 }
