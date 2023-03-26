@@ -1,6 +1,6 @@
-import { Scheduler, ViewState } from '@devexpress/dx-react-scheduler';
+import { ViewState } from '@devexpress/dx-react-scheduler';
 import {
-  Scheduler as MuiSchedular,
+  Scheduler,
   DayView,
   Appointments,
 } from '@devexpress/dx-react-scheduler-material-ui';
@@ -20,9 +20,6 @@ export interface DayViewProps {
 }
 
 export function DayViewComponent({ currentDate }: DayViewProps) {
-  const rootComponent = (props: Scheduler.RootProps) => {
-    return <MuiSchedular.Root {...props} />;
-  };
   const data = useEventsFeedContext();
   const { favorites } = useFavoritesContext();
   const savedEvents = getFavorites(data.coalesce, favorites);
@@ -31,13 +28,7 @@ export function DayViewComponent({ currentDate }: DayViewProps) {
   return (
     <div className={styles['container']}>
       <Paper>
-        <Scheduler
-          data={schedulerData}
-          rootComponent={rootComponent}
-          locale="US-English"
-          firstDayOfWeek={1}
-          height="auto"
-        >
+        <Scheduler data={schedulerData}>
           <ViewState currentDate={currentDate} />
           <DayView startDayHour={0} endDayHour={24} />
           <Appointments

@@ -12,7 +12,6 @@
     "@devexpress/dx-react-core": "4.0.3",
     "@devexpress/dx-react-scheduler": "4.0.3",
     "@devexpress/dx-react-scheduler-material-ui": "4.0.3",
-    "@devexpress/dx-scheduler-core": "4.0.3",
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
     "@fortawesome/fontawesome-svg-core": "6.1.1",
@@ -83,5 +82,8 @@
     "ts-node": "10.9.1",
     "typescript": "4.9.5"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.5.0",
+  "resolutions": {
+    "@devexpress/dx-scheduler-core@4.0.3": "patch:@devexpress/dx-scheduler-core@npm%3A4.0.3#./.yarn/patches/@devexpress-dx-scheduler-core-npm-4.0.3-6019e1f4b8.patch"
+  }
 }

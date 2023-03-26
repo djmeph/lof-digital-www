@@ -36,6 +36,7 @@ testem.log
 # Yarn V2
 .yarn/*
 !.yarn/releases
+!.yarn/patches
 yarn-error.log
 
 # System Files
