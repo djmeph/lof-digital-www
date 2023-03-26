@@ -1,5 +1,4 @@
-/* eslint-disable */
-export default {
+module.exports = {
   displayName: 'digital-www',
   preset: '../../jest.preset.js',
   transform: {
