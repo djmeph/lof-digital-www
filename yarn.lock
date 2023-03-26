@@ -4699,6 +4699,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/openseadragon@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "@types/openseadragon@npm:3.0.5"
+  checksum: ce8618757976c389e28648fad1e41ea172e44bd07fea51f7b0869fc8066cc0d4e2b83f29850a8679af922a65cdc0970cce616c721744c7a409b973572d0ca2b1
+  languageName: node
+  linkType: hard
+
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
@@ -12039,6 +12046,7 @@ __metadata:
     "@testing-library/react-hooks": 7.0.2
     "@types/jest": 27.0.2
     "@types/node": 16.11.7
+    "@types/openseadragon": ^3.0.5
     "@types/react": 17.0.30
     "@types/react-dom": 17.0.9
     "@typescript-eslint/eslint-plugin": ~5.10.0
@@ -12063,6 +12071,7 @@ __metadata:
     next: 12.1.0
     next-optimized-images: 2.6.2
     next-pwa: 5.5.2
+    openseadragon: ^4.0.0
     prettier: ^2.5.1
     react: 17.0.2
     react-bootstrap: 2.2.2
@@ -13134,6 +13143,13 @@ __metadata:
   bin:
     opener: bin/opener-bin.js
   checksum: 33b620c0d53d5b883f2abc6687dd1c5fd394d270dbe33a6356f2d71e0a2ec85b100d5bac94694198ccf5c30d592da863b2292c5539009c715a9c80c697b4f6cc
+  languageName: node
+  linkType: hard
+
+"openseadragon@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "openseadragon@npm:4.0.0"
+  checksum: 5c9d420b66b7bc8782030fc7f1ca38bd0e8d6730dfb9c5973f0a19be9d8500f3639afbffb94207cabff0f9e1e9dd34ddea7c56e155192afb76c94a3615039f56
   languageName: node
   linkType: hard
 
