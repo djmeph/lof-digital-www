@@ -9,13 +9,13 @@ export enum DayOfWeek {
 }
 
 export const datesOfWeek = {
-  [DayOfWeek.MONDAY]: '2022-06-13',
-  [DayOfWeek.TUESDAY]: '2022-06-14',
-  [DayOfWeek.WEDNESDAY]: '2022-06-15',
-  [DayOfWeek.THURSDAY]: '2022-06-16',
-  [DayOfWeek.FRIDAY]: '2022-06-17',
-  [DayOfWeek.SATURDAY]: '2022-06-18',
-  [DayOfWeek.SUNDAY]: '2022-06-19',
+  [DayOfWeek.MONDAY]: '2023-07-10',
+  [DayOfWeek.TUESDAY]: '2023-07-11',
+  [DayOfWeek.WEDNESDAY]: '2023-07-12',
+  [DayOfWeek.THURSDAY]: '2023-07-13',
+  [DayOfWeek.FRIDAY]: '2023-07-14',
+  [DayOfWeek.SATURDAY]: '2023-07-15',
+  [DayOfWeek.SUNDAY]: '2023-07-16',
 };
 
 export enum EventRecurrance {

@@ -8,7 +8,7 @@ export const DigitalWwwFeedProvider: FC = ({ children }) => {
   const { data, error, isLoading } = useQuery<MainFeed, Error>(
     'jsonFeed',
     async (): Promise<MainFeed> => {
-      const res = await fetch('/digital-www.json');
+      const res = await fetch('/api/feed');
       return res.json();
     }
   );
