@@ -4699,6 +4699,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/openseadragon@npm:^3.0.6":
+  version: 3.0.6
+  resolution: "@types/openseadragon@npm:3.0.6"
+  checksum: 9ef665580ca4ea82475f318b9c319cb32ebaa534e4dd64f931087bcccbd178e20aaaa227a305ddcb0007db057441ad33c308aba85cba6b0f2194a4e8056bf18f
+  languageName: node
+  linkType: hard
+
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
@@ -12039,6 +12046,7 @@ __metadata:
     "@testing-library/react-hooks": 7.0.2
     "@types/jest": 27.0.2
     "@types/node": 16.11.7
+    "@types/openseadragon": ^3.0.6
     "@types/react": 17.0.30
     "@types/react-dom": 17.0.9
     "@typescript-eslint/eslint-plugin": ~5.10.0
