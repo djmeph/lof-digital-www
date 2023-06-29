@@ -10,7 +10,7 @@ import styles from './home-page.module.scss';
 export function HomePage() {
   return (
     <Container fluid className="px-0">
-      <Banner title="Welcome to Lakes of Fire 2022!" />
+      <Banner title="Welcome to Lakes of Fire 2023!" />
       <CardGroup className="col-12 mx-auto my-2 text-center text-warning">
         <Card className={`mx-2 ${styles['count-up-card']}`}>
           <Card.Body>

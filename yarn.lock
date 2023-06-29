@@ -12063,6 +12063,7 @@ __metadata:
     next: 12.1.0
     next-optimized-images: 2.6.2
     next-pwa: 5.5.2
+    openseadragon: ^4.1.0
     prettier: ^2.5.1
     react: 17.0.2
     react-bootstrap: 2.2.2
@@ -13134,6 +13135,13 @@ __metadata:
   bin:
     opener: bin/opener-bin.js
   checksum: 33b620c0d53d5b883f2abc6687dd1c5fd394d270dbe33a6356f2d71e0a2ec85b100d5bac94694198ccf5c30d592da863b2292c5539009c715a9c80c697b4f6cc
+  languageName: node
+  linkType: hard
+
+"openseadragon@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "openseadragon@npm:4.1.0"
+  checksum: 73b70dc73fe7f89617b0b159dcfcf317c3248a3b1d8ee4cefb3bd029c9390cdb6104641c1e3dba47baef95ceb9e73ceed6b7d71cbf8c7cbc9a1ee1cc121f5d07
   languageName: node
   linkType: hard
 
