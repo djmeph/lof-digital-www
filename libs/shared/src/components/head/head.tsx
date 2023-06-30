@@ -3,7 +3,7 @@ import Head from 'next/head';
 export function HeadComponent() {
   return (
     <Head>
-      <title>Lakes of Fire 2022 Digital WWW</title>
+      <title>Lakes of Fire 2023 Digital WWW</title>
       <link rel="icon" type="image/x-icon" href="favicon.ico" />
       <link rel="shortcut icon" href="favicon.ico" />
       <link

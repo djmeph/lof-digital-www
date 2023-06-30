@@ -1,0 +1,23 @@
+{
+  "root": "libs/lof-map",
+  "sourceRoot": "libs/lof-map/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lof-map/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/lof-map"],
+      "options": {
+        "jestConfig": "libs/lof-map/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

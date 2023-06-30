@@ -5,6 +5,7 @@
     "digital-www": "apps/digital-www",
     "digital-www-e2e": "apps/digital-www-e2e",
     "home-page": "libs/home-page",
+    "lof-map": "libs/lof-map",
     "shared": "libs/shared",
     "www-events": "libs/www-events"
   }

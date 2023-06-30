@@ -17,6 +17,7 @@
     "paths": {
       "@lof-digital-www/calendar": ["libs/calendar/src/index.ts"],
       "@lof-digital-www/home-page": ["libs/home-page/src/index.ts"],
+      "@lof-digital-www/lof-map": ["libs/lof-map/src/index.ts"],
       "@lof-digital-www/shared": ["libs/shared/src/index.ts"],
       "@lof-digital-www/www-events": ["libs/www-events/src/index.ts"]
     }
