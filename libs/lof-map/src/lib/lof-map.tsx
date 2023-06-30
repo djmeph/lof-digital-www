@@ -6,7 +6,10 @@ export interface LofMapProps {}
 export function LofMap(props: LofMapProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to LofMap!</h1>
+      <iframe
+        title="Lakes of Fire 2023 Interactive Map"
+        src="https://opensea-2023-map.lof.breakfreeproductions.com/"
+      />
     </div>
   );
 }
