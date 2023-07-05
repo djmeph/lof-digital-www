@@ -68,6 +68,8 @@ export interface VehiclesFeed {
   vehicles: VehicleItem[];
 }
 
+export interface staticFeeds extends ArtFeed, CampsFeed, VehiclesFeed {}
+
 export interface MainFeed
   extends DataCoalesce,
     ArtFeed,
