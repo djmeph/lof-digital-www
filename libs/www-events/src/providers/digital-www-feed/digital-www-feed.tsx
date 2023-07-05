@@ -2,24 +2,41 @@ import { FC } from 'react';
 import { useQuery } from 'react-query';
 
 import { EventsFeedContext } from '../../context/EventsFeedContext';
-import { MainFeed } from '../../interfaces/www-events.interface';
+import { DataCoalesce, MainFeed } from '../../interfaces/www-events.interface';
 
 export const DigitalWwwFeedProvider: FC = ({ children }) => {
-  const { data, error, isLoading } = useQuery<MainFeed, Error>(
+  const events = useQuery<DataCoalesce, Error>(
     'jsonFeed',
-    async (): Promise<MainFeed> => {
+    async (): Promise<DataCoalesce> => {
       const res = await fetch('/api/feed');
       return res.json();
     }
   );
 
-  if (error) return <div>An error has occured: {error.message}</div>;
+  const staticFeed = useQuery<MainFeed, Error>(
+    'staticFeed',
+    async (): Promise<MainFeed> => {
+      const res = await fetch('/digital-www.json');
+      return res.json();
+    }
+  );
 
-  if (isLoading || !data)
+  if (events.error)
+    return <div>An error has occured: {events.error.message}</div>;
+
+  if (staticFeed.error)
+    return <div>An error has occured: {staticFeed.error.message}</div>;
+
+  if (
+    events.isLoading ||
+    !events.data ||
+    staticFeed.isLoading ||
+    !staticFeed.data
+  )
     return <h1 className="title">Reticulating Splines ...</h1>;
 
   return (
-    <EventsFeedContext.Provider value={data}>
+    <EventsFeedContext.Provider value={{ ...events.data, ...staticFeed.data }}>
       {children}
     </EventsFeedContext.Provider>
   );
