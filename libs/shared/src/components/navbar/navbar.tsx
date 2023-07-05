@@ -47,8 +47,8 @@ export function NavbarComponent() {
         fixed="top"
         expanded={expanded}
       >
-        <Container>
-          <Navbar.Brand className={styles['hover']}>
+        <Container className="container-fluid">
+          <Navbar.Brand className={styles['hover']`}>
             <Link to="/">
               <ThemedBurnLogo />
               <span className={`text-light mx-3 ${styles['title-font']}`}>
