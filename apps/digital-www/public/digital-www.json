@@ -1,5 +1,370 @@
 {
-  "art": [],
+  "art": [
+    {
+      "id": "AH1",
+      "type": "honoraria",
+      "artist": "Robert Rhu",
+      "title": "The Story Portal",
+      "description": "The Story Portal aims to make empathy contagious through immersive and interactive storytelling experiences. Storytelling is a fundamental human ritual. The broader Story Portal installation is woven together by a narrative whose central character is Dr. Ezra Marcel. His story is set in a steampunk universe at the turn of the 20th century. The story of is told through exploration of a space full of artifacts and installations; Big Charles is a 16 feet all steel sculpture made from recycled metal objects in the form of a large Robot. Participants control the 20 separate fire effects with a control panel. In Ezra's story, Big C was created by our mad scientist as the dragon slayer to acquire the psychedelic potion he needs to survive. The Hate Maker. Hate Maker is an interactive fire flute with 8 separate poofers and notes. In Ezra's story, The Hate Maker was created in order to signal passing airships in hopes of hailing his rescue. Story Portal is today’s invitation for stories to be voiced, listened to and experienced."
+    },
+    {
+      "id": "AH2",
+      "type": "honoraria",
+      "artist": "Emma Duggan",
+      "title": "Tarna the Jackalope",
+      "description": "Tarna the Jackalope is 26 feet tall, 40 feet long.  Elements of the art car include fire and flame effects. Attached to the jackalope's chest is a geometric welded steel cage heart, which has a quad-cannon pop-gun flame effect. Four separate controlled bursts of flame simulate the heart's beat flowing through clear PVC tubing. The jackalope's antlers emit a low pressure controlled-state propane flame effect. The inside of the art car is an oasis, filled with sensory experiences. Participants will be welcomed inside the Jackalope and experience a space filled with lighting effects and trinkets. The inspiration for this space is the bedroom from the 2004 film Howl's Moving Castle. Tarna the Jackalope is a project inspired by desire to bring magic and lighthearted whimsy back into the world. Tarna is inspired by a love for nature, conservation, and fantasy. "
+    },
+    {
+      "id": "AH3",
+      "type": "honoraria",
+      "artist": "James Kindler",
+      "title": "ORCHIDSTRA",
+      "description": "ORCHIDSTRA is a 3-by-5-foot flower pot with three 8-foot wild orchids with a control panel in front of the flower pot with a display screen explaining how to interact with the piece of art. When you wave your hand over the control panel the orchids will light up and start to play music. the display screen will instruct you to wave your hands around like a conductor. As you wave your hands over the control panel you will be able to control different instruments so you can create your own piece of unique music. "
+    },
+    {
+      "id": "AH4",
+      "type": "honoraria",
+      "artist": "Andrea Framstad",
+      "title": "InGenieous",
+      "description": "InGenieous is a larger than life genie lamp, 25 feet long, 14 feet wide, and 12 feet high. The inside of the panels are lined with many, many LEDs which are programmed to respond to a sensor, activated by hand motions. The sensor is placed on a podium a few feet away where participants can simultaneously activate and view the light display at night. There is also a smoke machine activated by a big red “DO NOT PRESS” button, that blasts out of the spout. Inside the lamp we have volunteers play the genies, and this year faeries, greeting participants when they enter. It is decorated with lush fabrics, carpet, and lots of decorative elements and lighting to embody a mystical vibe. Our faeries will encourage participants to grant wishes for each other and send them on magical quests! "
+    },
+    {
+      "id": "AH5",
+      "type": "honoraria",
+      "artist": "Neil Verplank",
+      "title": "Capn Nemo's Flaming Carnival",
+      "description": "Capn Nemo's Flaming Carnival is a large-scale carnival, with interactive games - and fire! Built of metal and wood, we offer flaming ping pong, fiery skeeball, high striker, Loki the evil bean bag clown, zap the electric ring toss, flaming popcorn and more! We typically occupy about 5,000 square feet, music to set the mood, lights a-plenty, and, of course, lots of fire. "
+    },
+    {
+      "id": "AH6",
+      "type": "honoraria",
+      "artist": "Carlos Vallejo",
+      "title": "Palmas de Fuego",
+      "description": "The Palmas de Fuego art piece is made up of two 12 feet tall palm trees. Each tree is made up of 7 fronds with a pooling flame static effect under each frond. The flames create ambient lighting and warmth, setting the mood for anything from dancing to cuddling. Featuring a rope and pulley system hanging from each of the trees you will get a large whistling fireball with every pull of the rope. Welcome to our humble Oasis!"
+    },
+    {
+      "id": "AH7",
+      "type": "honoraria",
+      "artist": "Heather Jerome Branson",
+      "title": "Star'Splosion",
+      "description": "Star’Splosion is a 7’ tall Supernova of Love and Light can’delabra metal sculpture that displays an array of can’dles each night. This piece was created as a beacon and blessing of Love and Light upon the community. "
+    },
+    {
+      "id": "AH8",
+      "type": "honoraria",
+      "artist": "Sean Hages",
+      "title": "Lakes of Fire Entrance Sign",
+      "description": "The Lakes of Fire Entrance sign is inspired by the Burning Man Principle of “Participation.”  The idea being that in the Garden of Wonder, the participants are the true wonder in the garden. The color palette and imagery are inspired by the state flowers in the Midwest, the Canadian flag, Chicago City Flag, and more."
+    },
+    {
+      "id": "AG1",
+      "type": "grant",
+      "artist": "Kelsey Kovacik",
+      "title": "After A Fire",
+      "description": "Three larger than life mushrooms have sprouted at The Den! With a cap of flowers and flames, they illuminate the path to new dreams “ After a Fire”."
+    },
+    {
+      "id": "AG2",
+      "type": "grant",
+      "artist": "Arden Wyatt",
+      "title": "Aura Portraits",
+      "description": "Get a watercolor portrait of your aura painted! Come and find Arden the aura painter and their magic easel near the lake during the day and sit for a portrait of the beautiful energy flowing around you. With water right from the lake, this portrait will be unique to the event and to you! Is it magic? Is it synesthesia? Who knows! Have fun with it!"
+    },
+    {
+      "id": "AG3",
+      "type": "grant",
+      "artist": "Holly Sprick",
+      "title": "Birds of a Feather Flock Together",
+      "description": "Bird of a feather flock together. Match a variety of birds into flocks, see how the flock changes as people see variety of relationships in colors, patterns, or design."
+    },
+    {
+      "id": "AG4",
+      "type": "grant",
+      "artist": "Boingibuilders",
+      "title": "Boingers in Bloom",
+      "description": "We planted some boingibuds at Lucky Lake in 2022, hoping to have them ready for 2023... and The Boingers have Bloomed!"
+    },
+    {
+      "id": "AG5",
+      "type": "grant",
+      "artist": "Lynn Smith",
+      "title": "Brain Juice Garden",
+      "description": "Where does wonder come from?  Come see the brain juice garden where wonder is cultivated, extracted and collected. "
+    },
+    {
+      "id": "AG6",
+      "type": "grant",
+      "artist": "Ashley Strange",
+      "title": "Burning Wonder Bra",
+      "description": "A celebration of the body in all its wonderful shapes and sizes. This piece invites reflection and interpretation about the role of the human body in art and society."
+    },
+    {
+      "id": "AG7",
+      "type": "grant",
+      "artist": "Jeremy Besemer",
+      "title": "Celestial Guardian",
+      "description": "Come and pay homage to the celestial general. They will protect us from injustice and sage this year at LoF.  DPW bar.  You know the score."
+    },
+    {
+      "id": "AG8",
+      "type": "grant",
+      "artist": "David Sifferd (Big Gay Rude)",
+      "title": "Cogniclaw",
+      "description": "The Cogniclaw is both a vault of treasures and dispenser of wonder. Try your luck at plundering the bounty of this moody machine!"
+    },
+    {
+      "id": "AG9",
+      "type": "grant",
+      "artist": "Robert Kolb (Rocket)",
+      "title": "Creaming Corneas",
+      "description": "Creamed corn might be the answer, let your Corneas, be \"creamed\" in the wonders of Sound, sight, feel, and be \"A-Maize-d\".  Creamy can be dreamy!!"
+    },
+    {
+      "id": "AG10",
+      "type": "grant",
+      "artist": "Dirty Z",
+      "title": "Fae Ring!",
+      "description": "Fae ring is a flaming vine designed to have folks sit around it and chat."
+    },
+    {
+      "id": "AG11",
+      "type": "grant",
+      "artist": "Devon Ras",
+      "title": "Fae's \"Forbidden\" Stage",
+      "description": "To mimick the classic Fairy Circle Lore, the Faes \"Forbidden\" Stage is a 6' × 6' platform surrounded by handcrafted mushrooms that vary in color, size, and lighting effects."
+    },
+    {
+      "id": "AG12",
+      "type": "grant",
+      "artist": "James Villalpando",
+      "title": "Fire Monstera",
+      "description": "Warm up and chill out at the FIRE MONSTERA. Interactive fire and LED art, discussions on plants and permaculture, music and more!"
+    },
+    {
+      "id": "AG13",
+      "type": "grant",
+      "artist": "Miranda Roark ",
+      "title": "Florentem Fluorescens",
+      "description": "Said to bloom only once per millennia, never seen by the human eye, and found only at our very own Lucky Lake is the Florentem Fluorescens. Previously thought to only exist as the subject of Myths and spoken history, the universe has aligned to present us with this precious gift. The emitting light is said to represent healing and therapeutic properties by illuminating the previously dark voids. Bask in the glow of nature’s beauty, share your dreams, conquer your demons, and free yourself from burden. Once the blooms are done, it will be another millennia before they resurface. "
+    },
+    {
+      "id": "AG14",
+      "type": "grant",
+      "artist": "Travis Faber",
+      "title": "Flying Saucy Spaceship",
+      "description": "Come on down to The Flying Saucy to hang out with the sexiest (and perhaps skankiest) space crew known to existence. Check out our party craft, \"Weed\" our garden, burn your fucks, dance, and eat of our Urth meats. "
+    },
+    {
+      "id": "AG15",
+      "type": "grant",
+      "artist": "Liesl Geneva Cone (Dammit)",
+      "title": "Garden of Dreams",
+      "description": "Visit the Garden of Dreams: a relaxing oasis in the land of the wub wubs. Rest amongst a meadow of flower pillows in our gaybeds, listen to the sounds of nature, and reset your senses with a variety of offerings. At night, a variety of lights and projectors will transform the space into a multi-hued land of imagination."
+    },
+    {
+      "id": "AG16",
+      "type": "grant",
+      "artist": "Emily Segal (Segal)",
+      "title": "Garden of Reflections",
+      "description": "Garden Reflections is an interactive art installation for Lakes of Fire 2023 Garden of Wonder theme. Recycled frame pieces that function as flower stems are adorned with mirrored fragments, forming a kaleidoscopic garden. Participants are invited to get close, spin the stems, even lie underneath the flowers and become part of the living art creating their own moments of wonder and self-reflection"
+    },
+    {
+      "id": "AG17",
+      "type": "grant",
+      "artist": "Luka Palooka",
+      "title": "Garden of Wonderful Ramen [YOUTH]",
+      "description": "Master Chef, Luka Palooka will be serving a culinary delight at sunset Thursday and Friday evenings.  9:15-10:30.  Tick Town will include this Garden of Wonderful Ramen where the noodles are plentiful and the chopsticks are yours to keep.  Please enjoy the relaxing environment on the homemade benches by the lake while you slurp away.  There are also ramen filled lily pads floating in the lake if you want to relax while you cool off before or after your treat."
+    },
+    {
+      "id": "AG18",
+      "type": "grant",
+      "artist": "Kathryn Lund (Kat)",
+      "title": "Garden of Zen",
+      "description": "Come and create your Zen in this lifesize, interactive Garden of Zen.  Challenge your Feng Shui skills by arranging the rocks and plants, or enjoy what has been created by those before you.  Leaf behind your worries and your cares."
+    },
+    {
+      "id": "AG19",
+      "type": "grant",
+      "artist": "Kaitlin Slack (Q)",
+      "title": "Gazebo of Wonder",
+      "description": "This exploration into light and color pays homage to the history of this community staple. Revel in a rainbow of reflected light as you ponder the next step on your wondrous adventure."
+    },
+    {
+      "id": "AG20",
+      "type": "grant",
+      "artist": "Science",
+      "title": "Glowing Garden of Listening [YOUTH]",
+      "description": "A glowing garden of recycled materials that changes color when sung to."
+    },
+    {
+      "id": "AG21",
+      "type": "grant",
+      "artist": "Robin Mordini (Eggnog Queen)",
+      "title": "Grooving Forward",
+      "description": "Grooving Forward is a large scale colorful light up path with matching covered tree trucks and binoculars to represent your past, present/immediacy, and future as you walk between the Lake and Quiet camping.  Eggnog Queen makes you SSMMMIIILLLLLEEE!!!!"
+    },
+    {
+      "id": "AG22",
+      "type": "grant",
+      "artist": "",
+      "title": "Growing Love",
+      "description": "This installation encourages the community to build a garden together using mini sculptures split into halves. Find the person with your matching half and unite them to symbolize the love and beauty that grows out of connection."
+    },
+    {
+      "id": "AG23",
+      "type": "grant",
+      "artist": "Mariah Spain and We Don't Need Another Hero",
+      "title": "Hall of Unseele Court",
+      "description": "Amongst this garden of wonder there be a labyrinth way. A hall to the unseelie court, Where queen Mab and her fey play."
+    },
+    {
+      "id": "AG24",
+      "type": "grant",
+      "artist": "Laura Smith ",
+      "title": "HeyU Class LOF Can Scow",
+      "description": "Yarrr, ye wasteful dogs! The scourge of a Scow is up on ye - The L.O.F. Heyu Stopit! Cower in fear and offer a sacrifice of all your Michigan Deposit Cans, or prepare to be raided!"
+    },
+    {
+      "id": "AG25",
+      "type": "grant",
+      "artist": "Kelly Kundrat",
+      "title": "Infinity Garden",
+      "description": "Infinity Gardens is a hexagonal room of infinity mirrors reflecting the mental health stories of a resilient fairy. "
+    },
+    {
+      "id": "AG26",
+      "type": "grant",
+      "artist": "Puppet Parade",
+      "title": "Life-sized Dinosaur Puppet",
+      "description": "A majestic 30-foot-tall brontosaurus parade puppet will walk around the lake at random times each day."
+    },
+    {
+      "id": "AG27",
+      "type": "grant",
+      "artist": "Renzo Tormen (Thanks Daddy) ",
+      "title": "LOF Labryinth",
+      "description": "Lakes of Fire Labyrinth Game - Test your skill by navigating through the traps of previous Lakes of Fire themes, through this vintage game called “Hole Board.”"
+    },
+    {
+      "id": "AG28",
+      "type": "grant",
+      "artist": "Katie Hurst",
+      "title": "Magic Mushroom Fairy Circle",
+      "description": "Seek out the magic fairy circle where you can frolic with the fae, dance under the stars, and experience the GLOWING MUSHROOMS as they light up the night! "
+    },
+    {
+      "id": "AG29",
+      "type": "grant",
+      "artist": "Muchroom City",
+      "title": "Magical Forest",
+      "description": "Come out, come out!  And check out our beautiful light display as you are taking a nice walk through the forest path at night. Open your mind and heal your soul to the sounds of healing frequencies of sound. You should anticipate LED and laser light display as you progress through the path...  And find some surprises along the way. "
+    },
+    {
+      "id": "AG30",
+      "type": "grant",
+      "artist": "Scottish Ninja",
+      "title": "Mobile Blacksmith Shop",
+      "description": "Listen to the ring of steel on the anvil as it echoes across the lake. Stop by the Mobile Blacksmith Shop to watch demonstrations, ask questions and maybe even get a chance to get your hand on a hammer and tongs to pound on some red hot steel."
+    },
+    {
+      "id": "AG31",
+      "type": "grant",
+      "artist": "Rainy Sinclair",
+      "title": "Mycolalia",
+      "description": "All Mycolalia needs is you. All you need is each other. Participants are gently invited to approach the dormant organism and bring it to life through the power of love and friendship and by working together to solve a neat little puzzle (mostly love and friendship though)."
+    },
+    {
+      "id": "AG32",
+      "type": "grant",
+      "artist": "Samamantha Link (Sam)",
+      "title": "Never May the Fruit Be Picked",
+      "description": "A poetree experience: explore a sculptural translation of a poem by the 20-century avant-garde writer Edna St. Vincent Millay."
+    },
+    {
+      "id": "AG33",
+      "type": "grant",
+      "artist": "Veronique (Nikki) Rawetzki",
+      "title": "Pondering Paradise",
+      "description": "A glass interpretation of a garden that can only be seen when the moon pulls the water away. \n"
+    },
+    {
+      "id": "AG34",
+      "type": "grant",
+      "artist": "Havoc",
+      "title": "Portal of Unfolding",
+      "description": "The Portal of Unfolding represents a demarcation from the outer, mundane world into the inner, sacred world.  This piece will invite the participant to move through the portal and embrace their own unfolding in the present moment."
+    },
+    {
+      "id": "AG35",
+      "type": "grant",
+      "artist": "Annie Rose and Snowflake",
+      "title": "Psilo-Luminos",
+      "description": "Psilo-Luminos! is a giant rainbow mushroom garden that will fill you with dazzling wonder and light as you contemplate the secret world of fungi magic!"
+    },
+    {
+      "id": "AG36",
+      "type": "grant",
+      "artist": "Adam Foster",
+      "title": "Royal Trumpets",
+      "description": "Giant kinetic medieval trumpets that shoot fire while they make music!"
+    },
+    {
+      "id": "AG37",
+      "type": "grant",
+      "artist": "Rae Beam and the Green Fairies",
+      "title": "Seed Shrine",
+      "description": "This project is a greenhouse illustrated with a ‘stain glass’ mural to serve as a shrine for the seed library. A safe haven to enter and be encompassed by chromatic light in the day and a beacon to weary travelers by night, this is a sacred space to grow as a community."
+    },
+    {
+      "id": "AG38",
+      "type": "grant",
+      "artist": "Lauren Robinson (Hambone)",
+      "title": "Sideways Potato Rider",
+      "description": "Know how you’ve always wanted to wrap your body around a gigantic rocking potato? Now’s your chance."
+    },
+    {
+      "id": "AG39",
+      "type": "grant",
+      "artist": "Josh Aaron & Just Mal-it Reags",
+      "title": "Studio 40",
+      "description": "Studio 40 is the Back 40’s hottest, most “exclusive” limousine service. Fueled by the funk, this Disco ball on wheels will shuttle those going to and from the Back 40. Tired feet? Feel the beat? Get On & Get Down."
+    },
+    {
+      "id": "AG40",
+      "type": "grant",
+      "artist": "Victoria Primeau",
+      "title": "Tarot Garden",
+      "description": "The Tarot Garden is a whimsical interpretation of the major arcana. Take a tarot reading from what you see as you pass through, or stay a while and enjoy the large hand painted cards."
+    },
+    {
+      "id": "AG41",
+      "type": "grant",
+      "artist": "Robin Mordini (Eggnog Queen)",
+      "title": "Tied",
+      "description": "Camp Heart On and Eggnog QUEEN present an untraditional chapel where friends, lovers, polycules, stuffed animals, new burn friends, your guitar, or anyone who wants to declare their love can laugh and get married in front of a beautifully burning metal heart sculpture!"
+    },
+    {
+      "id": "AG42",
+      "type": "grant",
+      "artist": " Kayla Botelho",
+      "title": "Weighted Heart",
+      "description": "In life, we carry many burdens on our hearts. Often the adversities we face accumulate inside of us. We collect and hold things like shame, fear, and pain. Often to the detriment of our own well-being, and sometimes the well-being of others.  Come and experience the act of letting go. Weighted Heart is an interactive sculpture that allows participants to remove blockages from a magnetized heart. Come and make a conscious decision to remove burdens, so that we can begin to know our own hearts again. "
+    },
+    {
+      "id": "AG43",
+      "type": "grant",
+      "artist": "Sunny Crump (Care Bear)",
+      "title": "What I Wanted to Say...",
+      "description": "Here's your moment to get out what you wanted to say, and it all comes back even better than before. Also a SIGNIFICANT amount of flowers."
+    },
+    {
+      "id": "AG44",
+      "type": "grant",
+      "artist": "Eli Zemper",
+      "title": "You Too Can Raku",
+      "description": "ALL are invited to participate in the ancient art of RAKU (which translates as “fun” and “delightful”)! Come glaze your own ceramic tile which will be fired and taken from the kiln while red hot and put into combustible materials to create AMAZING results!"
+    }
+  ],
   "camps": [
     {
       "id": "TC0",
@@ -793,5 +1158,21 @@
       "site": "76"
     }
   ],
-  "vehicles": []
+  "vehicles": [
+    {
+      "id": "MV1",
+      "title": "Racoon Kart",
+      "description": "Raccoon Kart dragging two shopping karts which people can ride in."
+    },
+    {
+      "id": "MV2",
+      "title": "Tarna the Jackelope",
+      "description": "Steel Jackalope with flaming antlers and heart, glowy clouds, and a top deck dance floor."
+    },
+    {
+      "id": "MV3",
+      "title": "Studio 40",
+      "description": "Studio 40 is the Back 40’s hottest, most “exclusive” limousine service. Fueled by the funk, this Disco ball on wheels will shuttle those going to and from the Back 40. Tired feet? Feel the beat? Get On and Get Down!"
+    }
+  ]
 }

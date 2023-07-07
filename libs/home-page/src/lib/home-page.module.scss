@@ -1,7 +1,24 @@
 .count-up-card {
-  background-size: cover;
-  background-color: rgba(50, 50, 25, 0.75); // Tint color
-  background-blend-mode: multiply;
-  background-position-x: center;
-  background-position-y: center;
+  background: rgba(0, 0, 0, 0);
+  border: 0px;
+}
+
+.quick-link {
+  background-color: rgba(50, 3, 36, 0.5); //320324
+  background-blend-mode: darken;
+  border: 1px solid #fea52b;
+}
+
+.quick-link-title {
+  font-size: 12pt;
+  font-family: 'Trebuchet MS';
+  margin-bottom: 0px;
+}
+
+.quick-link a {
+  color: #fea52b;
+  text-decoration: none;
+  &:hover {
+    color: #fff;
+  }
 }

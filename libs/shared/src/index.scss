@@ -1,1 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@font-face {
+  font-family: 'Hatolie';
+  src: url('/fonts/Hatolie.ttf') format('truetype'),
+    url('/fonts/Hatolie.otf') format('opentype'),
+    url('/fonts/Hatolie.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Black Chancery';
+  src: url('/fonts/BLKCHCRY.TTF') format('truetype'),
+    url('/fonts/BLKCHCRY.otf') format('opentype'),
+    url('/fonts/BLKCHCRY.woff') format('woff'),
+    url('/fonts/BLKCHCRY.woff2') format('woff2');
+}

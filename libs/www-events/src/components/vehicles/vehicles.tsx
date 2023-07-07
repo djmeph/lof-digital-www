@@ -20,12 +20,14 @@ export function VehiclesComponent() {
             className={`my-5 mx-1 ${styles['vehicle-item']}`}
           >
             <Row>
-              <h2 className={`text-secondary ${styles['vehicle-item-name']}`}>
+              <h2 className={`text-white ${styles['vehicle-item-name']}`}>
                 {item.title}
               </h2>
             </Row>
             <Row>
-              <div className={` ${styles['vehicle-item-description']}`}>
+              <div
+                className={`text-white ${styles['vehicle-item-description']}`}
+              >
                 {item.description}
               </div>
             </Row>

@@ -46,8 +46,10 @@ function CustomApp({ Component, pageProps }: AppProps) {
           <FavoritesProvider>
             <HeadComponent />
             <NavbarComponent />
-            <div className={styles['page-buffer']}>
-              <Component {...pageProps} />
+            <div className={`py-5 ${styles['page-buffer']}`}>
+              <div className={styles['page-bg-overlay']}>
+                <Component {...pageProps} />
+              </div>
             </div>
           </FavoritesProvider>
         </TagFilterProvider>

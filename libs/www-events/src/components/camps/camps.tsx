@@ -17,7 +17,9 @@ export function CampsComponent() {
         .map((item) => (
           <Container key={item.id} className="mt-5">
             <Row className="mb-2">
-              <h2 className={`text-secondary ${styles['camp-item-name']}`}>
+              <h2
+                className={`text-white text-center ${styles['camp-item-name']}`}
+              >
                 {item.name}
               </h2>
               <span
@@ -36,7 +38,7 @@ export function CampsComponent() {
               </span>
             </Row>
             <Row className="col-12">
-              <div className={` ${styles['camp-item-description']}`}>
+              <div className={`text-white ${styles['camp-item-description']}`}>
                 {item.description}
               </div>
             </Row>

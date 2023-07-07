@@ -1,3 +1,21 @@
 .page-buffer {
-  padding-top: 76px;
+  padding-top: 3rem;
+  background-image: url('/background/2023-flower-background.png');
+  top: 0;
+  left: 0;
+  //https://stackoverflow.com/questions/18429620/css-background-size-cover-replacement-for-mobile-safari
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-color: #220f22;
+}
+
+.page-bg-overlay {
+  background-image: url('/background/2023-svg-top-curve-01.svg'),
+    url('/background/2023-svg-top-curve-02.svg');
+  background-attachment: fixed, fixed;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto;
+  background-blend-mode: lighten, darken;
+  background-position-y: 2rem, 2rem;
 }
