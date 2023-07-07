@@ -17,7 +17,9 @@ export function ArtComponent() {
         .map((item) => (
           <Container key={item.id} className="my-5 mx-1">
             <Row className="mb-2">
-              <h2 className={`text-secondary ${styles['art-item-name']}`}>
+              <h2
+                className={`text-white text-center ${styles['art-item-name']}`}
+              >
                 {item.title}
               </h2>
               <span
@@ -28,11 +30,11 @@ export function ArtComponent() {
                 {item.type}
               </span>
             </Row>
-            <Row className="col-12">
+            <Row className="col-12 text-white">
               <span>By {item.artist}</span>
             </Row>
             <Row className="col-12">
-              <div className={` ${styles['art-item-description']}`}>
+              <div className={`text-white ${styles['art-item-description']}`}>
                 {item.description}
               </div>
             </Row>
