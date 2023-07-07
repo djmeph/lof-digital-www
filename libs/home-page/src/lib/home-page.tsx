@@ -15,6 +15,52 @@ export function HomePage() {
           Great Lakes Experimental Arts Presents
         </div>
       </Banner>
+      <CardGroup className="col-12 mx-auto my-2 text-center">
+        <Row className="justify-content-center">
+          <Card
+            className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
+          >
+            <Card.Body>
+              <Card.Title>2023 Map</Card.Title>
+            </Card.Body>
+          </Card>
+          <Card
+            className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
+          >
+            <Card.Body>
+              <Card.Title>Survival Guide</Card.Title>
+            </Card.Body>
+          </Card>
+          <Card
+            className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
+          >
+            <Card.Body>
+              <Card.Title>Gate Hours</Card.Title>
+            </Card.Body>
+          </Card>
+          <Card
+            className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
+          >
+            <Card.Body>
+              <Card.Title>Volunteeripate</Card.Title>
+            </Card.Body>
+          </Card>
+          <Card
+            className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
+          >
+            <Card.Body>
+              <Card.Title>Radio SGC</Card.Title>
+            </Card.Body>
+          </Card>
+          <Card
+            className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
+          >
+            <Card.Body>
+              <Card.Title>Code of Conduct</Card.Title>
+            </Card.Body>
+          </Card>
+        </Row>
+      </CardGroup>
       <CardGroup className="col-12 mx-auto my-2 text-center text-warning">
         <Card className={`mx-2 ${styles['count-up-card']}`}>
           <Card.Body>
@@ -131,5 +177,3 @@ export function HomePage() {
     </Container>
   );
 }
-
-export default HomePage;

@@ -112,26 +112,6 @@ export function NavbarComponent() {
                   Vehicles
                 </Button>
               </NavLink>
-              <OutsideLink to="http://lakesoffire.org/the-event/code-of-conduct/">
-                <Button
-                  variant="light"
-                  className={`col-12 ${styles['hover']}`}
-                  onClick={() => setExpanded(false)}
-                >
-                  <FontAwesomeIcon icon={faLink} />
-                  COC
-                </Button>
-              </OutsideLink>
-              <OutsideLink to="http://lakesoffire.org/the-event/survival-guide/">
-                <Button
-                  variant="light"
-                  className={`col-12 ${styles['hover']}`}
-                  onClick={() => setExpanded(false)}
-                >
-                  <FontAwesomeIcon icon={faLink} />
-                  Survival Guide
-                </Button>
-              </OutsideLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

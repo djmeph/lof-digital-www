@@ -2,3 +2,14 @@
   background: rgba(0, 0, 0, 0);
   border: 0px;
 }
+
+.quick-link {
+  background-color: rgba(50, 3, 36, 0.5); //320324
+  background-blend-mode: darken;
+  color: #fea52b;
+  border: 1px solid #fea52b;
+}
+
+.quick-link .card-title {
+  font-size: 6pt;
+}
