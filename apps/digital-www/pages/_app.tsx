@@ -47,7 +47,9 @@ function CustomApp({ Component, pageProps }: AppProps) {
             <HeadComponent />
             <NavbarComponent />
             <div className={styles['page-buffer']}>
-              <Component {...pageProps} />
+              <div className={styles['page-bg-overlay']}>
+                <Component {...pageProps} />
+              </div>
             </div>
           </FavoritesProvider>
         </TagFilterProvider>
