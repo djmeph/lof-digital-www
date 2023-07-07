@@ -48,11 +48,10 @@ export function NavbarComponent() {
         expanded={expanded}
       >
         <Container className="container-fluid">
-          <Navbar.Brand className={styles['hover']`}>
+          <Navbar.Brand className={styles['hover']}>
             <Link to="/">
-              <ThemedBurnLogo />
               <span className={`text-light mx-3 ${styles['title-font']}`}>
-                LAKES IN SPACE
+                Lakes of Fire
               </span>
             </Link>
           </Navbar.Brand>
@@ -113,16 +112,6 @@ export function NavbarComponent() {
                   Vehicles
                 </Button>
               </NavLink>
-              <OutsideLink to="http://lakesoffire.org/the-event/covid-19-policy/">
-                <Button
-                  variant="light"
-                  className={`col-12 ${styles['hover']}`}
-                  onClick={() => setExpanded(false)}
-                >
-                  <FontAwesomeIcon icon={faLink} />
-                  COVID-19 Policy
-                </Button>
-              </OutsideLink>
               <OutsideLink to="http://lakesoffire.org/the-event/code-of-conduct/">
                 <Button
                   variant="light"
@@ -130,7 +119,7 @@ export function NavbarComponent() {
                   onClick={() => setExpanded(false)}
                 >
                   <FontAwesomeIcon icon={faLink} />
-                  Code of Conduct
+                  COC
                 </Button>
               </OutsideLink>
               <OutsideLink to="http://lakesoffire.org/the-event/survival-guide/">

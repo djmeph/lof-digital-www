@@ -12,10 +12,10 @@ export function Banner({ title, children }: BannerProps) {
   return (
     <Container
       fluid
-      className={`text-light text-center py-3 px-3 ${styles['prompt']}`}
+      className={`text-center py-3 px-3 ${styles['banner-prompt']}`}
     >
-      <h1>{title}</h1>
       {children ? <div>{children}</div> : ''}
+      <h1 className={`${styles['banner-header']}`}>{title}</h1>
     </Container>
   );
 }

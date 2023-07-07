@@ -1,14 +1,15 @@
-.prompt {
-  background-image: url('/banner.png');
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-  color: #999;
-  text-shadow: 3px 3px 0 #666, -1px -1px 0 #666, 1px -1px 0 #666,
-    -1px 1px 0 #666, 1px 1px 0 #666;
+.banner-prompt {
+  // font-size: 12pt;
+  font-size: 4vw;
+  font-family: 'Black Chancery';
+}
 
-  font-family: 'Russo One', sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
+.banner-header {
+  // font-size: 24pt;
+  font-size: 12vw;
+  font-family: 'Hatolie', sans-serif;
   letter-spacing: 3px;
+  text-shadow: -0.02em 0px #fe7720;
+  color: #fea52b;
+  -webkit-text-stroke: 1px #f1f3cf;
 }
