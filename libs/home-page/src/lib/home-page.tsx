@@ -176,14 +176,14 @@ export function HomePage() {
             P.M.
           </p>
         </Row>
-        <Row className="mx-2">
+        <Row className="mx-2 pb-10">
           <a
             target="_blank"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScOfYr_3Beox_QRfdoLjvbm7FLqj5ECbQMhjctO_bUgSqYtEg/viewform"
+            href="https://forms.gle/yhiXZPBGxyfmvoL6A"
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Send Feedback
+            Post-Event Survey
           </a>
         </Row>
       </Container>
