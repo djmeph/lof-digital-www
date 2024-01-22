@@ -3,6 +3,7 @@ import { AppProps } from 'next/app';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 import {
   FavoritesProvider,
   HeadComponent,
