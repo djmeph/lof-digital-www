@@ -3,32 +3,36 @@
   "postStartCommand": "yarn",
   "service": "dev",
   "workspaceFolder": "/src",
-  "extensions": [
-    "eamodio.gitlens",
-    "redhat.vscode-yaml",
-    "nrwl.angular-console",
-    "esbenp.prettier-vscode",
-    "firsttris.vscode-jest-runner",
-    "dbaeumer.vscode-eslint",
-    "ms-azuretools.vscode-docker",
-    "nrwl.angular-console",
-    "redhat.vscode-yaml",
-    "stylelint.vscode-stylelint"
-  ],
-  "settings": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.fixAll": true
-    },
-    "eslint.alwaysShowStatus": true,
-    "eslint.useESLintClass": true,
-    "eslint.options": {
-      "overrideConfigFile": ".devcontainer/.eslintrc.json"
-    },
-    "files.insertFinalNewline": true,
-    "telemetry.telemetryLevel": "off",
-    "typescript.tsserver.maxTsServerMemory": 4096
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "redhat.vscode-yaml",
+        "nrwl.angular-console",
+        "esbenp.prettier-vscode",
+        "firsttris.vscode-jest-runner",
+        "dbaeumer.vscode-eslint",
+        "ms-azuretools.vscode-docker",
+        "nrwl.angular-console",
+        "redhat.vscode-yaml",
+        "stylelint.vscode-stylelint"
+      ],
+      "settings": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true
+        },
+        "eslint.alwaysShowStatus": true,
+        "eslint.useESLintClass": true,
+        "eslint.options": {
+          "overrideConfigFile": ".devcontainer/.eslintrc.json"
+        },
+        "files.insertFinalNewline": true,
+        "telemetry.telemetryLevel": "off",
+        "typescript.tsserver.maxTsServerMemory": 4096
+      }
+    }
   }
 }
