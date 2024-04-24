@@ -8,8 +8,9 @@ export const DigitalWwwFeedProvider: FC = ({ children }) => {
   const events = useQuery<DataCoalesce, Error>(
     'jsonFeed',
     async (): Promise<DataCoalesce> => {
-      const res = await fetch('/api/feed');
-      return res.json();
+      const res = await fetch('events.json');
+      const json = (await res.json()) as { coalesce: DataCoalesce };
+      return json.coalesce;
     }
   );
 
