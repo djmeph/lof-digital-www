@@ -1,0 +1,13 @@
+name: Deploy Staging App
+run-name: ${{ gitea.actor }} is deploying the app 🚀
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
