@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y build-essential curl gnupg2 ca-certific
 
 # Node install layer
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
-    apt-get install -y nodejs \
+    apt-get install -y nodejs && \
     npm install -g yarn node-gyp && \
     npm cache clean --force && \
     apt-get clean
