@@ -17,7 +17,7 @@ RUN go install github.com/canonical/chisel/cmd/chisel@latest
 
 FROM installer AS builder
 WORKDIR /staging
-RUN [ "chisel", "cut", "--release", "ubuntu-22.04", \
+RUN [ "/root/go/bin/chisel", "cut", "--release", "ubuntu-22.04", \
     "--root", "/staging/", \
     "bash_bins", \
     "libstdc++6_libs" ]    
