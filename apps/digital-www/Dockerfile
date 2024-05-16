@@ -1,4 +1,4 @@
-ARG UBUNTU_RELEASE=22.04
+ARG UBUNTU_RELEASE=24.04
 FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
 RUN groupadd --system --gid 1001 nodejs && adduser --system --uid 1001 nx
 
