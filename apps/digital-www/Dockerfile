@@ -1,23 +1,23 @@
-ARG UBUNTU_RELEASE=22.04
+ARG UBUNTU_RELEASE=24.04
 FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
-ARG NODE_VERSION
-RUN groupadd --system --gid 1001 nodejs && adduser --system --uid 1001 nx
+RUN groupadd --system --gid 1001 nodejs && useradd --system --uid 1001 nx
 
 # Install apt dependencies
-RUN apt-get update && apt-get install -y python3 make g++ curl gnupg2 ca-certificates xz-utils && apt-get clean 
+RUN apt-get update && apt-get install -y build-essential curl gnupg2 ca-certificates golang && apt-get clean 
 
 # Node install layer
-RUN curl -s -L https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz | tar xJf - -C /usr --strip-components=1 && \
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+    apt-get install -y nodejs && \
     npm install -g yarn node-gyp && \
-    npm cache clean --force
+    npm cache clean --force && \
+    apt-get clean
 
 # Current release v0.9.1 March 14, 2024 includes breaking change to canonical/chisel-releases
-RUN curl -sSfL https://github.com/canonical/chisel/releases/download/v0.9.1/chisel_v0.9.1_linux_amd64.tar.gz | tar xz -C /usr/bin/ chisel    
-
+RUN go install github.com/canonical/chisel/cmd/chisel@latest
 
 FROM installer AS builder
 WORKDIR /staging
-RUN [ "chisel", "cut", "--release", "ubuntu-22.04", \
+RUN [ "/root/go/bin/chisel", "cut", "--release", "ubuntu-22.04", \
     "--root", "/staging/", \
     "bash_bins", \
     "libstdc++6_libs" ]    

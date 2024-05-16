@@ -18,7 +18,7 @@
     "docker-build": {
       "executor": "@nrwl/workspace:run-commands",
       "options": {
-        "command": "docker build -t digital-www ./dist/apps/digital-www --build-arg NODE_VERSION=20.10.0"
+        "command": "docker build -t digital-www ./dist/apps/digital-www"
       }
     },
     "serve": {
