@@ -1,6 +1,6 @@
 ARG UBUNTU_RELEASE=24.04
 FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
-RUN groupadd --system --gid 1001 nodejs && adduser --system --uid 1001 nx
+RUN groupadd --system --gid 1001 nodejs && useradd --system --uid 1001 nx
 
 # Install apt dependencies
 RUN apt-get update && apt-get install -y build-essential curl gnupg2 ca-certificates golang && apt-get clean 
