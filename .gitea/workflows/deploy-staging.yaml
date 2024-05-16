@@ -9,5 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Prepare node_modules
+        shell: bash
+        run: yarn install
