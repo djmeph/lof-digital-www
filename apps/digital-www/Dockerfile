@@ -1,10 +1,10 @@
-# docker buildx build \
+# docker buildx build . \
+#     --file apps/digital-www/Dockerfile \
 #     --tag ghcr.io/djmeph/lof-digital-www \
 #     --push \
 #     --platform linux/arm64,linux/amd64 \
 #     --cache-to type=registry,ref=gitea.djmeph.net/lakes-of-fire/2024-digital-www:buildcache,mode=max \
-#     --cache-from type=registry,ref=gitea.djmeph.net/lakes-of-fire/2024-digital-www:buildcache \
-#     ./dist/apps/digital-www
+#     --cache-from type=registry,ref=gitea.djmeph.net/lakes-of-fire/2024-digital-www:buildcache 
 
 ARG UBUNTU_RELEASE=24.04
 FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
@@ -32,7 +32,7 @@ RUN [ "/root/go/bin/chisel", "cut", "--release", "ubuntu-22.04", \
 
 WORKDIR /src
 # Copy package.json to /src
-COPY package.json ./
+COPY package.json yarn.lock ./
 # Install node modules, cleanup yarn cache
 RUN yarn --prod --frozen-lockfile && yarn cache clean
 
@@ -46,10 +46,7 @@ COPY --from=builder /usr/bin/node /usr/bin/node
 WORKDIR /src
 COPY --from=builder /src .
 
-COPY --chown=nx:nodejs next.config.js ./
-COPY --chown=nx:nodejs public ./public
-COPY --chown=nx:nodejs .next ./.next
-COPY --chown=nx:nodejs package.json ./package.json
+COPY --chown=nx:nodejs dist/apps/digital-www .
 
 ENV PORT ${port}
 EXPOSE ${PORT}

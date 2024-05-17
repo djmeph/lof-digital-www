@@ -54,13 +54,6 @@
       "options": {
         "lintFilePatterns": ["apps/digital-www/**/*.{ts,tsx,js,jsx}"]
       }
-    },
-    "prepare-code": {
-      "executor": "@nrwl/workspace:run-commands",
-      "options": {
-        "command": "cp apps/digital-www/Dockerfile dist/apps/digital-www/"
-      },
-      "outputs": ["dist/apps/digital-www"]
     }
   },
   "tags": []
