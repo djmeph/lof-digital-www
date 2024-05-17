@@ -13,7 +13,7 @@ FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
 RUN groupadd --system --gid 1001 nodejs && useradd --system --uid 1001 nx
 
 # Install apt dependencies
-RUN apt-get update && apt-get install -y build-essential curl gnupg2 ca-certificates golang clang python3 && apt-get clean 
+RUN apt-get update && apt-get install -y build-essential gcc curl gnupg2 ca-certificates golang clang python3 && apt-get clean 
 
 # Node install layer
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
