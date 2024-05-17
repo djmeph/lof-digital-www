@@ -53,4 +53,4 @@ COPY --chown=nx:nodejs dist/apps/digital-www .
 
 ENV PORT ${port}
 EXPOSE ${PORT}
-CMD ["/bin/bash", "-c", "node node_modules/next/dist/bin/next start -p $PORT"]
+CMD ["node", "node_modules/next/dist/bin/next", "start", "-p", "$PORT"]
