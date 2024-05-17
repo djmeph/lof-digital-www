@@ -1,3 +1,11 @@
+# docker buildx build \
+#     --tag ghcr.io/djmeph/lof-digital-www \
+#     --push \
+#     --platform linux/arm64,linux/amd64 \
+#     --cache-to type=registry,ref=gitea.djmeph.net/lakes-of-fire/2024-digital-www:buildcache,mode=max \
+#     --cache-from type=registry,ref=gitea.djmeph.net/lakes-of-fire/2024-digital-www:buildcache \
+#     ./dist/apps/digital-www
+
 ARG UBUNTU_RELEASE=24.04
 FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
 RUN groupadd --system --gid 1001 nodejs && useradd --system --uid 1001 nx
