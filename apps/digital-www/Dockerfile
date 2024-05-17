@@ -45,7 +45,7 @@ ARG port=3000
 COPY --from=builder /staging/ /
 COPY --from=builder /etc/passwd /etc/passwd
 COPY --from=builder /etc/group /etc/group
-COPY --from=builder /usr/bin/node /usr/bin/node
+COPY --from=nodejs /usr/local/bin/node /usr/local/bin/node
 WORKDIR /src
 COPY --from=nodejs /src .
 
