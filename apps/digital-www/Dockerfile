@@ -8,10 +8,12 @@
 
 ARG UBUNTU_RELEASE=24.04
 FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
+
+# Setup rootless user
 RUN groupadd --system --gid 1001 nodejs && useradd --system --uid 1001 nx
 
 # Install apt dependencies
-RUN apt-get update && apt-get install -y build-essential curl gnupg2 ca-certificates golang && apt-get clean 
+RUN apt-get update && apt-get install -y build-essential curl gnupg2 ca-certificates golang clang python3 && apt-get clean 
 
 # Node install layer
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
@@ -24,8 +26,10 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
 RUN go install github.com/canonical/chisel/cmd/chisel@latest
 
 FROM installer AS builder
+ENV npm_config_build_from_source="true"
 WORKDIR /staging
-RUN [ "/root/go/bin/chisel", "cut", "--release", "ubuntu-22.04", \
+
+RUN [ "/root/go/bin/chisel", "cut", "--release", "ubuntu-24.04", \
     "--root", "/staging/", \
     "bash_bins", \
     "libstdc++6_libs" ]    
@@ -35,7 +39,7 @@ WORKDIR /src
 COPY package.json yarn.lock .yarnrc.yml ./
 COPY .yarn .yarn
 # Install node modules, cleanup yarn cache
-RUN yarn workspaces focus --production && yarn cache clean
+RUN yarn workspaces focus --production
 
 FROM scratch
 ARG port=3000
