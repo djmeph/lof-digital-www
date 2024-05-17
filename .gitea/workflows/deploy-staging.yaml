@@ -7,8 +7,8 @@ on:
 
 jobs:
   deploy:
-    env:
-      GIT_TERMINAL_PROMPT: '0'
+    # env:
+    #   GIT_TERMINAL_PROMPT: '0'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
