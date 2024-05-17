@@ -13,7 +13,7 @@ FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
 RUN groupadd --system --gid 1001 nodejs && useradd --system --uid 1001 nx
 
 # Install apt dependencies
-RUN apt-get update && apt-get install -y build-essential golang && apt-get clean 
+RUN apt-get update && apt-get install -y build-essential golang gnupg2 ca-certificates && apt-get clean 
 
 # Current release v0.9.1 March 14, 2024 includes breaking change to canonical/chisel-releases
 RUN go install github.com/canonical/chisel/cmd/chisel@latest
