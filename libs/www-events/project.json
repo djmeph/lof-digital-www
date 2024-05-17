@@ -1,4 +1,5 @@
 {
+  "name": "www-events",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/www-events/src",
   "projectType": "library",
@@ -13,7 +14,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/www-events"],
+      "outputs": ["{workspaceRoot}/coverage/libs/www-events"],
       "options": {
         "jestConfig": "libs/www-events/jest.config.ts",
         "passWithNoTests": true

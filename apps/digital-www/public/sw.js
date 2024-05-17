@@ -1,5 +1,5 @@
 // Use the current commit ID to invalidate the cache (git rev-parse HEAD)
-const cacheName = '6b27fc468f93c2de318c92ae80cc41f832723e75';
+const cacheName = '61cd2bf4ff4c472e6d08c03ffaba1c65ac2946be';
 
 const cacheClone = async (e) => {
   const res = await fetch(e.request);

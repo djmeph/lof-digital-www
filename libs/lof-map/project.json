@@ -1,4 +1,5 @@
 {
+  "name": "lof-map",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/lof-map/src",
   "projectType": "library",
@@ -13,7 +14,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/lof-map"],
+      "outputs": ["{workspaceRoot}/coverage/libs/lof-map"],
       "options": {
         "jestConfig": "libs/lof-map/jest.config.ts",
         "passWithNoTests": true

@@ -1,4 +1,5 @@
 {
+  "name": "home-page",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/home-page/src",
   "projectType": "library",
@@ -13,7 +14,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/home-page"],
+      "outputs": ["{workspaceRoot}/coverage/libs/home-page"],
       "options": {
         "jestConfig": "libs/home-page/jest.config.ts",
         "passWithNoTests": true
