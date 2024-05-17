@@ -32,9 +32,10 @@ RUN [ "/root/go/bin/chisel", "cut", "--release", "ubuntu-22.04", \
 
 WORKDIR /src
 # Copy package.json to /src
-COPY package.json yarn.lock ./
+COPY package.json yarn.lock .yarnrc.yml ./
+COPY .yarn/releases .yarn/releases
 # Install node modules, cleanup yarn cache
-RUN yarn --prod --frozen-lockfile && yarn cache clean
+RUN yarn workspaces focus --production && yarn cache clean
 
 FROM scratch
 ARG port=3000
