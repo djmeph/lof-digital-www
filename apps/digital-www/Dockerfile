@@ -1,10 +1,10 @@
-# docker buildx build . \
+# docker buildx build \
 #     --file apps/digital-www/Dockerfile \
 #     --tag ghcr.io/djmeph/lof-digital-www \
-#     --push \
 #     --platform linux/arm64,linux/amd64 \
-#     --cache-to type=registry,ref=gitea.djmeph.net/lakes-of-fire/2024-digital-www:buildcache,mode=max \
-#     --cache-from type=registry,ref=gitea.djmeph.net/lakes-of-fire/2024-digital-www:buildcache 
+#     --cache-to type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache,mode=max \
+#     --cache-from type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache \
+#     --push .
 
 ARG UBUNTU_RELEASE=24.04
 FROM public.ecr.aws/ubuntu/ubuntu:${UBUNTU_RELEASE}_stable AS installer
