@@ -1,6 +1,7 @@
 FROM ubuntu:22.04
 WORKDIR /src
 ENV DEBIAN_FRONTEND="noninteractive"
+ENV YARN_NODE_LINKER="node-modules"
 
 COPY .bashrc .profile .git-completion /root/
 

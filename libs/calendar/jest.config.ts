@@ -1,5 +1,6 @@
-module.exports = {
-  displayName: 'home-page',
+/* eslint-disable */
+export default {
+  displayName: 'calendar',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +11,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/home-page',
+  coverageDirectory: '../../coverage/libs/calendar',
 };

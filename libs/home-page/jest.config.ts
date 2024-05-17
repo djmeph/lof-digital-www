@@ -1,5 +1,6 @@
-module.exports = {
-  displayName: 'lof-map',
+/* eslint-disable */
+export default {
+  displayName: 'home-page',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +11,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/lof-map',
+  coverageDirectory: '../../coverage/libs/home-page',
 };

@@ -8,5 +8,6 @@
     "lof-map": "libs/lof-map",
     "shared": "libs/shared",
     "www-events": "libs/www-events"
-  }
+  },
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }
