@@ -37,6 +37,7 @@ jobs:
           yarn nx run digital-www:build:production
 
       - name: Build and push
+        id: build
         uses: docker/build-push-action@v5
         with:
           context: .
@@ -48,3 +49,9 @@ jobs:
           cache-from: type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache
           cache-to: type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache,mode=max
           provenance: false
+
+      - uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+        with:
+          args: patch deployment staging-digital-www-2024 -n lof -p '{"spec":{"template":{"spec":{"containers":[{"image":"ghcr.io/djmeph/lof-digital-www:latest@${{ steps.build.outputs.digest }}"}]}}}}'
