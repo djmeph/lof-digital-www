@@ -25,6 +25,12 @@ jobs:
           username: djmeph
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Build app
+        shell: bash
+        run: |
+          yarn install
+          yarn nx run digital-www:build:production
+
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
