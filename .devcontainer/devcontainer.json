@@ -15,7 +15,8 @@
         "ms-azuretools.vscode-docker",
         "nrwl.angular-console",
         "redhat.vscode-yaml",
-        "stylelint.vscode-stylelint"
+        "stylelint.vscode-stylelint",
+        "github.vscode-github-actions"
       ],
       "settings": {
         "editor.tabSize": 2,
