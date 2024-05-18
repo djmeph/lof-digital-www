@@ -1,4 +1,12 @@
-FROM node:20-alpine as nodejs
+# docker buildx build \
+#     --tag ghcr.io/djmeph/lof-digital-www \
+#     --file apps/digital-www/Dockerfile \
+#     --platform linux/arm64,linux/amd64 \
+#     --cache-to type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache,mode=max \
+#     --cache-from type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache \
+#     --push .
+
+FROM node:20-alpine
 ARG port=3000
 WORKDIR /src
 
