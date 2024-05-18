@@ -13,18 +13,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Create Kubeconfig
-        run: |
-          mkdir $HOME/.kube
-          echo "${{ secrets.KUBECONFIG_BUILDX }}" > $HOME/.kube/config
-
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
         with:
-          driver: kubernetes
-          driver-opts: |
-            namespace=lof
-            qemu.install=true
+          qemu: true
 
       - name: Login to Docker Registry
         uses: docker/login-action@v3
