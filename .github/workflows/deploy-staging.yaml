@@ -21,8 +21,8 @@ jobs:
       - name: Login to Docker Registry
         uses: docker/login-action@v3
         with:
-          registry: gitea.djmeph.net
-          username: ghcr.io
+          registry: ghcr.io
+          username: djmeph
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push
