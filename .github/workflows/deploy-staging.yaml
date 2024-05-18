@@ -49,3 +49,4 @@ jobs:
             ghcr.io/djmeph/lof-digital-www
           cache-from: type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache
           cache-to: type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache,mode=max
+          provenance: false
