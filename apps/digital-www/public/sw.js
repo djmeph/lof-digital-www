@@ -1,5 +1,5 @@
 // Use the current commit ID to invalidate the cache (git rev-parse HEAD)
-const cacheName = '730685d';
+const cacheName = 'SERVICE_WORKER_CACHE_ID'; // replaced by commit ID in Github Actions
 
 const cacheClone = async (e) => {
   const res = await fetch(e.request);

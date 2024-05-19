@@ -19,7 +19,7 @@ jobs:
           node-version: '20'
           cache: 'yarn'
           cache-dependency-path: yarn.lock
-          
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
 
@@ -38,6 +38,7 @@ jobs:
         run: |
           yarn install
           yarn nx run digital-www:build:production
+          sed -i 's/SERVICE_WORKER_CACHE_ID/${{ github.sha }}/g' dist/apps/digital-www/public/sw.js
 
       - name: Build and push
         id: build

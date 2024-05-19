@@ -17,7 +17,7 @@ export const DigitalWwwFeedProvider: FC = ({ children }) => {
   const staticFeed = useQuery<MainFeed, Error>(
     'staticFeed',
     async (): Promise<MainFeed> => {
-      const res = await fetch('/digital-www.json');
+      const res = await fetch('/api/feed');
       return res.json();
     }
   );
