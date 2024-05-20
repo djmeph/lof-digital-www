@@ -12,4 +12,4 @@ services:
       - ~/.ssh:/root/.ssh:ro
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
-      - 4200:4200
+      - 0.0.0.0:4200:4200

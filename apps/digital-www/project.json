@@ -38,7 +38,9 @@
         },
         "development": {
           "buildTarget": "digital-www:build:development",
-          "dev": true
+          "dev": true,
+          "port": 4200,
+          "hostname": "0.0.0.0"
         }
       },
       "defaultConfiguration": "development"
