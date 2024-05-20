@@ -10,7 +10,7 @@ import styles from './home-page.module.scss';
 export function HomePage() {
   return (
     <Container fluid className="px-0">
-      <Banner title="Garden of Wonder">
+      <Banner title="Imaginarium Aquarium">
         <div style={{ color: '#F1F3CF' }}>
           Great Lakes Experimental Arts Presents
         </div>
@@ -22,7 +22,7 @@ export function HomePage() {
           >
             <Card.Body>
               <Card.Title className={styles['quick-link-title']}>
-                <Link to="/map">2023 Map</Link>
+                <Link to="/map">2024 Map</Link>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -135,7 +135,7 @@ export function HomePage() {
                 </object>
               </div>
               <div className="text-white">
-                <CountUp end={14} duration={10} separator="," />
+                <CountUp end={15} duration={10} separator="," />
               </div>
             </Card.Title>
             <Card.Text>Years in Existence</Card.Text>
