@@ -54,6 +54,33 @@ jobs:
           cache-to: type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache,mode=max
           provenance: false
 
+      - name: Store build hash as artifact
+        shell: bash
+        run: echo "digest=${{ steps.build.outputs.digest }}" > hash.txt
+
+      - name: Archive build hash
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-hash
+          path: hash.txt
+          retention-days: 90
+
+  deploy:
+    name: Deploy
+    runs-on: arc-runner-set
+    environment: production
+
+    steps:
+      - name: Retrieve build hash
+        uses: actions/download-artifact@v4
+        with:
+          name: build-hash
+
+      - name: Extract build hash to output
+        id: build
+        shell: bash
+        run: cat hash.txt >> $GITHUB_OUTPUT
+
       - name: Deploy to Kubernetes
         uses: actions-hub/kubectl@master
         env:
