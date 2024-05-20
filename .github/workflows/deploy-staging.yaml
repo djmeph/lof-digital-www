@@ -69,6 +69,7 @@ jobs:
     name: Deploy
     runs-on: arc-runner-set
     environment: production
+    needs: [build]
 
     steps:
       - name: Retrieve build hash
