@@ -78,7 +78,7 @@ jobs:
           name: build-hash
 
       - name: Extract build hash to output
-        id: build
+        id: build-hash
         shell: bash
         run: cat hash.txt >> $GITHUB_OUTPUT
 
@@ -87,4 +87,4 @@ jobs:
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         with:
-          args: patch deployment staging-digital-www-2024 -n lof -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"digital-www\",\"image\":\"ghcr.io/djmeph/lof-digital-www:latest@${{ steps.build.outputs.digest }}\"}]}}}}"
+          args: patch deployment staging-digital-www-2024 -n lof -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"digital-www\",\"image\":\"ghcr.io/djmeph/lof-digital-www:latest@${{ steps.build-hash.outputs.digest }}\"}]}}}}"
