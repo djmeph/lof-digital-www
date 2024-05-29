@@ -11,7 +11,7 @@ export function HomePage() {
   return (
     <Container fluid className="px-0">
       <Banner title="Imaginarium Aquarium">
-        <div style={{ color: '#F1F3CF' }}>
+        <div className={`${styles['pre-title']}`}>
           Great Lakes Experimental Arts Presents
         </div>
       </Banner>
