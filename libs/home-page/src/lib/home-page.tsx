@@ -88,9 +88,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faFire} />
               </div>
-              <div className="text-white">
-                <CountUp end={2301} duration={10} separator="," />
-              </div>
+              <CountUp end={2301} duration={10} separator="," />
             </Card.Title>
             <Card.Text className="">Participants</Card.Text>
           </Card.Body>
@@ -101,9 +99,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faTent} />
               </div>
-              <div className="text-white">
-                <CountUp end={112} duration={10} separator="," />
-              </div>
+              <CountUp end={112} duration={10} separator="," />
             </Card.Title>
             <Card.Text>Theme Camps</Card.Text>
           </Card.Body>
@@ -114,9 +110,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faHandshake} />
               </div>
-              <div className="text-white">
-                <CountUp end={2694} duration={10} separator="," />
-              </div>
+              <CountUp end={2694} duration={10} separator="," />
             </Card.Title>
             <Card.Text>Volunteer Shifts</Card.Text>
           </Card.Body>
@@ -134,9 +128,7 @@ export function HomePage() {
                   LOF Logo
                 </object>
               </div>
-              <div className="text-white">
-                <CountUp end={15} duration={10} separator="," />
-              </div>
+              <CountUp end={15} duration={10} separator="," />
             </Card.Title>
             <Card.Text>Years in Existence</Card.Text>
           </Card.Body>

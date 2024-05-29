@@ -1,17 +1,20 @@
 .count-up-card {
   background: rgba(0, 0, 0, 0);
+  color: #ecefc8;
   border: 0px;
+  font-family: 'Copperplate';
 }
 
 .quick-link {
-  background-color: rgba(50, 3, 36, 0.5); //320324
+  background-color: rgba(35, 11, 33, 1); //320324
   background-blend-mode: darken;
-  border: 1px solid #fea52b;
+  opacity: 0.78;
+  border: 1px solid #fed45e;
 }
 
 .quick-link-title {
   font-size: 12pt;
-  font-family: 'Trebuchet MS';
+  font-family: 'Copperplate';
   margin-bottom: 0px;
 }
 
@@ -21,4 +24,8 @@
   &:hover {
     color: #fff;
   }
+}
+
+.lof-logo {
+  color: #ecefc8;
 }
