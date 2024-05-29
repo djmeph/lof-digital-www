@@ -14,7 +14,7 @@ RUN apk add --update python3 make g++ && rm -rf /var/cache/apk/* \
     && npm install -g node-gyp
 
 COPY dist/apps/digital-www/package.json ./
-RUN yarn install
+RUN yarn install --network-timeout 300000
 COPY --chown=node:node dist/apps/digital-www .
 
 USER node
