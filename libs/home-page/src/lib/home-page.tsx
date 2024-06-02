@@ -1,13 +1,16 @@
 import { faFire, faHandshake, faTent } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Container, Row, CardGroup, Card, Button } from 'react-bootstrap';
+import { Container, Row, CardGroup, Card } from 'react-bootstrap';
 import CountUp from 'react-countup';
 
 import { Link, OutsideLink, Banner } from '@lof-digital-www/shared';
+import { useEventsFeedContext } from '@lof-digital-www/www-events';
 
 import styles from './home-page.module.scss';
 
 export function HomePage() {
+  const { camps } = useEventsFeedContext();
+
   return (
     <Container fluid className="px-0">
       <Banner title="Imaginarium Aquarium">
@@ -99,7 +102,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faTent} />
               </div>
-              <CountUp end={0} duration={10} separator="," />
+              <CountUp end={camps.length} duration={10} separator="," />
             </Card.Title>
             <Card.Text>Theme Camps</Card.Text>
           </Card.Body>
