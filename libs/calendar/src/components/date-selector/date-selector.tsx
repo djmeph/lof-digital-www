@@ -3,8 +3,6 @@ import { Tab, Tabs } from 'react-bootstrap';
 
 import { DayOfWeek } from '@lof-digital-www/www-events';
 
-import styles from './date-selector.module.scss';
-
 interface DateSelectorProps {
   day: DayOfWeek;
   route: string;
@@ -17,15 +15,33 @@ export function DateSelectorComponent({ route, day }: DateSelectorProps) {
   };
 
   return (
-    <div className={styles['container']}>
-      <Tabs activeKey={day} onSelect={turnThePage}>
-        <Tab eventKey={DayOfWeek.WEDNESDAY} title={DayOfWeek.WEDNESDAY} />
-        <Tab eventKey={DayOfWeek.THURSDAY} title={DayOfWeek.THURSDAY} />
-        <Tab eventKey={DayOfWeek.FRIDAY} title={DayOfWeek.FRIDAY} />
-        <Tab eventKey={DayOfWeek.SATURDAY} title={DayOfWeek.SATURDAY} />
-        <Tab eventKey={DayOfWeek.SUNDAY} title={DayOfWeek.SUNDAY} />
-      </Tabs>
-    </div>
+    <Tabs activeKey={day} onSelect={turnThePage}>
+      <Tab
+        eventKey={DayOfWeek.WEDNESDAY}
+        title={DayOfWeek.WEDNESDAY}
+        tabClassName={day === DayOfWeek.WEDNESDAY ? 'text-black' : 'text-white'}
+      />
+      <Tab
+        eventKey={DayOfWeek.THURSDAY}
+        title={DayOfWeek.THURSDAY}
+        tabClassName={day === DayOfWeek.THURSDAY ? 'text-black' : 'text-white'}
+      />
+      <Tab
+        eventKey={DayOfWeek.FRIDAY}
+        title={DayOfWeek.FRIDAY}
+        tabClassName={day === DayOfWeek.FRIDAY ? 'text-black' : 'text-white'}
+      />
+      <Tab
+        eventKey={DayOfWeek.SATURDAY}
+        title={DayOfWeek.SATURDAY}
+        tabClassName={day === DayOfWeek.SATURDAY ? 'text-black' : 'text-white'}
+      />
+      <Tab
+        eventKey={DayOfWeek.SUNDAY}
+        title={DayOfWeek.SUNDAY}
+        tabClassName={day === DayOfWeek.SUNDAY ? 'text-black' : 'text-white'}
+      />
+    </Tabs>
   );
 }
 

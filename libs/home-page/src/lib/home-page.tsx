@@ -88,7 +88,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faFire} />
               </div>
-              <CountUp end={2301} duration={10} separator="," />
+              <CountUp end={0} duration={10} separator="," />
             </Card.Title>
             <Card.Text className="">Participants</Card.Text>
           </Card.Body>
@@ -99,7 +99,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faTent} />
               </div>
-              <CountUp end={112} duration={10} separator="," />
+              <CountUp end={0} duration={10} separator="," />
             </Card.Title>
             <Card.Text>Theme Camps</Card.Text>
           </Card.Body>
@@ -110,7 +110,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faHandshake} />
               </div>
-              <CountUp end={2694} duration={10} separator="," />
+              <CountUp end={0} duration={10} separator="," />
             </Card.Title>
             <Card.Text>Volunteer Shifts</Card.Text>
           </Card.Body>
@@ -168,7 +168,7 @@ export function HomePage() {
             P.M.
           </p>
         </Row>
-        <Row className="mx-2 pb-10">
+        {/* <Row className="mx-2 pb-10">
           <a
             target="_blank"
             href="https://forms.gle/yhiXZPBGxyfmvoL6A"
@@ -177,7 +177,7 @@ export function HomePage() {
           >
             Post-Event Survey
           </a>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
