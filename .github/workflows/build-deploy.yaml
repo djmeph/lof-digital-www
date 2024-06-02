@@ -1,4 +1,4 @@
-name: Deploy Staging App
+name: Build and Deploy App
 on:
   push:
     branches:
@@ -65,8 +65,32 @@ jobs:
           path: hash.txt
           retention-days: 90
 
-  deploy:
-    name: Deploy
+  deploy-staging:
+    name: '[STAGING] Deploy'
+    runs-on: arc-runner-set
+    environment: staging
+    needs: [build]
+
+    steps:
+      - name: Retrieve build hash
+        uses: actions/download-artifact@v4
+        with:
+          name: build-hash
+
+      - name: Extract build hash to output
+        id: build-hash
+        shell: bash
+        run: cat hash.txt >> $GITHUB_OUTPUT
+
+      - name: Deploy to Kubernetes
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+        with:
+          args: patch deployment staging-digital-www-2024 -n lof -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"digital-www\",\"image\":\"ghcr.io/djmeph/lof-digital-www:latest@${{ steps.build-hash.outputs.digest }}\"}]}}}}"
+
+  deploy-prod:
+    name: '[PROD] Deploy'
     runs-on: arc-runner-set
     environment: production
     needs: [build]
@@ -87,4 +111,4 @@ jobs:
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         with:
-          args: patch deployment staging-digital-www-2024 -n lof -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"digital-www\",\"image\":\"ghcr.io/djmeph/lof-digital-www:latest@${{ steps.build-hash.outputs.digest }}\"}]}}}}"
+          args: patch deployment prod-digital-www-2024 -n lof -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"digital-www\",\"image\":\"ghcr.io/djmeph/lof-digital-www:latest@${{ steps.build-hash.outputs.digest }}\"}]}}}}"
