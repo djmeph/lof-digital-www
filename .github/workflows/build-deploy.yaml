@@ -112,3 +112,19 @@ jobs:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         with:
           args: patch deployment prod-digital-www-2024 -n lof -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"digital-www\",\"image\":\"ghcr.io/djmeph/lof-digital-www:latest@${{ steps.build-hash.outputs.digest }}\"}]}}}}"
+
+      - name: Wait for deployment patch
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+        with:
+          args: rollout status deployment prod-digital-www-2024 -n lof --timeout 900s
+
+      - name: Invalidate Cloudfront Cache
+        uses: chetan/invalidate-cloudfront-action@v2
+        env:
+          DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
+          PATHS: '/*'
+          AWS_REGION: us-east-1
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
