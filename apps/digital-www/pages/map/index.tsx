@@ -2,10 +2,7 @@ import { LofMap } from '@lof-digital-www/lof-map';
 
 import styles from './index.module.scss';
 
-/* eslint-disable-next-line */
-export interface MapProps {}
-
-export function Map(props: MapProps) {
+export function Map() {
   return (
     <div className={styles['container']}>
       <LofMap />

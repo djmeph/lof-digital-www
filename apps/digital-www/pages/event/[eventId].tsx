@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import { EventsSingleTimeComponent } from '@lof-digital-www/www-events';
 
 interface EventProps {
+  expanded: boolean;
   setExpanded: Dispatch<SetStateAction<boolean>>;
 }
 

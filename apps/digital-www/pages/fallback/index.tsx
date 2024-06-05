@@ -1,9 +1,6 @@
 import styles from './index.module.scss';
 
-/* eslint-disable-next-line */
-export interface FallbackProps {}
-
-export function Fallback(props: FallbackProps) {
+export function Fallback() {
   return (
     <div className={styles['container']}>
       <h1>Welcome to Fallback!</h1>
