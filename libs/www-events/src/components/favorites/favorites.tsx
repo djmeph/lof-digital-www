@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from 'react';
+
 import {
   DateSelectorComponent,
   getEventsByDay,
@@ -13,9 +15,10 @@ import styles from './favorites.module.scss';
 
 export interface FavoritesProps {
   day: DayOfWeek;
+  setExpanded: Dispatch<SetStateAction<boolean>>;
 }
 
-export function FavoritesComponent({ day }: FavoritesProps) {
+export function FavoritesComponent({ day, setExpanded }: FavoritesProps) {
   const data = useEventsFeedContext();
   const { favorites } = useFavoritesContext();
   const savedEvents = getFavorites(data.coalesce, favorites);
@@ -26,9 +29,17 @@ export function FavoritesComponent({ day }: FavoritesProps) {
       <div className="mb-3">
         <Banner title="Favorites" />
       </div>
-      <DateSelectorComponent day={day} route="favorites" />
+      <DateSelectorComponent
+        day={day}
+        route="favorites"
+        setExpanded={setExpanded}
+      />
       {matchingEvents.map((event) => (
-        <SingleEventTime event={event} key={event.event_id} />
+        <SingleEventTime
+          event={event}
+          key={event.event_id}
+          setExpanded={setExpanded}
+        />
       ))}
     </div>
   );

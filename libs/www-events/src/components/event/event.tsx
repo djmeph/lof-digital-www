@@ -1,3 +1,4 @@
+import { Dispatch, SetStateAction } from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 import { Link } from '@lof-digital-www/shared';
@@ -13,13 +14,14 @@ import styles from './event.module.scss';
 /* eslint-disable-next-line */
 export interface EventProps {
   event: WwwEvent;
+  setExpanded: Dispatch<SetStateAction<boolean>>;
 }
 
-export function EventComponent({ event }: EventProps) {
+export function EventComponent({ event, setExpanded }: EventProps) {
   return (
     <div className={styles['container']}>
       <Card className="mb-3">
-        <Link to={`/event/${event.event_id}`}>
+        <Link to={`/event/${event.event_id}`} setExpanded={setExpanded}>
           <Card.Header className={styles['hover']}>
             <h3>{event.title}</h3>
           </Card.Header>

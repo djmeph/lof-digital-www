@@ -1,18 +1,17 @@
-import { faLink } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
+import { Dispatch, SetStateAction } from 'react';
 import { Navbar, Container, Button, Nav } from 'react-bootstrap';
 
 import { Link } from '../link/link';
 import NavLink from '../nav-link/nav-link';
-import { OutsideLink } from '../outside-link/outside-link';
-import { ThemedBurnLogo } from '../themed-burn-logo/themed-burn-logo';
 
 import styles from './navbar.module.scss';
 
-export function NavbarComponent() {
-  const [expanded, setExpanded] = useState(false);
+interface NavbarProps {
+  expanded: boolean;
+  setExpanded: Dispatch<SetStateAction<boolean>>;
+}
 
+export function NavbarComponent({ expanded, setExpanded }: NavbarProps) {
   const today = new Date();
   const month = today.getMonth() + 1;
   const day = today.getDate();
@@ -48,8 +47,8 @@ export function NavbarComponent() {
         expanded={expanded}
       >
         <Container className="container-fluid">
-          <Navbar.Brand className={styles['hover']}>
-            <Link to="/">
+          <Navbar.Brand className={styles['hover']} id="navbar-main">
+            <Link to="/" setExpanded={setExpanded}>
               <span className={`text-light mx-3 ${styles['title-font']}`}>
                 Lakes of Fire
               </span>

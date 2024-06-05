@@ -1,5 +1,5 @@
 import { AppProps } from 'next/app';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,16 +29,21 @@ function CustomApp({ Component, pageProps }: AppProps) {
         .then((registration) => console.log('scope is: ', registration.scope));
     }
   }, []);
+  const [expanded, setExpanded] = useState(false);
   return (
     <QueryClientProvider client={queryClient}>
       <DigitalWwwFeedProvider>
         <TagFilterProvider>
           <FavoritesProvider>
             <HeadComponent />
-            <NavbarComponent />
+            <NavbarComponent expanded={expanded} setExpanded={setExpanded} />
             <div className={`py-5 ${styles['page-buffer']}`}>
               <div className={styles['page-bg-overlay']}>
-                <Component {...pageProps} />
+                <Component
+                  {...pageProps}
+                  expanded={expanded}
+                  setExpanded={setExpanded}
+                />
               </div>
             </div>
           </FavoritesProvider>

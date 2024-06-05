@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from 'react';
+
 import {
   DateSelectorComponent,
   filterEvents,
@@ -17,9 +19,10 @@ import styles from './events-day.module.scss';
 
 export interface EventsDayProps {
   day: DayOfWeek;
+  setExpanded: Dispatch<SetStateAction<boolean>>;
 }
 
-export function EventsDayComponent({ day }: EventsDayProps) {
+export function EventsDayComponent({ day, setExpanded }: EventsDayProps) {
   const data = useEventsFeedContext();
   const { tagFilterState, allDayFilterState } = useTagFilterContext();
   const matchingEvents = getEventsByDay(data.coalesce, day as DayOfWeek);
@@ -35,9 +38,17 @@ export function EventsDayComponent({ day }: EventsDayProps) {
           <TagFilterGroupComponent />
         </Banner>
       </div>
-      <DateSelectorComponent day={day} route="events" />
+      <DateSelectorComponent
+        day={day}
+        route="events"
+        setExpanded={setExpanded}
+      />
       {filteredEvents.map((event) => (
-        <SingleEventTime event={event} key={event.event_id} />
+        <SingleEventTime
+          event={event}
+          key={event.event_id}
+          setExpanded={setExpanded}
+        />
       ))}
     </div>
   );

@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import { Dispatch, SetStateAction } from 'react';
 import { Container } from 'react-bootstrap';
 
 import {
@@ -7,9 +8,12 @@ import {
 } from '@lof-digital-www/calendar';
 import { datesOfWeek, DayOfWeek } from '@lof-digital-www/www-events';
 
-import styles from './index.module.scss';
+interface DayViewProps {
+  expanded: boolean;
+  setExpanded: Dispatch<SetStateAction<boolean>>;
+}
 
-export function DayViewPage() {
+export function DayViewPage({ setExpanded }: DayViewProps) {
   const router = useRouter();
   const { day } = router.query;
   if (typeof day !== 'string') throw Error('Invalid Parameter');
@@ -17,7 +21,11 @@ export function DayViewPage() {
 
   return (
     <Container fluid className="px-0">
-      <DateSelectorComponent day={day as DayOfWeek} route="day-view" />
+      <DateSelectorComponent
+        day={day as DayOfWeek}
+        route="day-view"
+        setExpanded={setExpanded}
+      />
       <DayViewComponent currentDate={currentDate} />
     </Container>
   );
