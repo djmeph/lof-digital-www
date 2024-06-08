@@ -18,8 +18,8 @@ export function Link({ to, children }: LinkProps) {
       className={styles['link']}
       onClick={(e) => {
         e.preventDefault();
-        router.push(to);
-        return setExpanded(false);
+        setExpanded(false);
+        return router.push(to);
       }}
     >
       {children}

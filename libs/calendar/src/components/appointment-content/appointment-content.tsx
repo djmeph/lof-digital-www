@@ -1,6 +1,8 @@
 import { Appointments } from '@devexpress/dx-react-scheduler-material-ui';
 import { useRouter } from 'next/router';
 
+import { useNavbarContext } from 'libs/shared/src/context/navbar';
+
 export function AppointmentContentComponent({
   data,
   durationType,
@@ -11,6 +13,7 @@ export function AppointmentContentComponent({
   children,
 }: Appointments.AppointmentContentProps): JSX.Element {
   const router = useRouter();
+  const { setExpanded } = useNavbarContext();
   return (
     <Appointments.AppointmentContent
       data={data}
@@ -19,7 +22,10 @@ export function AppointmentContentComponent({
       recurringIconComponent={recurringIconComponent}
       resources={resources}
       type={type}
-      onClick={() => router.push(`/event/${data.id}`)}
+      onClick={() => {
+        router.push(`/event/${data.id}`);
+        setExpanded(false);
+      }}
     >
       {children}
     </Appointments.AppointmentContent>
