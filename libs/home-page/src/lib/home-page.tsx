@@ -1,6 +1,5 @@
 import { faFire, faHandshake, faTent } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Dispatch, SetStateAction } from 'react';
 import { Container, Row, CardGroup, Card } from 'react-bootstrap';
 import CountUp from 'react-countup';
 
@@ -9,12 +8,7 @@ import { useEventsFeedContext } from '@lof-digital-www/www-events';
 
 import styles from './home-page.module.scss';
 
-interface HomePageProps {
-  expanded: boolean;
-  setExpanded: Dispatch<SetStateAction<boolean>>;
-}
-
-export function HomePage({ setExpanded }: HomePageProps) {
+export function HomePage() {
   const { camps } = useEventsFeedContext();
 
   return (
@@ -31,9 +25,7 @@ export function HomePage({ setExpanded }: HomePageProps) {
           >
             <Card.Body>
               <Card.Title className={styles['quick-link-title']}>
-                <Link to="/map" setExpanded={setExpanded}>
-                  2024 Map
-                </Link>
+                <Link to="/map">2024 Map</Link>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -53,9 +45,7 @@ export function HomePage({ setExpanded }: HomePageProps) {
           >
             <Card.Body>
               <Card.Title className={styles['quick-link-title']}>
-                <Link to="#gate-hours" setExpanded={setExpanded}>
-                  Gate Hours
-                </Link>
+                <Link to="#gate-hours">Gate Hours</Link>
               </Card.Title>
             </Card.Body>
           </Card>

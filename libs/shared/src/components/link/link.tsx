@@ -1,16 +1,17 @@
 import { useRouter } from 'next/router';
-import { Dispatch, SetStateAction } from 'react';
+
+import { useNavbarContext } from '../../context/navbar';
 
 import styles from './link.module.scss';
 
 export interface LinkProps {
   to: string;
   children: React.ReactNode;
-  setExpanded: Dispatch<SetStateAction<boolean>>;
 }
 
-export function Link({ to, children, setExpanded }: LinkProps) {
+export function Link({ to, children }: LinkProps) {
   const router = useRouter();
+  const { setExpanded } = useNavbarContext();
   return (
     <a
       href={to}

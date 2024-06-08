@@ -1,21 +1,17 @@
-import { Dispatch, SetStateAction } from 'react';
 import { Navbar, Container, Button, Nav } from 'react-bootstrap';
 
+import { useNavbarContext } from '../../context/navbar';
 import { Link } from '../link/link';
 import NavLink from '../nav-link/nav-link';
 
 import styles from './navbar.module.scss';
 
-interface NavbarProps {
-  expanded: boolean;
-  setExpanded: Dispatch<SetStateAction<boolean>>;
-}
-
-export function NavbarComponent({ expanded, setExpanded }: NavbarProps) {
+export function NavbarComponent() {
   const today = new Date();
   const month = today.getMonth() + 1;
   const day = today.getDate();
   let weekday = 'Wednesday';
+  const { expanded, setExpanded } = useNavbarContext();
 
   if (month === 6) {
     switch (day) {
@@ -48,7 +44,7 @@ export function NavbarComponent({ expanded, setExpanded }: NavbarProps) {
       >
         <Container className="container-fluid">
           <Navbar.Brand className={styles['hover']} id="navbar-main">
-            <Link to="/" setExpanded={setExpanded}>
+            <Link to="/">
               <span className={`text-light mx-3 ${styles['title-font']}`}>
                 Lakes of Fire
               </span>

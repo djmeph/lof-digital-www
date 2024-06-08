@@ -1,22 +1,19 @@
 import { useRouter } from 'next/router';
-import { Dispatch, SetStateAction, useRef } from 'react';
+import { useRef } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 
 import { DayOfWeek } from '@lof-digital-www/www-events';
+import { useNavbarContext } from 'libs/shared/src/context/navbar';
 
 interface DateSelectorProps {
   day: DayOfWeek;
   route: string;
-  setExpanded: Dispatch<SetStateAction<boolean>>;
 }
 
-export function DateSelectorComponent({
-  route,
-  day,
-  setExpanded,
-}: DateSelectorProps) {
+export function DateSelectorComponent({ route, day }: DateSelectorProps) {
   const router = useRouter();
   const ref = useRef<HTMLInputElement>(null);
+  const { setExpanded } = useNavbarContext();
   const turnThePage = async (day: string | null) => {
     await router.push(`/${route}/${day}`);
     setExpanded(false);

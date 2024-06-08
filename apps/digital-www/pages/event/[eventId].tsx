@@ -1,21 +1,15 @@
 import { useRouter } from 'next/router';
-import { Dispatch, SetStateAction } from 'react';
 import { Container } from 'react-bootstrap';
 
 import { EventsSingleTimeComponent } from '@lof-digital-www/www-events';
 
-interface EventProps {
-  expanded: boolean;
-  setExpanded: Dispatch<SetStateAction<boolean>>;
-}
-
-export function Event({ setExpanded }: EventProps) {
+export function Event() {
   const router = useRouter();
   const { eventId } = router.query;
 
   return (
     <Container fluid className="px-0">
-      <EventsSingleTimeComponent eventId={eventId} setExpanded={setExpanded} />
+      <EventsSingleTimeComponent eventId={eventId} />
     </Container>
   );
 }
