@@ -23,7 +23,7 @@ export function NavbarComponent() {
     };
   });
 
-  if (month === 6) {
+  if (month === 7) {
     switch (day) {
       case 15:
         weekday = 'Wednesday';
