@@ -25,19 +25,19 @@ export function NavbarComponent() {
 
   if (month === 7) {
     switch (day) {
-      case 15:
+      case 17:
         weekday = 'Wednesday';
         break;
-      case 16:
+      case 18:
         weekday = 'Thursday';
         break;
-      case 17:
+      case 19:
         weekday = 'Friday';
         break;
-      case 18:
+      case 20:
         weekday = 'Saturday';
         break;
-      case 19:
+      case 21:
         weekday = 'Sunday';
         break;
     }
