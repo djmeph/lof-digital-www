@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Navbar, Container, Button, Nav } from 'react-bootstrap';
 
 import { useNavbarContext } from '../../context/navbar';
@@ -12,6 +13,15 @@ export function NavbarComponent() {
   const day = today.getDate();
   let weekday = 'Wednesday';
   const { expanded, setExpanded } = useNavbarContext();
+
+  const updateOrientation = () => setExpanded(false);
+
+  useEffect(() => {
+    window.addEventListener('orientationchange', updateOrientation);
+    return () => {
+      window.removeEventListener('orientationchange', updateOrientation);
+    };
+  });
 
   if (month === 6) {
     switch (day) {
