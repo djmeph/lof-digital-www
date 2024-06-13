@@ -2,9 +2,6 @@ import { Nav } from 'react-bootstrap';
 
 import { useNavbarContext } from '../../context/navbar';
 
-import styles from './outside-link.module.scss';
-
-/* eslint-disable-next-line */
 export interface OutsideLinkProps {
   to: string;
   children: React.ReactNode;
