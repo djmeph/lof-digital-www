@@ -23,64 +23,68 @@ export function HomePage() {
           <Card
             className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
           >
-            <Card.Body>
-              <Card.Title className={styles['quick-link-title']}>
-                <Link to="/map">2024 Map</Link>
-              </Card.Title>
-            </Card.Body>
+            <Link to="/map">
+              <Card.Body>
+                <Card.Title className={styles['quick-link-title']}>
+                  2024 Map
+                </Card.Title>
+              </Card.Body>
+            </Link>
           </Card>
           <Card
             className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
           >
-            <Card.Body>
-              <Card.Title className={styles['quick-link-title']}>
-                <OutsideLink to="http://lakesoffire.org/the-event/survival-guide">
+            <OutsideLink to="http://lakesoffire.org/the-event/survival-guide">
+              <Card.Body>
+                <Card.Title className={styles['quick-link-title']}>
                   Survival Guide
-                </OutsideLink>
-              </Card.Title>
-            </Card.Body>
+                </Card.Title>
+              </Card.Body>
+            </OutsideLink>
           </Card>
           <Card
             className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
           >
-            <Card.Body>
-              <Card.Title className={styles['quick-link-title']}>
-                <Link to="#gate-hours">Gate Hours</Link>
-              </Card.Title>
-            </Card.Body>
+            <Link to="#gate-hours">
+              <Card.Body>
+                <Card.Title className={styles['quick-link-title']}>
+                  Gate Hours
+                </Card.Title>
+              </Card.Body>
+            </Link>
           </Card>
           <Card
             className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
           >
-            <Card.Body>
-              <Card.Title className={styles['quick-link-title']}>
-                <OutsideLink to="https://volunteer.lakesoffire.org">
+            <OutsideLink to="https://volunteer.lakesoffire.org">
+              <Card.Body>
+                <Card.Title className={styles['quick-link-title']}>
                   Volunteeripate
-                </OutsideLink>
-              </Card.Title>
-            </Card.Body>
+                </Card.Title>
+              </Card.Body>
+            </OutsideLink>
           </Card>
           <Card
             className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
           >
-            <Card.Body>
-              <Card.Title className={styles['quick-link-title']}>
-                <OutsideLink to="https://shoutingfire.com/">
+            <OutsideLink to="https://shoutingfire.com/">
+              <Card.Body>
+                <Card.Title className={styles['quick-link-title']}>
                   Shouting Fire
-                </OutsideLink>
-              </Card.Title>
-            </Card.Body>
+                </Card.Title>
+              </Card.Body>
+            </OutsideLink>
           </Card>
           <Card
             className={`col-xs-12 col-sm-4 col-lg-3 mx-1 my-1 align-middle ${styles['quick-link']}`}
           >
-            <Card.Body>
-              <Card.Title className={styles['quick-link-title']}>
-                <OutsideLink to="http://lakesoffire.org/code-of-conduct">
+            <OutsideLink to="http://lakesoffire.org/code-of-conduct">
+              <Card.Body>
+                <Card.Title className={styles['quick-link-title']}>
                   Code of Conduct
-                </OutsideLink>
-              </Card.Title>
-            </Card.Body>
+                </Card.Title>
+              </Card.Body>{' '}
+            </OutsideLink>
           </Card>
         </Row>
       </CardGroup>

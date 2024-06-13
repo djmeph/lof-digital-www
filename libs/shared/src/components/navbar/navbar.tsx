@@ -23,6 +23,9 @@ export function NavbarComponent() {
     };
   });
 
+  /**
+   * Remember to update these dates every year
+   */
   if (month === 7) {
     switch (day) {
       case 17:
