@@ -6,6 +6,7 @@ export const EventsFeedContext = createContext<MainFeed>({
   coalesce: [],
   art: [],
   vehicles: [],
+  radio: [],
   camps: [],
 });
 
