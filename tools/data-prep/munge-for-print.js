@@ -142,11 +142,11 @@ var main = async () => {
         evt_title: evt.title,
         evt_hosting_location: evt.hosting_location,
         evt_description: evt.event_description.replaceAll(/[\r\n \t]+/g, ' '),
-        tag_alcohol: evt.alcohol ? tagPath + 'tag_alcohol.svg' : '',
+        tag_alcohol: evt.alcohol ? tagPath + 'tag_alcohol.png' : '',
         tag_all_day:
           evt.event_times.filter((time) => time.all_day).length ==
           evt.event_times.length
-            ? tagPath + 'tag_all_day.svg'
+            ? tagPath + 'tag_all_day.png'
             : '',
         tag_crafting: evt.crafting ? tagPath + 'tag_crafting.png' : '',
         tag_fire_art: evt.fire_art ? tagPath + 'tag_fire_art.png' : '',
@@ -176,24 +176,48 @@ var main = async () => {
         const start = new Date(event_time.starting);
         let sched_start_human =
           '' +
-          (start.getHours() % 12) +
+          (start.getHours() > 12 ? start.getHours() - 12 : start.getHours()) +
+          ':' +
+          (start.getMinutes() < 10
+            ? '0' + start.getMinutes()
+            : start.getMinutes()) +
           ' ' +
-          (start.getHours() % 12 < start.getHours() ? 'PM' : 'AM');
-        sched_start_human =
-          sched_start_human == '0 AM' ? 'Midnight' : sched_start_human;
+          (start.getHours() + 1 > 12 ? 'PM' : 'AM');
+
+        if (sched_start_human == '0:00 AM') {
+          sched_start_human = 'Midnight';
+        }
 
         // Calculate the end message
         const end = new Date(event_time.ending);
+        //let sched_end_human =
+        //  '' +
+        //  (end.getHours() % 12) +
+        //  ' ' +
+        //  (end.getHours() % 12 < end.getHours() ? 'PM' : 'AM');
+        //sched_end_human =
+        //  sched_end_human == '0 AM' ? 'Midnight' : sched_end_human;
         let sched_end_human =
           '' +
-          (end.getHours() % 12) +
+          (end.getHours() > 12 ? end.getHours() - 12 : end.getHours()) +
+          ':' +
+          (end.getMinutes() < 10 ? '0' + end.getMinutes() : end.getMinutes()) +
           ' ' +
-          (end.getHours() % 12 < end.getHours() ? 'PM' : 'AM');
-        sched_end_human =
-          sched_end_human == '0 AM' ? 'Midnight' : sched_end_human;
+          (end.getHours() + 1 > 12 ? 'PM' : 'AM');
+
+        if (sched_end_human == '0:00 AM') {
+          sched_end_human = 'Midnight';
+        }
 
         // Calculate the duration and handle all-day events
         let sched_duration = (end - start) / 1000 / 60 / 60;
+
+        if (sched_duration % 1 > 0) {
+          sched_duration = sched_duration.toFixed(1);
+        } else {
+          sched_duration = Math.round(sched_duration);
+        }
+
         if (event_time.all_day) {
           sched_start_human = 'All day';
           sched_end_human = '';
@@ -211,8 +235,8 @@ var main = async () => {
           sched_start_dt: new Date(event_time.starting),
           sched_start_human: sched_start_human,
           site: evt.site_id == null ? '' : `Site ${evt.site_id}`,
-          tag_alcohol: evt.alcohol ? tagPath + 'tag_alcohol.svg' : '',
-          tag_all_day: event_time.all_day ? tagPath + 'tag_all_day.svg' : '',
+          tag_alcohol: evt.alcohol ? tagPath + 'tag_alcohol.png' : '',
+          tag_all_day: event_time.all_day ? tagPath + 'tag_all_day.png' : '',
           tag_crafting: evt.crafting ? tagPath + 'tag_crafting.png' : '',
           tag_fire_art: evt.fire_art ? tagPath + 'tag_fire_art.png' : '',
           tag_food: evt.food ? tagPath + 'tag_food.png' : '',
@@ -224,8 +248,19 @@ var main = async () => {
       });
     })
     .sort((a, b) => {
-      return a.sched_start_dt - b.sched_start_dt;
-    });
+      // Sort first by date, then by "all day", last by time
+      return (
+        a.sched_start_dt.getDate() - b.sched_start_dt.getDate() ||
+        (a.tag_all_day.length ? 0 : 1) - (b.tag_all_day.length ? 0 : 1) ||
+        a.sched_start_dt - b.sched_start_dt
+      );
+      //return a.sched_start_dt - b.sched_start_dt;
+    })
+    // Exclude all-day Sunday events because there is no such thing!
+    .filter(
+      (event_time) =>
+        event_time.sched_day_of_week != 'Sunday' || !event_time.all_day
+    );
 
   writeFileSync(
     outPath.replace('tpl', 'schedule'),

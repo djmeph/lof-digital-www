@@ -95,7 +95,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faFire} />
               </div>
-              <CountUp end={0} duration={10} separator="," />
+              <CountUp end={2323} duration={10} separator="," />
             </Card.Title>
             <Card.Text className="">Participants</Card.Text>
           </Card.Body>
@@ -117,7 +117,7 @@ export function HomePage() {
               <div className="py-3 text-center">
                 <FontAwesomeIcon size="3x" icon={faHandshake} />
               </div>
-              <CountUp end={0} duration={10} separator="," />
+              <CountUp end={3034} duration={10} separator="," />
             </Card.Title>
             <Card.Text>Volunteer Shifts</Card.Text>
           </Card.Body>
