@@ -1,0 +1,415 @@
+[
+  {
+    "id": "SGC1",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 12:00 PM",
+    "radio_dj_name": "Radio Chaos!",
+    "radio_description": "Kicking off RadioSGC with Radio Chaos, where no sounds are out of bounds! All styles and genre of music will be represented in order to welcome campers to the lake."
+  },
+  {
+    "id": "SGC2",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 4:00 PM",
+    "radio_dj_name": "The Doctor is In (Concert)! w/ Dr. Kramer",
+    "radio_description": "Songs recorded before a live audience. Just the prescription you need to get your burn started."
+  },
+  {
+    "id": "SGC3",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 5:00 PM",
+    "radio_dj_name": "Siren Songs from Sand & Sea with DJ Snax",
+    "radio_description": "Songs of longing, loving and losing, songs of...hunger??"
+  },
+  {
+    "id": "SGC4",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 6:00 PM",
+    "radio_dj_name": "Very K's Body BS with B, B, & B",
+    "radio_description": "The artists of Bubbles, Bodies, & Barriers want to know what bullshit your body's been up to. Call ins, call outs, and tunes on the theme of existing in these poorly designed meat suits."
+  },
+  {
+    "id": "SGC5",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 7:00 PM",
+    "radio_dj_name": "Bittersweet Bliss with DJ Fluffy Buns",
+    "radio_description": "Playing music from my carefully curated Bittersweet playlist. Talking and interacting with participants about the bittersweetness of default world life and burning man culture."
+  },
+  {
+    "id": "SGC6",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 8:00 PM",
+    "radio_dj_name": "The Queens Gambit",
+    "radio_description": "An eclectic collection of songs to make you laugh, cry, dance and sing.  Buckle up, it's gonna be a wild ride!"
+  },
+  {
+    "id": "SGC7",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 9:00 PM",
+    "radio_dj_name": "Siren's Hour of Succulent Song & Tete-e-tetes",
+    "radio_description": "Permaculture & plant content/conversations featuring some TBA plant sluts & green fairies. Some ASMR content for a couple chill & calming moments with curated song selections to complement."
+  },
+  {
+    "id": "SGC8",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 10:00 PM",
+    "radio_dj_name": "Whirlwind's Rage & Redemption",
+    "radio_description": "Feel the heat of a raging Whirlwind, then cool down with the sweet sounds of redemption."
+  },
+  {
+    "id": "SGC9",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-17 11:00 PM",
+    "radio_dj_name": "Character Actress Margo Martindale's Mmmmbop-it",
+    "radio_description": "A solid set of songs that make you go, \"oh yeah I remember this!\". NOT full of top 40/singles, but Top 41-80 and B sides... plus just some rarely heard dope songs."
+  },
+  {
+    "id": "SGC10",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-18 12:00 AM",
+    "radio_dj_name": "Liquid Lounge w/ Spectre",
+    "radio_description": "Get wet with a chill drum and bass session."
+  },
+  {
+    "id": "SGC11",
+    "radio_day": "Wednesday",
+    "radio_time": "2024-07-18 2:00 AM",
+    "radio_dj_name": "Captain Zesty's Inside The Phishbowl",
+    "radio_description": "No matter if you are preparing for departure or descending towards re-entry, Captain Zesty is at the helm to guide your late night swim."
+  },
+  {
+    "id": "SGC12",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 6:00 AM",
+    "radio_dj_name": "Early Morning Ocean w/Jam",
+    "radio_description": "One hour of more ambient, calm ocean music & one hour of gentle songs about water."
+  },
+  {
+    "id": "SGC13",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 8:00 AM",
+    "radio_dj_name": "Dukebox Radio or: How I Learned to Stop Worrying & Love the Lake (Vol. 5)",
+    "radio_description": "Mostly music, some talking. Originally inspired by fictional radio station KHBR 570 AM's \"Chris In The Morning\" show (\"Northern Exposure\"), vol 5 is curated for aquatic theme and/or feels."
+  },
+  {
+    "id": "SGC14",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 10:00 AM",
+    "radio_dj_name": "Subtle & Molly's We Are All Space Jamz",
+    "radio_description": "We will start firmly referencing the 1996 classic Space Jam (not the recent money grab), and then launch people into their Burner day with funky beats, booty shaking romps, and feel good anthems. Let's GOOOOO!!!!"
+  },
+  {
+    "id": "SGC15",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 12:00 PM",
+    "radio_dj_name": "Jellyfish Orphanarium Adoption Event",
+    "radio_description": "Help give or find a home for these rare and beautiful Jellyfish in need of love.  An invasive species, these Jellies cannot be released into the wild, and frankly, they'd rather be hanging around with you!"
+  },
+  {
+    "id": "SGC16",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 1:00 PM",
+    "radio_dj_name": "Faerymama's Under Water Boogie",
+    "radio_description": "A weirdly wonderful eclectic collection of watery melodies to spark the imagination."
+  },
+  {
+    "id": "SGC17",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 2:00 PM",
+    "radio_dj_name": "Guacamole Radio feat. DJ Uno",
+    "radio_description": "Open Format (brought to you by San Escobar)"
+  },
+  {
+    "id": "SGC18",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 4:00 PM",
+    "radio_dj_name": "WKUB the CUBE! With Con_bot",
+    "radio_description": "Time to self indulge & play songs I otherwise wouldn't. Songs that mean everything to me, give me chills, make me cry or laugh. Plus radio show stingers/sound effects like I'm a real radio DJ!"
+  },
+  {
+    "id": "SGC19",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 5:00 PM",
+    "radio_dj_name": "Punk Rock Girls on Fire",
+    "radio_description": "If you like a little mosh-pit action, come bang your head with us as we salute more bands who have made Chicago's RiotFest suck for nearly 20 years."
+  },
+  {
+    "id": "SGC20",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 7:00 PM",
+    "radio_dj_name": "Kelly Bells & Familiar Face Off",
+    "radio_description": "We have curated a list of Song categories and will be surprising each other with our selections"
+  },
+  {
+    "id": "SGC21",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-18 9:00 PM",
+    "radio_dj_name": "BenmeR & Whirlwind's \"Under the Covers\" Game Show",
+    "radio_description": "This power duo returns to bring their default world radio game show to your earballs in a live performance/competition that will make your fins flutter! Guess the original artist of the cover song, win the points, repeat, and take the crown!"
+  },
+  {
+    "id": "SGC22",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-19 12:00 AM",
+    "radio_dj_name": "Dragon Daddy's Journey Into Sound",
+    "radio_description": "Dance to Dragon Daddy's deliberately, delectable, and definitely delirious, hard-banging ditties! Now say that 5 times fast. On acid."
+  },
+  {
+    "id": "SGC23",
+    "radio_day": "Thursday",
+    "radio_time": "2024-07-19 2:00 AM",
+    "radio_dj_name": "Captain Zesty's Inside The Phishbowl",
+    "radio_description": "Swim with the Phishes as your Captian takes you on an evening voyage."
+  },
+  {
+    "id": "SGC24",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 5:00 AM",
+    "radio_dj_name": "EEDM and \"Up All Night or Freshly Risen\"",
+    "radio_description": "Early Electronic Music that will definitely devolve into sea shanties.  Join me in the early morning & sit on my panel of judges for our game show!"
+  },
+  {
+    "id": "SGC25",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 8:00 AM",
+    "radio_dj_name": "Sunrise Sea Surprise",
+    "radio_description": "Something special surfaces from the deep."
+  },
+  {
+    "id": "SGC26",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 9:00 AM",
+    "radio_dj_name": "Aotearoa Radio w/ Nillabear McHuggles",
+    "radio_description": "A musical taste from down under. Pfff, not Australia but the cool country down under... Aotearoa New Zealand! The best Dub, R&B, Reggae, funk and more from New Zealand's best artists."
+  },
+  {
+    "id": "SGC27",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 10:00 AM",
+    "radio_dj_name": "Sassy's Roller Disco Show",
+    "radio_description": "Roller Disco hits from the 70's"
+  },
+  {
+    "id": "SGC28",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 11:00 AM",
+    "radio_dj_name": "Kilovolt's Up With Arpeggios!",
+    "radio_description": "All about music with arpeggios."
+  },
+  {
+    "id": "SGC29",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 12:00 PM",
+    "radio_dj_name": "Tender Tunes with Evo",
+    "radio_description": "Atmospheric tunes of empowerment and pep! Enjoy a little mind break and give your brain a chance to recoup."
+  },
+  {
+    "id": "SGC30",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 1:00 PM",
+    "radio_dj_name": "Jinxed Jellyfish Discotechno & Costumes Show",
+    "radio_description": "Bobbi Bangz & Lunalijah bring their Jinxed Jellyfish Traveling Discotechno & Costume Camp to the SGC radio booth, for a set of funky, sunken, sonic treasures. Come by, say hi, dance to our beats, and peruse our portable closet for (gently) cursed costumes. Burner beware: no returns!"
+  },
+  {
+    "id": "SGC31",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 2:00 PM",
+    "radio_dj_name": "Mondo Trasho: Queering Up The Lake",
+    "radio_description": "Reba Rar Rar and their trusty Bong Boy will be Queering Up The Lake this year with an hour long gay orgy for your ears. Stop by our pop up Redneck Riviera to shake that sand out of yer junk, swimsuits optional."
+  },
+  {
+    "id": "SGC32",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 3:00 PM",
+    "radio_dj_name": "Bee-tane Honey Hour w/ Leadfoot Moses",
+    "radio_description": "What's the buzz? Probably us. If you're new to pollination appreciation, stretch your antennae or comb on over and hive a listen to this multi-genre edutaining dance mix. Nonverbal communication, folk dance, and our role in our macro-organism, the aquarium of earth's gravity well are showcased as inexorable qualities of what it means to Bee."
+  },
+  {
+    "id": "SGC33",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 4:00 PM",
+    "radio_dj_name": "Put On Your Fez and Smoking Jacket",
+    "radio_description": "Moog, Exotica, Lounge, Italian Erotica Soundtracks, anything to get you to take off your clothes and slip into something more comfortable. This is music for lovers only, so share a cigarette and a cocktail and get in the mood!"
+  },
+  {
+    "id": "SGC34",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 5:00 PM",
+    "radio_dj_name": "Seersucker M.C.'s",
+    "radio_description": "Old school hip hop and some surprises."
+  },
+  {
+    "id": "SGC35",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 6:00 PM",
+    "radio_dj_name": "Dudebacca's Dustbin",
+    "radio_description": "Music is a drug...and I'm a straight up pusher."
+  },
+  {
+    "id": "SGC36",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 7:00 PM",
+    "radio_dj_name": "If Grimes can do it, so can I",
+    "radio_description": "... said Whirlwind as she began her Ableton DJing journey. (Her 1st Live DJ Set!)"
+  },
+  {
+    "id": "SGC37",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 8:00 PM",
+    "radio_dj_name": "ADHD House w/ Archangel",
+    "radio_description": "I play funk hip hop all with the EDM background"
+  },
+  {
+    "id": "SGC38",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-19 10:00 PM",
+    "radio_dj_name": "DJ Angel, The Reverie Hour",
+    "radio_description": "200 handpicked (my favorite) deep house, house, edm style tracks and more."
+  },
+  {
+    "id": "SGC39",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-20 12:00 AM",
+    "radio_dj_name": "Deep Sea Dusk",
+    "radio_description": "A special set curated for your seaworthy senses."
+  },
+  {
+    "id": "SGC40",
+    "radio_day": "Friday",
+    "radio_time": "2024-07-20 2:00 AM",
+    "radio_dj_name": "Captain Zesty's Inside The Phishbowl",
+    "radio_description": "More live tunes from your Phishy friends."
+  },
+  {
+    "id": "SGC41",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 5:00 AM",
+    "radio_dj_name": "Night Dawg's Radio Snack Shack Attack",
+    "radio_description": "DJ Night Dawg is a through the waves schmoozer spinning the tracks to let you know 'He can't do it without you, darlin'. He loves snacks, is known to create odes to snacks, and encourages passerbyers of the station to come hang out, hydrate, & eat snacks."
+  },
+  {
+    "id": "SGC42",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 8:00 AM",
+    "radio_dj_name": "We're so High Sea Shanties",
+    "radio_description": "Sea themed music, pirate shenanigans, dolphin sounds!"
+  },
+  {
+    "id": "SGC43",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 9:00 AM",
+    "radio_dj_name": "Early Morning Ocean with Jam",
+    "radio_description": "A chill hour, plus one hour of children's music about bodies of water (this will include baby shark)."
+  },
+  {
+    "id": "SGC44",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 10:00 AM",
+    "radio_dj_name": "BearCat's Kid-centric Power Hour",
+    "radio_description": "An hour of kid-friendly tunes that are perfect for our littlest burners to get their groove on."
+  },
+  {
+    "id": "SGC45",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 11:00 AM",
+    "radio_dj_name": "Fluffy's Pawsitive Hits",
+    "radio_description": "Pawsitive vibes playing “all the hits”, with positive lyrics and uplifting instrumentals."
+  },
+  {
+    "id": "SGC46",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 1:00 PM",
+    "radio_dj_name": "Broken Brain Radio w/ Spectre",
+    "radio_description": "Variety music show with an alternative radio host, and/or an indie/alternative themed dance party."
+  },
+  {
+    "id": "SGC47",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 2:00 PM",
+    "radio_dj_name": "K-Theory Radio Programme",
+    "radio_description": "Music from all times, places, and headspaces - get your groove on with music mental, electronic, and instrumental!"
+  },
+  {
+    "id": "SGC48",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 3:00 PM",
+    "radio_dj_name": "Delighted's Life Is Fine",
+    "radio_description": "I play feel-good music of all kinds and recite poetry."
+  },
+  {
+    "id": "SGC49",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 4:00 PM",
+    "radio_dj_name": "You Betta WERK! w/ spice rack",
+    "radio_description": "Music to lift your spirits, featuring the queens and icons of DRAG"
+  },
+  {
+    "id": "SGC50",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 5:00 PM",
+    "radio_dj_name": "Downtown Dave's Appetizers",
+    "radio_description": "Lush Brazilica"
+  },
+  {
+    "id": "SGC51",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 4:00 PM",
+    "radio_dj_name": "Trailblazer's Pre-Burn Twist-Up",
+    "radio_description": "This annual full-flavor Pre-Effigy-Burn radio set is coming back! (AGAIN!)  These sets are always full of surprise turns, unexpected side-treks and verified bops with a flow as unpredictable as a well sugared toddler."
+  },
+  {
+    "id": "SGC52",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 8:00 PM",
+    "radio_dj_name": "Red Carpet Review",
+    "radio_description": "The RadioSGC crew will be highlighting all of your fancy burn night outfits as you walk by the radio station!"
+  },
+  {
+    "id": "SGC53",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 9:00 PM",
+    "radio_dj_name": "Conclave and Effigy Burn (Simulcast)",
+    "radio_description": "BenmeR transmits a live broadcast of all the sounds from this year's Conclave performance, fireworks and Effigy Burn! Tune in from anywhere around the lake and be a part of the experience."
+  },
+  {
+    "id": "SGC54",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-20 11:00 PM",
+    "radio_dj_name": "Morale Buddy's Stream of Consciousness",
+    "radio_description": "Playing a wide mix of music, linked together by my ADHD addled brain. I'll guide you through the jumble of tenuous connections so that you can follow along at camp!"
+  },
+  {
+    "id": "SGC55",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-21 12:30 AM",
+    "radio_dj_name": "Midnight Gorilla Retirement & Rebirth Radio",
+    "radio_description": "Tune in for an eclectic selection of experimental, enigmatic, expressive, electronic, etc. music that evokes her journey & maybe also witness her evolution."
+  },
+  {
+    "id": "SGC56",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-21 2:00 AM",
+    "radio_dj_name": "Captain Zesty's Inside The Phishbowl",
+    "radio_description": "Phinish your aquatic journey with Captain Zesty and he closes out your burn with live music that doesn't stop jamming your earballs."
+  },
+  {
+    "id": "SGC57",
+    "radio_day": "Saturday",
+    "radio_time": "2024-07-21 6:00 AM",
+    "radio_dj_name": "Bedtime Bouyant Beats",
+    "radio_description": "Chill sounds to close the night out right. (FM & Livestream Only)"
+  },
+  {
+    "id": "SGC58",
+    "radio_day": "Sunday",
+    "radio_time": "2024-07-21 8:00 AM",
+    "radio_dj_name": "Temple Burn Quiet Time",
+    "radio_description": "Chill sounds that to calm your energy and allow you to reflect.  (To provide space for Temple Burn, this will be FM Radio & livestream only)"
+  },
+  {
+    "id": "SGC59",
+    "radio_day": "Sunday",
+    "radio_time": "2024-07-21 9:00 AM",
+    "radio_dj_name": "RadioSGC Sends You Packing",
+    "radio_description": "Good Morning, I hope that you had a good burn. Here are 3 hours of music from the RadioSGC crew to help you get your sh!t together and leave the aquarium."
+  }
+]
