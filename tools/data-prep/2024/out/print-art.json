@@ -1,0 +1,371 @@
+[
+  {
+    "id": "G1",
+    "type": "grant",
+    "artist": "Bilal Amhaz",
+    "title": "Aqua-Hearse",
+    "funded": "$4,000",
+    "location": "1",
+    "description": "Aqua-hearse, the Cadi-Marine (Cadillac-Submarine) a new Imaginarium transportation method. Located at Syncytium camp and will be driven around a couple times daily to provide an interactive experience."
+  },
+  {
+    "id": "G2",
+    "type": "grant",
+    "artist": "James Villalpando",
+    "title": "Inferno Lotus",
+    "funded": "$3,000",
+    "location": "15",
+    "description": "Welcome to the Inferno Lotus: An Elemental Spectacle, a mesmerizing masterpiece within the Imaginarium Aquarium. This stunning metal sculpture, nestled in the aquatic surroundings, features enchanting lotus leaves that gracefully emit water, creating a tranquil fountain. The flowers, however, hold a surprise as they release small, mesmerizing fireballs, adding a touch of the elemental inferno to the aquatic oasis. Surrounding the centerpiece are flower-based windmills, each contributing to the harmony of all four elements – water, fire, air, and earth. Immerse yourself in the dynamic beauty of this fiery fountain, a true spectacle where nature's elements unite in a dance of artistry and wonder."
+  },
+  {
+    "id": "G3",
+    "type": "grant",
+    "artist": "Kathryn Mueller",
+    "title": "Ties of Connection",
+    "funded": "$114",
+    "location": "30",
+    "description": "Come Tie the Strings of Connection! Take a friendship bracelet, add a knot to an ongoing bracelet, or make and leave a whole bracelet for another burner to give them some good luck or love to take with them throughout the year."
+  },
+  {
+    "id": "G4",
+    "type": "grant",
+    "artist": "Trinity White",
+    "title": "Tree Star City",
+    "funded": "$1,000",
+    "location": "32",
+    "description": "Come get a little unbalanced among the stars as you connect with other astronauts in our galaxy of hammocks! Nesting is highly encouraged for all weary space explorers in the nebula. Please no sharp objects, open flames, or bouncing in the lunar landings. Keep all space cadets safe by following capacity limits as you swim through our stars. You won't need a multi-pass to set your soul to supernova in Tree Star City...all aliens are welcome in our universe!"
+  },
+  {
+    "id": "G5",
+    "type": "grant",
+    "artist": "Nicole Robertson",
+    "title": "Gikkinishikiogoi",
+    "funded": "",
+    "location": "11",
+    "description": "Koi fish are known as a symbol of longevity. Sadly, these will have a short life span. Join us on North Beach on Thursday night to grill some fish."
+  },
+  {
+    "id": "G6",
+    "type": "grant",
+    "artist": "Holly Sprick",
+    "title": "Birds of a Feather",
+    "funded": "$250",
+    "location": "4",
+    "description": "A new flock of birds is arriving at Lakes of Fire. These art birds can move around the lake by you, the participant, the goal is to get like birds flocked together. A few bird care tips, always stand the birds up on their one leg, laying down in wet grass can harm the birds. All birds should be outside in the campground where they are free to be seen and to be moved about. Birds do not like to hide out in tents or cars, but need to remain in play until Sunday. Birds that are injured can come back for Birdie first aid at Still Bayou"
+  },
+  {
+    "id": "G7",
+    "type": "grant",
+    "artist": "Daniel Wood",
+    "title": "Kaleidospace",
+    "funded": "$639",
+    "location": "20",
+    "description": "Step into a world of color and wonder with our human Kaleidoscope art project! Using PVC clear fabric, we have created a walk-in installation that will transport you to a vibrant and mesmerizing new landscape. As you move through the space, the shifting patterns and colors will envelop you in a kaleidoscopic dream."
+  },
+  {
+    "id": "G8",
+    "type": "grant",
+    "artist": "Jennifer Espenscheid",
+    "title": "Lumella - Light Star",
+    "funded": "$5,100",
+    "location": "22",
+    "description": "Lumella (Loom-A-Ya, Light Star) is an elevated StarTetrahedron, a metal and iridescent chrysalis, with ever changing symbolic centers. The base of the tetrahedron houses a Sonic component for deeper integration of the information. By day the sun plays and reflects and at night They are illuminated from within. Delight as you play around, interact, and offer your light."
+  },
+  {
+    "id": "G9",
+    "type": "grant",
+    "artist": "Marqueia Watson",
+    "title": "Umbra Penumbra",
+    "funded": "$2,450",
+    "location": "33",
+    "description": "“As the sun sets over Lucky Lake, wander over to The Pines on Gate Road for an immersive shadow puppet theater experience. Animate your own underwater story in a stunning display of shadows, light, and beautiful colors!”"
+  },
+  {
+    "id": "G10",
+    "type": "grant",
+    "artist": "Mariah Spain",
+    "title": "Atlantean Tunnel",
+    "funded": "$300",
+    "location": "2",
+    "description": "Come be transported to where trash becomes a home on our ocean floor.  Explore the Atlantean Tunnel."
+  },
+  {
+    "id": "G11",
+    "type": "grant",
+    "artist": "Jamie Adams",
+    "title": "Hermit Crab Homes",
+    "funded": "$350",
+    "location": "14",
+    "description": "Find your dream shell today! Stop by the Thursday hermit crab realtors at Calico Cats and Gingham Goths or snag a shell that's out and about. There are 25 wearable pieces inspired by hermit crabs' search for the perfect home. Try one out and see how it fits, read about the journey your shell has been on and pass it on to the next"
+  },
+  {
+    "id": "G12",
+    "type": "grant",
+    "artist": "Scotty Lon",
+    "title": "Insect Art",
+    "funded": "$169",
+    "location": "16",
+    "description": "See the beauty in insects as art! Come learn from a professional Entomologist to preserve and pin ethically sourced insects. You will go away with a box with a beautifully preserved beetle or butterfly that you created yourself! Children under the age of 12 please bring an adult to help!"
+  },
+  {
+    "id": "G13",
+    "type": "grant",
+    "artist": "Mike Hartnett",
+    "title": "Leather and Limericks",
+    "funded": "$315",
+    "location": "21",
+    "description": "Leatherwork for Burners, no skills or tools required!  Come spend an hour building your own festival bag harness out of split-grain leather that would likely have ended up in the waste stream.  Limerick would like to share his love of leatherwork with you, all materials and instruction will be provided."
+  },
+  {
+    "id": "G14",
+    "type": "grant",
+    "artist": "Joris Prikken",
+    "title": "Cap'n Saicin & Mztress Scoville present the Infinite Heat  (nee Scoville Chou Chou)",
+    "funded": "$270",
+    "location": "25",
+    "description": "Art cart with light and sound effects staffed by Cap'n Saicin, Mztress Scoville and the Fire man, that emerges day and night, offering a curated hot sauce tasting from 2,000 to 1,500,000"
+  },
+  {
+    "id": "G15",
+    "type": "grant",
+    "artist": "Kateri McMullen",
+    "title": "Bubbles, Bodies, and Barriers - Show Me Where it Hurts",
+    "funded": "$2,750",
+    "location": "5",
+    "description": "Are you TOOO bendy? Cranky bones?  Random sparks? Allergic to your own body? Stormy gut? The spinnies? The pass-a-ma outties?  Whatever bullshit your body's up to, you're not alone. Especially at a burn.  Too many of us live with chronic health conditions and inadequate care. Join our interactive experiment, as we find ways to make our common struggles and unseen disabilities visible.   Play, learn, share your experiences, give us a little and be part of something big!   Accepting artwork from all creatives impacted by chronic conditions."
+  },
+  {
+    "id": "G16",
+    "type": "grant",
+    "artist": "Rob Hogan",
+    "title": "Flow Portraits",
+    "funded": "$160",
+    "location": "9",
+    "description": "Find Rob at THC camp, or find him wandering around LOF and ask him to make a custom cubism flow portrait for you. Portraits take about 5-7 minutes.Take home a memory of your time at lakes of fire 2024!"
+  },
+  {
+    "id": "G17",
+    "type": "grant",
+    "artist": "Karen Long",
+    "title": "Minni the Mobile Mushroom",
+    "funded": "$540",
+    "location": "23",
+    "description": "No, it's not that brownie you just ate - that really was a mushroom driving by!  Come find us at Ticktown or out adventuring . . . catch a ride, find a little gift in our gift basket or let us know what you think we should name our mobile mushroom!"
+  },
+  {
+    "id": "G18",
+    "type": "grant",
+    "artist": "Melissa Larson",
+    "title": "Seahorse Surprise",
+    "funded": "$458",
+    "location": "26",
+    "description": "Peek into the shallow and temperate waters at Lucky Lake where seahorses, starfish, and other creatures live. This community may seem smol, but what it holds may surprise you!"
+  },
+  {
+    "id": "G19",
+    "type": "grant",
+    "artist": "Riley Strickland",
+    "title": "The Slippery Pickle Ride",
+    "funded": "$600",
+    "location": "27",
+    "description": "Have you ever wanted to ride the Slippery Pickle in front of your friends? Come struggle to stay on and not slide off - longest rider gets bragging rights!"
+  },
+  {
+    "id": "G20",
+    "type": "grant",
+    "artist": "Julie Tyios",
+    "title": "Muiraqua",
+    "funded": "$1,454",
+    "location": "24",
+    "description": "Have you peered through an aquarium and marvelled at the tiny world contained within? Muirauqa invites you to peer inside and discover an enigma: an infinite world constrained within its walls. Are you outside looking in, or are you the one that's boxed in?"
+  },
+  {
+    "id": "G21",
+    "type": "grant",
+    "artist": "Alec Rudek",
+    "title": "Jellyfish Invasion!",
+    "funded": "$1,546",
+    "location": "19",
+    "description": "The Mother Jellyfish has arrived at Lucky Lake along with all of her offspring! Come visit the Jelly Adoption Center to customize and take home your new lifelong jellyfish friend!"
+  },
+  {
+    "id": "G22",
+    "type": "grant",
+    "artist": "Daniel Webber",
+    "title": "Jaws Cream Truck",
+    "funded": "$500",
+    "location": "17",
+    "description": "After 10 years, we realized we're going to need a bigger cart... to cream all the holes. The highly qualified engineers at Frozen Kraken Creamery have assembled a fin-tastic creme slinging contraption, striking fear and joy into the hearts of ice cream lovers everywhere. Look for Lucky Lake's first ever true ice cream truck. Driving over a tent near you."
+  },
+  {
+    "id": "G23",
+    "type": "grant",
+    "artist": "Bo Lawler",
+    "title": "Fire Bell",
+    "funded": "$300",
+    "location": "8",
+    "description": "Fire meets water on the air!"
+  },
+  {
+    "id": "G24",
+    "type": "grant",
+    "artist": "Melinda Burke",
+    "title": "Trashy Tides",
+    "funded": "$100",
+    "location": "31",
+    "description": "Frolic over to Trashy Tides for a polymer aquatic experience. Write notes to your fishy friends and bask in the glory of how you will reduce your plastic footprint"
+  },
+  {
+    "id": "G25",
+    "type": "grant",
+    "artist": "Krista Bignall-Cadrel",
+    "title": "Jellychime Smacks",
+    "funded": "$599",
+    "location": "18",
+    "description": "DO YOU LIKE THE SOUND OF WINDCHIMES? DO YOU THINK JELLYFISH ARE COOL? IF NO: FYD! ;) IF YES: FIND AND WANDER THROUGH THE RANDOM SMACKS OF JELLYCHIMES. ENJOY THE SOOTHING SOUNDS & NIGHT TIME LIGHTS. MADE FOR YOU BECAUSE I THOUGHT THEY'D BE FUN."
+  },
+  {
+    "id": "G26",
+    "type": "grant",
+    "artist": "Lucrecia Zepeda",
+    "title": "Good Reef",
+    "funded": "$955",
+    "location": "12",
+    "description": "The Good Reef has slunk out of the lake to join the party. Reef will be wearing their most festive corals and bringing a few aquatic friends along."
+  },
+  {
+    "id": "G27",
+    "type": "grant",
+    "artist": "Renzo Tormen",
+    "title": "Frog Frenzy",
+    "funded": "$250",
+    "location": "10",
+    "description": "Frog Frenzy is a multi player game where up to 4 players try to hop their host of frogs into scoring rings for points. Highest score wins!"
+  },
+  {
+    "id": "G28",
+    "type": "grant",
+    "artist": "Basil Ross",
+    "title": "Teach's Hole",
+    "funded": "$750",
+    "location": "29",
+    "description": "Come visit scenic Teach's Hole, the favorite anchorage of the infamous Edward Teach. A relaxing harbor for pirates to gather, score a little booty, and enjoy being the freest of the free while sailing the silver waves of our dear Lucky Lake."
+  },
+  {
+    "id": "G29",
+    "type": "grant",
+    "artist": "Alexander Talionis",
+    "title": "Sonic Multiverse Low Frequency experience",
+    "funded": "$1,150",
+    "location": "28",
+    "description": "Visit the Multiverse with us. A sonic bath to clean your sences, an interactive low-frequency experience. Bring your electronic instruments to play on a speaker heard across time and space."
+  },
+  {
+    "id": "G30",
+    "type": "grant",
+    "artist": "Kae Kimball",
+    "title": "Doom Room",
+    "funded": "$1,098",
+    "location": "7",
+    "description": "The Doom Room is a creative space for playful darkness. We welcome metalheads, goth joyfriends, occultists, assorted warlocks and the riff-curious. Find us where the giant skeleton meets the guillotine. Enter if you dare. Enjoy the thrum of deep heavy metal soundscapes in our fuzz chairs, face your demons inside our coffin or join us for meditation sessions, magickal writing workshops, a darkwave dance party featuring goth, industrial, synth and darkwave electronica and our daily Green Mass ceremony. Death to toxic positivity, all hail the void!"
+  },
+  {
+    "id": "G31",
+    "type": "grant",
+    "artist": "Zoe Beaudry",
+    "title": "The Bun Dial",
+    "funded": "$366",
+    "location": "6",
+    "description": "“I told her what time it was.” Oh did you, McLovin? If you're no weenie, I triple dog dare you to pay a visit to The Bun Dial, where you put your finger in the hole to find out what time it is."
+  },
+  {
+    "id": "G32",
+    "type": "grant",
+    "artist": "Cameron Vannatter",
+    "title": "Baby Beacon",
+    "funded": "$1,305",
+    "location": "3",
+    "description": "Look for the BABY BEACON and come join “Baby Fight Club” as we host a riot of various interactive festival fun! Submerge yourself in the make believe world of Baby Fight Club. Professional DJs play-out as the baby bar opens, daddy daycare strippers drop their Pampers as we dance and host our way into our weekend's main event... Saturday Night Baby Fight!"
+  },
+  {
+    "id": "H1",
+    "type": "honoraria",
+    "artist": "Mitchell Hoffman",
+    "title": "Slime Corp Cubicle",
+    "funded": "$2,000",
+    "location": "Notorious Scoundrels",
+    "description": "Slime Dogs have gone Corporate! Enjoy our interactive slimy cubicle with working top of the line technology, including our top of the slime Windows 95 PC with custom games and surprises. Read our files for more information on our pyramid shaped corporate structure, and slime your way to the middle. Complete with desk (micro dioramas in drawers), games, custom slime and hot dog related software, and NSFW antics. Decorate your own slime accessories from our corporate swag folder. Slime is for closers!"
+  },
+  {
+    "id": "H2",
+    "type": "honoraria",
+    "artist": "Boris Kostov",
+    "title": "Illumiloti Ignisis",
+    "funded": "$17,000",
+    "location": "South Beach",
+    "description": "Illumiloti Ignisis (ilu-mi-lo-ti ig-ni-sis) Consisting of a group of lotus flowers, this installation floats on the surface of the water. The lotus, deeply rooted in Eastern cultures, symbolizes peace, purity and calmness. The installation embodies these concepts with its form and slow shift of lights through the color spectrum. The three larger flowers emit flames from the center representing a release of energy. The composition with the three large and six smaller flowers, illuminate the surface of the water creating a beautiful and captivating experience for the audience."
+  },
+  {
+    "id": "H3",
+    "type": "honoraria",
+    "artist": "Jeremy Besemer",
+    "title": "Celestial Guardian",
+    "funded": "$1,500",
+    "location": "Tequila TV",
+    "description": "Large fire sculpture built from steel with accents in copper and brass, Inspired by the Artists travels to Southeast Asia."
+  },
+  {
+    "id": "H4",
+    "type": "honoraria",
+    "artist": "Big Papa",
+    "title": "Lauren Robinson",
+    "funded": "$500",
+    "location": "Sideways Potato People",
+    "description": "Large interactive fiberglass & foam potato, much bigger than an average Russet. Inspired to make people laugh, create whimsy and spectacle. Big Papa is an exercise in having fun and being outrageous."
+  },
+  {
+    "id": "H5",
+    "type": "honoraria",
+    "artist": "Sea'Star'Splosion",
+    "title": "Heather Jerome",
+    "funded": "$500",
+    "location": "Inferni'peligo",
+    "description": "A 7' tall steel can'delabra, Sea'Star'Splosion will have the appearance of an underwater coral ecosystem and as a beacon and blessing of Love and Light upon the community."
+  },
+  {
+    "id": "H6",
+    "type": "honoraria",
+    "artist": "Ashley Brown",
+    "title": "The Gifting Cheese",
+    "funded": "$500",
+    "location": "That's What Cheese Said",
+    "description": "The Gifting Cheese is meant to be an inclusive way for the people of LoF to participate in the principal of gifting. Take a gift, leave a gift! Inspired by the “The Giving Tree,” by including the principle of gifting."
+  },
+  {
+    "id": "H7",
+    "type": "honoraria",
+    "artist": "Carlos Vallejo Duran",
+    "title": "Palmas de Fuego",
+    "funded": "$1,500",
+    "location": "Los Mayones",
+    "description": "The Palmas de Fuego art piece is made up of two 12 feet tall palm trees. Each tree is made up of 7 fronds with a pooling flame static effect under each frond. The flames create ambient lighting and warmth, setting the mood for anything from dancing to cuddling. Featuring a rope and pulley system hanging from each of the trees you will get a large whistling fireball with every pull of the rope."
+  },
+  {
+    "id": "H8",
+    "type": "honoraria",
+    "artist": "Sarah Davitt",
+    "title": "Do androids dream of electric kittens?",
+    "funded": "$500",
+    "location": "In the Pines",
+    "description": "Do androids dream of electric kittens? The Steel Tigerlillies - a women-led sculpture gang in Milwaukee made this cat, reflecting the dreams we have for each other."
+  },
+  {
+    "id": "H9",
+    "type": "honoraria",
+    "artist": "Victoria Primeau & Hoyle Anderson",
+    "title": "Lakes of Fire Entrance sign",
+    "funded": "$500",
+    "location": "LoF Entrance",
+    "description": "The Lakes of Fire Entrance sign, A Tentacley arms wrap around letters and hold a fishbowl of curious creatures. This is a whimsical and imaginative piece meant to inspire the imagination!"
+  }
+]

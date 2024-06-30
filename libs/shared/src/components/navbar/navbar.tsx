@@ -111,6 +111,15 @@ export function NavbarComponent() {
                   Camps
                 </Button>
               </NavLink>
+              <NavLink to="/radio">
+                <Button
+                  variant="light"
+                  className={`col-12 ${styles['hover']}`}
+                  onClick={() => setExpanded(false)}
+                >
+                  Radio
+                </Button>
+              </NavLink>
               <NavLink to="/vehicles">
                 <Button
                   variant="light"

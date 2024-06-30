@@ -46,6 +46,18 @@ export interface ArtFeed {
   art: ArtItem[];
 }
 
+export interface RadioItem {
+  id: string;
+  radio_day: string;
+  radio_time: string;
+  radio_dj_name: string;
+  radio_description: string;
+}
+
+export interface RadioFeed {
+  radio: RadioItem[];
+}
+
 export interface CampItem {
   id: string;
   name: string;
@@ -68,10 +80,15 @@ export interface VehiclesFeed {
   vehicles: VehicleItem[];
 }
 
-export interface staticFeeds extends ArtFeed, CampsFeed, VehiclesFeed {}
+export interface staticFeeds
+  extends ArtFeed,
+    RadioFeed,
+    CampsFeed,
+    VehiclesFeed {}
 
 export interface MainFeed
   extends DataCoalesce,
     ArtFeed,
+    RadioFeed,
     CampsFeed,
     VehiclesFeed {}

@@ -12,4 +12,5 @@ export * from './components/events-single-time/events-single-time';
 export * from './components/favorites/favorites';
 export * from './components/art/art';
 export * from './components/camps/camps';
+export * from './components/radio/radio';
 export * from './components/vehicles/vehicles';

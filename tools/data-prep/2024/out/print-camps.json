@@ -1,0 +1,835 @@
+[
+  {
+    "id": "TC119",
+    "neighborhood": "Dere Kamp",
+    "name": "Backyard Slum-berland",
+    "site": "B41",
+    "description": "Make the Back 40 your backyard. Lawn games, hot dog cookouts, flow practice, nap space, and the (now annual) Rainbow Hair Connection photograph on Saturday."
+  },
+  {
+    "id": "TC17",
+    "neighborhood": "Downtown",
+    "name": "Atomic Chocolate",
+    "site": "116 - 117",
+    "description": "Hot chocolate, coffee and snaaacks! Come visit yourselves in the Mirror Box, endanger your fellow campers at the Playkea DIY Sculpture, enjoy fire and shenanigans in our fire circle where our band of ridiculous performers are sure to entertain. We are the perfect place to rest, relax and restore, the scoop up a hot coco and a krispie treat before heading back out to enjoy all that Lakes of Fire has to offer."
+  },
+  {
+    "id": "TC15",
+    "neighborhood": "Downtown",
+    "name": "Basement Fiasco",
+    "site": "28",
+    "description": "Basement Fiasco (formerly Experimental Family Tree) will feed you delicious vegan dinners every night. During the day, stop by for Deez Nuts, our DIY trail mix bar. We'll have a fire going some nights. Relax with us in our chill tent and find out what shenanigans we have going on in the basement."
+  },
+  {
+    "id": "TC26",
+    "neighborhood": "Downtown",
+    "name": "Bermuda Triangle Travel Bureau",
+    "site": "128 - 129",
+    "description": "Come disappear with us! Our unlikely oasis is the preferred accidental destination for flight attendants, sailors, and intergalactic tourists alike. Join us for special events hosted by our travel agents, or engage in self directed experiences anytime, in one of our art structures. Wander around Lucky Lake to discover our three beacons - which form a Devil's Triangle within Lakes of Fire! Get lost in paradise today!"
+  },
+  {
+    "id": "TC31",
+    "neighborhood": "Downtown",
+    "name": "Blazing Libations",
+    "site": "139",
+    "description": "Blazing Libations is here for all of your morning (and occassionally night time) hot beverage needs! We have steaming hot water 24 hours a day for a variety of tea, cocoa, and chai with vegan options available. We'll also be serving fresh coffee from 9ish until about noon Wednesday through Saturday. While enjoying your hot beverage, be entertained by some flow artists, puzzles, or maybe even a craft or two."
+  },
+  {
+    "id": "TC18",
+    "neighborhood": "Downtown",
+    "name": "Boogie Woogie Cabaret",
+    "site": "118",
+    "description": "Home of the finest live musical performances on the lake! We also offer comedians, figure drawing, and table-top gaming daily. Connect with your creativity and your community!"
+  },
+  {
+    "id": "TC29",
+    "neighborhood": "Downtown",
+    "name": "Camp Fuck Around and Find Out",
+    "site": "135",
+    "description": "Fuck Around and Find Out is a theme camp like no other. Nestled up on the shores of Lucky Lake, this camp is a hub of creativity, self-expression, and uninhibited fun. With a lineup Of enthusiastic burners, veterans and inexperienced alike, it's no secret we have no clue. Fellow burners are invited to let loose and explore their wildest desires. Led by people who haven't any idea what they are doing, Fuck Around and Find Out encourages radical self-reliance and radical self-expression. Whether you're seeking spiritual enlightenment or simply looking to have a good time, this camp promises a transformative experience that will leave you forever changed.  Camp Fuck around and Find Out.  94% Composure 0% Effective."
+  },
+  {
+    "id": "TC19",
+    "neighborhood": "Downtown",
+    "name": "Cirque du Soul",
+    "site": "119",
+    "description": "Step into the world of Cirque du Soul at Lakes of Fire 2024: Imaginarium Aquarium!  By day, immerse yourself in soulful workshops led by Lakes of Fire community facilitators. As night falls, join us for two sensational parties featuring electrifying DJs and captivating sounds. Our fabulously decorated tent boasts luscious fabrics, elegant furniture, and a cozy pillow lounge for relaxation. Experience our inviting vibe between programming—a blend of fun, sensuality, and community. Cirque du Soul is more than a camp; it's a spirited collective embodying sensuality, spirituality, and funky energy. Join us to connect, play, dance, and explore at Lakes of Fire!"
+  },
+  {
+    "id": "TC11",
+    "neighborhood": "Downtown",
+    "name": "Dewey Decibels",
+    "site": "16 - 18, 133, 136",
+    "description": "Dewey Decibels is an analogous mixture composed of creative energy, technical know-how, auditory expertise, and artistic excess. A sound camp dedicated to providing only the finest in beats, art, dancing, and friends."
+  },
+  {
+    "id": "TC14",
+    "neighborhood": "Downtown",
+    "name": "First Fires",
+    "site": "24 - 27",
+    "description": "First Fires is like 3 camps in a trenchcoat, but if that trenchcoat was made of fishnets, mesh, and safety vests, and if from within that trenchcoat came incessant whispers of loving ridicule and affirmations until you decided to properly believe in yourself.   In This Camp we do schticks. We lounge hard. We make art(?!). We put our talents on display long before they're fully formed. We invite you to do the same.   Now with even more Doom in the Room, it's First Fires: we're always like this."
+  },
+  {
+    "id": "TC30",
+    "neighborhood": "Downtown",
+    "name": "Green Fairy Sanctuary",
+    "site": "137 - 138",
+    "description": "We are creating a space to foster intimate experiences and a sense of wonder, connecting individuals and the natural world."
+  },
+  {
+    "id": "TC12",
+    "neighborhood": "Downtown",
+    "name": "Illumination",
+    "site": "19",
+    "description": "ILLUMINATION - LIGHTING UP THE DARKNESS WITH VIDEOS AND LED LIGHTS"
+  },
+  {
+    "id": "TC25",
+    "neighborhood": "Downtown",
+    "name": "Jingles Emporium",
+    "site": "127",
+    "description": "Jingles Emporium returns again providing those necessary and hard to find items, smokes, lights, tampons, antacids, etc.  You already know we're open 24 hours every day.   BUT WAIT! This year we also transform into JINGLES RADIO! to bring two street party/dance events to get your party vibe on early Thursday and Friday.  Look for us from 8:00 -10:00 for two different music, food, and beverage experiences."
+  },
+  {
+    "id": "TC13",
+    "neighborhood": "Downtown",
+    "name": "Lamp Camp",
+    "site": "20 - 23",
+    "description": "Lamp Camp will brighten up your day, and be a beacon in the night! Come heal, play and use your Imaginarium with us!"
+  },
+  {
+    "id": "TC24",
+    "neighborhood": "Downtown",
+    "name": "Lemon Party",
+    "site": "126A",
+    "description": "When life gave us lemons, we decided to share! Come to Lemon Party and hydrate with a delicious lemonade while enjoying our unique lemon creations."
+  },
+  {
+    "id": "TC23",
+    "neighborhood": "Downtown",
+    "name": "No Drama Pancake House",
+    "site": "126",
+    "description": "No Drama Pancake House is the best pancake spot at Lakes of Fire. Come join us every morning to  indulge in our delectable pancakes to get the morning started off right."
+  },
+  {
+    "id": "TC21",
+    "neighborhood": "Downtown",
+    "name": "Recess",
+    "site": "122 - 124",
+    "description": "If you seek the place for afternoon fun, Recess is your destination.  We start with the oversized yard games which are open from dawn til midnight.  From noon til dusk we provide an uptempo bar and dance area.  New for this year are a series of yet undisclosed interactive art pieces that will appear and disappear randomly throughout the week.  And, back by popular demand, our 3rd year of Dildo Races on Friday and Saturday afternoons!"
+  },
+  {
+    "id": "TC27",
+    "neighborhood": "Downtown",
+    "name": "Safe Zone",
+    "site": "130 - 131, 134",
+    "description": "Welcome to Safe Zone, come on in :) This is our home, built by and for trans and queer people at lakes. Our space is oriented around safety above all else and offers a chance to be yourself and connect with other's living their authentic lives. With a sober juice bar and separate shot bar, you can come relax and have a drink with us. Whether you want to dance it out, roll around in our stuffie pit, or simply enjoy the company of others, you'll find a warm and welcoming atmosphere at Safe Zone."
+  },
+  {
+    "id": "TC22",
+    "neighborhood": "Downtown",
+    "name": "Sanctuary of Love",
+    "site": "125",
+    "description": "The BrilliantlyMad Collective will be returning to Lakes of Fire to celebrate its 26th Anniversary by bridging Heaven on Earth with our Sanctuary of Love (S.O.L.). We will be offering workshops, healing modalities, sacred sounds, art projects, & transformative experiences. We invite you to explore unifying the polarities of Brilliance & Madness into balance & reflect that into the World. Our S.O.L. container provides a healing, chill & creative temple space for you to rise into your authentic power. We encourage a responsible atmosphere of high vibrations to reTreat into your body, mind, & soul."
+  },
+  {
+    "id": "TC20",
+    "neighborhood": "Downtown",
+    "name": "T.H.C. - That Half-Assed Camp",
+    "site": "120",
+    "description": "Come join us at the ultimate stoner chill camp. Comfy chairs, a few games, chill music, and a constant stream of blunts and dabs when you come hang with us! Plus we'll offer a few community meals throughout the weekend!"
+  },
+  {
+    "id": "TC28",
+    "neighborhood": "Downtown",
+    "name": "The Robot and The Mermaid",
+    "site": "132",
+    "description": "Robot explorer Eggsalod returns to his favorite moop infused planet... Earth, where he opens his Cosmic Bureau of Lost Things, a shop full of oddments and curiosities- “Take a Lost Item Home or Bring A Once Loved Item to Wander” (King Gizzard and the Lizard Wizard albums no longer available.) His friend the mermaid Lumina uses her mystic attunement to create Tarot to Go: pre-selected tarot readings, 3 cards each slipped into colorful art-embossed envelopes for your prognostications. Together they offer this joyful place of connection and reflection, with a refreshing concoction called “Burner Mules.”"
+  },
+  {
+    "id": "TC16",
+    "neighborhood": "Downtown",
+    "name": "Treebassin'",
+    "site": "29 - 30",
+    "description": "Welcome to TreeBassin's Above Water Inflatable Imaginarium Aquarium! Come to the newest beach on Lucky Lake and get groovy on our water front dance floor.  Lounge in a vast array of inflatable luxury and cool off with one of our signature slushies!"
+  },
+  {
+    "id": "TC62",
+    "neighborhood": "East End",
+    "name": "Aquarium of Sluts",
+    "site": "M",
+    "description": "The Aquarium of Sluts is a smorgasborg of slutty shenanigans! We combine a passion for all things plant and sex positivity for a one-of-a-kind experience. The camp is set in a WET oasis where burners can learn about plants & kink. Throughout the day sluts keep it casual, interspersed with workshops on consent, kink, and plants. In the evenings, come to the Aquarium to enjoy our silly, slutty performances. Aquarium of Sluts encourages creativity and experimentation, allowing campers to explore the intersection between nature and art. It's the perfect opportunity for those interested in plants and kink to learn and connect in a beautiful and immersive setting."
+  },
+  {
+    "id": "TC63",
+    "neighborhood": "East End",
+    "name": "Bare Butt Camp",
+    "site": "N",
+    "description": "A camp dedicated to taking care of your butt! Come get your butt smooched, massaged, and polished!"
+  },
+  {
+    "id": "TC61",
+    "neighborhood": "East End",
+    "name": "Bliss Bunnies",
+    "site": "L",
+    "description": "Bliss Bunnies is an LGBTQIA++ friendly adult theme camp.  Programming features evening performances on the Slut Altar and the Cage Pole, Adult Trivia, and kink education with demos on the St Andrew's Cross.  Daytime PG13 programming includes guided meditation and water ceremony as well as a chill space.We will host the 2nd Annual LoF Swag Swap too! Bliss Bunnies encourages their fellow burners to embrace exploration and the beauty of radical self-expression."
+  },
+  {
+    "id": "TC53",
+    "neighborhood": "East End",
+    "name": "Bunny Camp",
+    "site": "D",
+    "description": "Bunny camp brings you fabulous burner clothing. We have been a hit for several years with our specialty clothing that seems to fly off the racks. Open every day for you to stop by and go away with some new threads. We also have mutant stuffed animal making on Saturday. Our tiny bar provides non-alcoholic libations. Come on in and we will underserve you over and over again."
+  },
+  {
+    "id": "TC55",
+    "neighborhood": "East End",
+    "name": "Camp Chill, Charge and Relax",
+    "site": "F",
+    "description": "Camp Chill,Charge and Relax is a camp where you can charge your phones, tables, vapes, lights or anything else (no high energy draw items like toasters or water kettles).  We will have fast charging blocks (bring your own cords) as well as powerstrips available 24 hours a  day.  We are here to help keep you in contact, lit up and happy!   If the lights are on...we are open!   We also have a selection of colorful tents with tables and chairs for anyone to chill out and hang while you charge with different themes in each one.  Stay dry...out of the sun...or hang out at our firepit with us later in the evenings and get to know new friends.  This is our first Lakes of Fire but have been hosting this at Playa del Fuego and Constellation for almost 12 years on the East Coast!"
+  },
+  {
+    "id": "TC57",
+    "neighborhood": "East End",
+    "name": "Cat Camp!",
+    "site": "H",
+    "description": "We, the Cats of Lakes of Fire, invite all who have ever desired to be a feline to come play, lounge, and otherwise indulge your inner-cat with us. Ascend our human-sized cat tree, play with our assortment of large cat toys, or perhaps make some cat art of your own. You can even foster one of our Human Cats for a short time. Come dance and prowl the Lake with us, meow!"
+  },
+  {
+    "id": "TC54",
+    "neighborhood": "East End",
+    "name": "Church of the 13 Unicorns - A Sea of Unicorns",
+    "site": "E",
+    "description": "Come splash around in a Sea of Unicorns! COT13U conducts celebrations daily at 13:00 hours. Afternoons Bishop Boom Boom provides Burner Wedding Services including temporary, multiperson, or interspecies marriages with cake! Frolic through the seahorse obstacle course and play unicorn horn ring toss. Chill/cuddle in the unicorn bar and lounge with snacks, cocktails, and artisan mocktails. Friday 2:30 PM join us for Mama Micki's Ice Cream Social. See daily listing for additional events. Results may vary, not available in all states of mind; narwhals, seahorses and mythical creatures welcome. Neighmaste!"
+  },
+  {
+    "id": "TC56",
+    "neighborhood": "East End",
+    "name": "Crappy Bar",
+    "site": "G",
+    "description": "Come for a crappy drink.  Leave because of the crappy jokes.  But don't hate on our crappy music because we're just happy to be here...maybe!"
+  },
+  {
+    "id": "TC50",
+    "neighborhood": "East End",
+    "name": "dcbbq",
+    "site": "A",
+    "description": "BBQ = Art. The dcbbq is Lakes of Fire's participatory BBQ art project.  For 11 years our camp has nurtured the shared enjoyment of food and the smoking arts by gifting BBQ to LoF. This year our BBQ pop-up “Beach Meat” returns and we want YOU to pop-up your gifts with us. Join us as we serve BBQ at scenic Lake spots around in collaboration with your favorite camps.  Our smokers run 24x7 in service to the community. Be on the hunt for the elusive mobile “Meat Wagon”, and we love feeding artists.  Remember, the BBQ is ready when it's ready."
+  },
+  {
+    "id": "TC59",
+    "neighborhood": "East End",
+    "name": "Dive Camp Trailer Park",
+    "site": "J",
+    "description": "Those crazy divers and their friends.  What started as a group of scuba diving friends from Dallas has grown over the years with members from San Francisco, Reno, and Arkansas.   We focus on the socialization aspect of burns and our patio is always open, so come sit for a while and visit with us.  Join us for omelet-in-a-bag breakfast, cocktails/mocktails, pendant casting,  and muffins!"
+  },
+  {
+    "id": "TC51",
+    "neighborhood": "East End",
+    "name": "Firewater Lounge",
+    "site": "B",
+    "description": "This merry pack of miscreants (ok, not so merry), ne'er-do-wells, and naysayers have been doing it all wrong since the inception of this event.  We're a seasoned, salty crew of OG Burners, leads, movers and shakers who happily provide our own flavor awesome yearly. We may not bring the noise, but we do happily provide a safe and comfortable atmosphere for those who visit.  You're guaranteed to leave with a handful of tasty noms, earholes full of awesome tunes, and even tastier libations."
+  },
+  {
+    "id": "TC64",
+    "neighborhood": "East End",
+    "name": "Flow Temple",
+    "site": "O",
+    "description": "Step into a world of delights at Flow Temple and experience a space dedicated to sacred sexuality, kink, and poly/enm dynamics.  Our camp offers a serene and respectful environment where individuals can connect deeply with themselves and others. Through workshops and intimate gatherings, the Temple of Flow provides a safe space for participants to explore tantric practices, conscious touch, and other modalities of sacred sexuality. Here, the principles of consent, respect, and mutual understanding are paramount, fostering a community where authenticity and openness flow freely. Join us at the Temple of Flow to embark on a transformative journey of self-discovery and intimate connection."
+  },
+  {
+    "id": "TC60",
+    "neighborhood": "East End",
+    "name": "Pleasure House",
+    "site": "K",
+    "description": "Pleasure House is a clothing optional, body positive, sex positive Lakes of Fire camp. We are both queer and straight friendly. We provide a place for campers to enjoy their sensuality. Our camp includes an adult intimate play space where couples or groups can come for sexy play. We will have themed parties including massage, tantra, boys only, girls only and more. We will also be handing out condoms and safer sex supplies to promote safe play throughout Lakes of Fire."
+  },
+  {
+    "id": "TC58",
+    "neighborhood": "East End",
+    "name": "Sounds Fishy to Me",
+    "site": "I",
+    "description": "Who lives in a CUCUMBER under the sea!? FishBob SquareParts! Come float your finny fannies on our side of the fishbowl to enjoy a chill space and drinks with friends while we play beloved and famous (not phony), #1 aquatic blockbusters. We have box office hits such as The Tiny Mer-girl, Searching for SeaMo, and SHARKCANO! That's right- Grade A originals with a ZERO PERCENT possibility of copyright infringement. Swim on over in your coziest mermaid scales or fancy gills to score some boozy Tank Water a là bowl (or mock-fin Guppy Juice). Occasional AQUARIUM-friendly games and the rare \"Opening of the Treasure Chest\"."
+  },
+  {
+    "id": "TC52",
+    "neighborhood": "East End",
+    "name": "The Sexy Space Raiders From Space",
+    "site": "C",
+    "description": "The Sexy Space Raiders From Space (FROM SPAAACCEEE) is a party camp founded by a bunch of intergalactic space skanks! Our mission is to learn as much as possible about Urth and its many pleasures. Come hang out at our bar, The Flying Saucy, and let us collect valuable data on human behavior! In return you will enjoy music, entertainment, conversation, and beverages with ingredients sourced lightyears away."
+  },
+  {
+    "id": "TC89",
+    "neighborhood": "Keyhole",
+    "name": "5th Dimensional Executive Hyperlounge",
+    "site": "KE7",
+    "description": "Welcome to the Hyperlounge, the ultimate productivity-enhancing conference room designed for dynamic burners like you. We provide a 24/7 ergonomic space for meetings, goofs, stand-ups, bits and more. Stop by for polite water cooler chat or to give a quick status update. If you think you have what it takes to thrive in a fast paced, dynamic organization, come to our Open Interviews and show us what you can bring to the table. Discover the future of meetings at the Hyperlounge, where innovation meets engagement."
+  },
+  {
+    "id": "TC81",
+    "neighborhood": "Keyhole",
+    "name": "Atmospheria",
+    "site": "KC7",
+    "description": "Atmospheria is a planet home to the moth people, who are drawn to the light that shines both outside and within others. The moth people strive to offer an inter-planetary rest and connection area for Lakes of Fire space travelers. Upon traversing the Portal to Atmospheria, travelers can visit the Landing Hub, a meeting space with workshops and a bar that serves cocktails/mocktails, and the Lamplight Lounge, which features Atmospheria's unique flora and fauna garden, seating spaces, fire heaters, and a stage for fire, flow, burlesque, and music."
+  },
+  {
+    "id": "TC67",
+    "neighborhood": "Keyhole",
+    "name": "Baby Fight Club",
+    "site": "KW3",
+    "description": "Look for the BABY BEACON and come join “Baby Fight Club” as we host a riot of interactive festival fun! Submerge yourself in the make believe world that is Baby Fight Club. Professional DJs play-out as the dance floor opens, daddy daycare strippers drop their Pampers as we bet on our favorite baby fighters and host our way into our weekend's main event… Baby Fight Night!!"
+  },
+  {
+    "id": "TC85",
+    "neighborhood": "Keyhole",
+    "name": "Break-xodus",
+    "site": "KE3",
+    "description": "Sunday Breakfast? We got it! You've packed your kitchen and are down to your last Cheeto. Fear not! Camp Break-xodus has bacon, COFFEE, eggs, bagels, cereal, juice, baked treats (including GF) from 9:00 - Noon (or whenever we run out)."
+  },
+  {
+    "id": "TC70",
+    "neighborhood": "Keyhole",
+    "name": "Brewtalitea",
+    "site": "KW6",
+    "description": "A refuge for headbangers, metalheads, and those that are metal-curious brewtalitea brings a crowdsorced playlist of tastey metal jams and pairs it with a variety of loose leaf teas. During the day we encourage musicians to jam freely with a drum kit and other instruments, but at night, we whiskey. Pinkies out bitches! \\m/"
+  },
+  {
+    "id": "TC88",
+    "neighborhood": "Keyhole",
+    "name": "Camp Ahlunama",
+    "site": "KE6",
+    "description": "Camp Ahlunama will be hosting a Friday Night Full Moon drum circle. Location TBA. We will also run the \"Fresh Trax\" program where artists can record their song ideas and we will produce an MP3 on the spot. We are bringing our Mobile recording studio. Sign up for recording sessions is required to ensure enough time for completion. Ahlunama will also be performing at various LOF stages throughout the gathering."
+  },
+  {
+    "id": "TC80",
+    "neighborhood": "Keyhole",
+    "name": "Camp Side Quest",
+    "site": "KC6",
+    "description": "Camp Side Quest is here to fill all your magical and quest giving needs! Come find your remedy or pick your poison at the local tavern (complete with pirates, banshees, and THE BLACK DOT!), lounge under the sea and maybe rave with the jellyfish, engage with a resident NPC for a short adventure or a life changing quest, or tempt the fates and toss a coin in the cursed wishing well. Whatever course you chart with us - we promise it will be magical!"
+  },
+  {
+    "id": "TC78",
+    "neighborhood": "Keyhole",
+    "name": "Camp Squish",
+    "site": "KC4",
+    "description": "Camp Squish; a place of rainbows, comfort, curated connection, and a place to be consensually squished. The Squishee's are a group of cute, queer, neurodivergent individuals who aim to provide a cozy place to unleash the inner child within. We're here to encourage your hearts, provide a comfy place for connection, and support anyone in need - just ask and the Squish will provide."
+  },
+  {
+    "id": "TC86",
+    "neighborhood": "Keyhole",
+    "name": "Camp Tramp Stamp",
+    "site": "KE4",
+    "description": "Come by Camp Tramp Stamp! Get your stamp if you are feeling like a TRAMP!  Friday evening after dark we will have our Friday Night Live event complete with classic SNL shorts on the big screen and alcoholic beverages to boot.  If you really want to get your tramp on… we have classy “modifier” stamps as well… (think VOIDED, PAST DUE, GRADE A... etc).  Our goal is to bring laughter and fun to all those we encounter!"
+  },
+  {
+    "id": "TC82",
+    "neighborhood": "Keyhole",
+    "name": "Camp YNot",
+    "site": "KC8",
+    "description": "Camp YNot is a sophisticated retreat from the congested main streets and the confusing chaos. Pinkee our Unicorn encourages all guests to escape society and class constraints. Wear your best and join us…  Camp YNot features Mega's Cantina, home of the Famous Rosé-All-Day Hour! and will once again be hosting Tapeworm Happy Hour. Always featuring single origin, artisanal tapeworms from around the globe. Choose wisely to suit your personal needs. (Antidotes will be available Saturday) Beautiful non-alcoholic creations will also be served at Mega's Cantina. Camp YNot hails from Toronto, Ontario, Canada/New York, New York, USA/Los Angeles, California, USA and beyond.  Camp YNot is the home of SlyMega Art. Solar Powered LED light art from Toronto, Ontario, Canada.  Camp YNot brings love and light and magic and Rosé to Burners far and wide."
+  },
+  {
+    "id": "TC65",
+    "neighborhood": "Keyhole",
+    "name": "Cosmic Disco",
+    "site": "KW1",
+    "description": "Welcome to the Cosmic Disco, where galaxies collide and beats transcend time and space! Step into our shimmering realm where the dance floor is your launch pad to the stars. Feel the pulsating rhythms of the universe as our DJs spin otherworldly tracks that bridge the gap between galaxies. From funky basslines to interstellar melodies, let the music take you on a journey through the cosmos. Make new friends and forge cosmic connections as you dance, laugh, and explore together. In the Cosmic Disco, everyone is united by the universal language of music and dance."
+  },
+  {
+    "id": "TC76",
+    "neighborhood": "Keyhole",
+    "name": "Dad Camp",
+    "site": "KC2",
+    "description": "We are Dad Camp!  A collection of wanna be daddies that set off on a fishing trip at Lucky Lake and are looking for some burners in need of unsolicited advice, 100% true fishing tales and perhaps a little snackage!  Can't wait to see ya'll on the lake!"
+  },
+  {
+    "id": "TC72",
+    "neighborhood": "Keyhole",
+    "name": "FLOW MY GOSH!",
+    "site": "KW8",
+    "description": "FLOW MY GOSH! Get excited! We (the camp formerly known as Flow Garden) are bringing back our newly expanded flow prop library and flow space with the goal of curating a welcoming and creative atmosphere for flow artists of all levels. Hosted events include a community fire jam on at least one night of the burn, a 90's dance party power hour, a pancake breakfast, and various skill shares throughout the burn. Aquatic treats and gifts will be presented by our 2024 mascot art installation, OCTOPOI!!!"
+  },
+  {
+    "id": "TC90",
+    "neighborhood": "Keyhole",
+    "name": "Frequencia",
+    "site": "KE8",
+    "description": "Nikola Tesla said, “If you want to understand the universe, think in terms of energy, frequency and vibration”. Frequencia embraces and explores the varying ways we connect with the universe through our senses. By creatively experimenting in avenues of fire, sound, light & movement. Everything in the universe is made up of energy. Energy is never destroyed, only transferred. Energy is transferred through vibration. Vibrations resonate at different frequencies. Frequencia is centralized around understanding the energy of vibration and frequency. Tuning into the nature of energy helps us to bridge the gap in understanding our environment, the universe and ourselves."
+  },
+  {
+    "id": "TC83",
+    "neighborhood": "Keyhole",
+    "name": "Kidsville",
+    "site": "KE1",
+    "description": "Kidsville  A community of LOF's youngest Burners and their families. Stop in and enjoy the Kidsville lemonade stand and whatever random shenanigans the kids have going on!"
+  },
+  {
+    "id": "TC77",
+    "neighborhood": "Keyhole",
+    "name": "Mom Camp",
+    "site": "KC3",
+    "description": "Step into Mom Camp, your home away from home on the Lake. Nestle into our plush couches, nibble on freshly baked cookies, and sip on cool refreshments. Feeling crafty? Dive into our stash of art supplies and let your creativity soar. As the sun sets, join us for live game shows that'll tickle your funny bone and challenge your wits. At Mom Camp, we're all about creating cozy memories and fostering a sense of community. So come on over, kick off your dusty boots, and let us pamper you with a dash of maternal love and a whole lot of fun."
+  },
+  {
+    "id": "TC84",
+    "neighborhood": "Keyhole",
+    "name": "Off-Duty Angels",
+    "site": "KE2",
+    "description": "Off-Duty Angels is a meditative healing arts camp providing a restorative space to repose and realign when visitors may feel overstimulated by the frenetic energies of a Burn. Our communal space includes a central yurt/shrine flanked by canopies furnished with low tables and cushions for visitors to enjoy refreshment consisting of hot citron tea and chilled fruited water. The space is filled with multicolored glowing lighting, ambient meditation music, various aromatherapies (incense, smudge, hydrosols, and essential oils) and is decorated with rugs, tapestries, and floral garlands. Periodic programming by healing arts practitioners will be offered during the day."
+  },
+  {
+    "id": "TC73",
+    "neighborhood": "Keyhole",
+    "name": "Sad Kids Club",
+    "site": "KW9",
+    "description": "Would you be the savior of the broken, the beaten and the damned? Calling all sad kids to the Sad Kids Club - if you still have band posters on the walls of your bedroom (or wish you did), this is the place for you. Come hang out with your 'elder emo' companions to dance, sing, and cry to all of your favorites that got us through our formative years."
+  },
+  {
+    "id": "TC74",
+    "neighborhood": "Keyhole",
+    "name": "Smoky Bubbles",
+    "site": "KW10",
+    "description": "What's that drifting happily along? Why it's Smoky Bubbles! Celebrating our 10th year at Lakes (on and off), Smoky Bubbles offers a welcome place for all travelers to sit back and relax amidst their journey. A variety of hookah offerings, tiki drinks and tea are always on tap. Learn fancy parlour tricks such as blowing an engaging Smoky Ring towards your partner, or poofing fancy Smoky Bubbles from one of our talented Hookars. After enjoying hookah and refreshments, treat yourself to an unforgettable dip in our wig lagoon (it's deeper than appears!), visit our art glass wishing tree or marvel in awe at the world's only tie-dyed volcano. Check out sign board for daily events and meanderings."
+  },
+  {
+    "id": "TC68",
+    "neighborhood": "Keyhole",
+    "name": "Stuffie",
+    "site": "KW4",
+    "description": "Mr. Buttstuff presents… Camp Stuffie! Where creativity meets comfort! Our iconic “Grampa Joe Couch” provides a soft, cloud-like refuge where burners can unwind, share stories, and recharge. Expect plush cushions, cozy blankets, and plenty of stuffies! Whether you need a break from reality or crave human connection, our cuddle space awaits. Let your creativity soar with our DIY build a burn rat station or climb our scaffolding for a new perspective of the burn."
+  },
+  {
+    "id": "TC87",
+    "neighborhood": "Keyhole",
+    "name": "The Calico Carp and Gingham Guppies",
+    "site": "KE5",
+    "description": "Join us for a curated blend of eclectic events and relax under our colorful tents.  Our events will include guided mediation, plushie shibari, stories read aloud, tarot, a touch tank and more!  Also, a mysterious yellow submarine has risen from the depths right in the middle of our camp.  Oh my."
+  },
+  {
+    "id": "TC91",
+    "neighborhood": "Keyhole",
+    "name": "The Coven",
+    "site": "KE9",
+    "description": "Seeking colorful conversation? A sparkly set of nails? Or a sip of strong brew? Meet us at The Coven for shellac manicures and homegrown wine by Nail Witch."
+  },
+  {
+    "id": "TC75",
+    "neighborhood": "Keyhole",
+    "name": "The Den of Thieves",
+    "site": "KC1",
+    "description": "Rest ye weary sea legs and get out from the watchful eye of the empire's privateers at the Den of Thieves: a small island in international waters where lawless freaks, fools, and troublemakers can seek refuge from the galeforce din of soundcamp music and light. The fires in front of Lakevater Cove beckon cold and weary travelers. Delve deeper still to find The Grotto: a surprisingly comfortable cavern where patrons can test their nimble fingers on fabric arts or sit entranced as the denizen storytellers weave their tales. Sit and stay a spell, traveler."
+  },
+  {
+    "id": "TC79",
+    "neighborhood": "Keyhole",
+    "name": "The Ranch",
+    "site": "KC5",
+    "description": "Y'all means all around these parts, pardner! We welcome the stranger so come hang your hat and kick up your feet in The Angler Lounge. Maybe you'll catch a bit of live music, a one-shot game, a cuddle puddle, or if you're truly lucky you'll stumble in right as supper is served!"
+  },
+  {
+    "id": "TC66",
+    "neighborhood": "Keyhole",
+    "name": "The Spice Aquatic",
+    "site": "KW2",
+    "description": "Join us on the Spice Aquatic! We've explored the deepest depths of the Imaginarium Aquarium to bring you the hottest and rarest sauces around! We also have hot snacks and hot friends to spice up your lakes. You'll also want to make sure to take a dip in the capsaicin basin while you're here! 🌶️"
+  },
+  {
+    "id": "TC69",
+    "neighborhood": "Keyhole",
+    "name": "VIB (Very Important Burners)",
+    "site": "KW5",
+    "description": "The Royal Society of Very Important Burners (VIB) embodies the principle of Radical Self Importance. Our exclusive lounge area, table service signature cocktails, and culinary experiences are open to only the burniest of burners. All new members must be vouched for by existing VIBs, or complete a rigorous screening process."
+  },
+  {
+    "id": "TC71",
+    "neighborhood": "Keyhole",
+    "name": "Welcome HAUM",
+    "site": "KW7",
+    "description": "We are an all ages camp offering food, cozy space, board games, lawn games and an open mic / jam space..."
+  },
+  {
+    "id": "TC6",
+    "neighborhood": "North Side",
+    "name": "Camp Recharge",
+    "site": "8",
+    "description": "Our camp requires a power source and potable water to offer services to the community. Historically, we have been placed at site 8 which is a perfect location for us. We share the power with those who request access to power art installations on the beach. If available, we would love to have that same space because people know to look for us there."
+  },
+  {
+    "id": "TC5",
+    "neighborhood": "North Side",
+    "name": "Frozen Kraken Creamery",
+    "site": "7",
+    "description": "Frozen Kraken Creamery is here to fill your mouths with our delicious cream! Frozen Kraken Creamery is a bastion of gifting and a break from the heat at the lake. Catch us making the circle with our cart, stop by for one of our sundae making events, or kick back in our expanded ice cream parlor! Now with more dolphin bits!"
+  },
+  {
+    "id": "TC4",
+    "neighborhood": "North Side",
+    "name": "Funky Tiki and Orenda",
+    "site": "4 - 6",
+    "description": "Funky Tiki and Orenda. , Mega Dome, Big Tikis, Fire, Dancing, Bar. Paradise."
+  },
+  {
+    "id": "TC2",
+    "neighborhood": "North Side",
+    "name": "Inferni'peligo",
+    "site": "2",
+    "description": "Inferni'peligo is the last fire for .3 miles!!! As a beacon of warmth and light, we will warm your digits as you wander into or out of the quiet zone, and delight your eyes with twinkles of all sorts of flames."
+  },
+  {
+    "id": "TC3",
+    "neighborhood": "North Side",
+    "name": "Nevis' Niceties",
+    "site": "2A",
+    "description": "Nevis' Niceties is riding this wave for it's second year to take you on a journey for your senses. There will be original artwork to see to stimulate your thoughts. Along with draining water, your ears may be reminded of the art of conversation with ice breakers, tastebuds delighted with both nibbles and drinks (including an all day bloody mary hour) Float away feeling restored with a sense of calm from aroma therapy. Last but not least, in addition to shampoo/conditioning scalp massage for non-threatening touch, we're bubbling with excitement to feature chair merssage by Mary the Mermaid."
+  },
+  {
+    "id": "TC9",
+    "neighborhood": "North Side",
+    "name": "Pizza My Heart",
+    "site": "11",
+    "description": "Sick of granola bars and ramen? Stop by Pizza My Heart for a slice.  Feeling like you're missing out other burns? Stop by Pizza my Heart and see if the Portal to TTATC is open.  Want to hit something? Try Davey Jones' Bang Bang located at... you guessed it! Pizza My Heart! Keep your eye open for golden pizza tokens hidden around the lake! They can be redeemed for totally sweet prizes! (and by prizes we mean pizza!)"
+  },
+  {
+    "id": "TC7",
+    "neighborhood": "North Side",
+    "name": "Sideways Potato People",
+    "site": "9",
+    "description": "Taters"
+  },
+  {
+    "id": "TC8",
+    "neighborhood": "North Side",
+    "name": "Tequila TV",
+    "site": "10",
+    "description": "Come join us for a little Lakes of Fire history and a whole lotta fun! Tequila TV in full effect at LOF 24. We are LOF and BM vets and volunteers and we are here to make your burn amazing in every way.  Our haven is right on the main road and is built for shade, serenity and surprises. We will have surprise Pizza from your favorite Pie-slingers at Lucky Lake and a groovy lounge to relax and enjoy a beverage and a slice! Welcome to the Northside Food Court; our neighborhood loves to feed people. Stop by and ask us about our daily offerings and activities!"
+  },
+  {
+    "id": "TC1",
+    "neighborhood": "North Side",
+    "name": "Tick Town",
+    "site": "1",
+    "description": "Imagine yourself, bored, thirsty, and curious about Ticks…  then head on down to TickTown, one of the longest running theme camps at LOF.   Come “Spin the Wheel” and receive a delicious crafted cocktail at the infamous  Snickerin' Tick Tavern. We have unique games to play, and a fabulous DJ to dance  the night away or just relax in the Garden of Wonderful Ramen.   TickTown loves you!"
+  },
+  {
+    "id": "TC93",
+    "neighborhood": "South Side",
+    "name": "Atom's Family",
+    "site": "51",
+    "description": "Come one and all to Atoms Family 2024: Imaginarium Aquarium!  Have your fortune told by Madame Moray as Cuddlefish serves mocktails and cocktails to all our fishy visitors - come with your fins on.  Dive into your feelings with the Atoms Family Pool Boys during our workshop on authentic relating."
+  },
+  {
+    "id": "TC104",
+    "neighborhood": "South Side",
+    "name": "Baked on the Lake",
+    "site": "73 - 74",
+    "description": "Welcome to Baked on the Lake. Come experience our mystical bakery cafe that has risen from the depths of the Imaginarium Aquarium.  Indulge in a delicious selection of freshly baked goods, refreshing beverages, and enchanting atmosphere filled with music and conversation, all nestled on the oceans floor. Scheduled events will be in the WWW and on our whiteboard at camp.  Let's bake magic together!"
+  },
+  {
+    "id": "TC97",
+    "neighborhood": "South Side",
+    "name": "Bikes and Brews",
+    "site": "58 - 60",
+    "description": "Bikes and brews. We ride bikes, we drink brews. We'll fix your ride or fix ya a drink but only after the wheel decides your fate... We are just your neighborhood bike bar, oh and we also provide the orange community bikes and racks."
+  },
+  {
+    "id": "TC92",
+    "neighborhood": "South Side",
+    "name": "Coffee UP",
+    "site": "50",
+    "description": "Coffee Up serves hot, fresh coffee each morning and throughout the day/evening as we're able. Visitors are welcome to stay and hang out as they enjoy their awake juice or take it to go."
+  },
+  {
+    "id": "TC102",
+    "neighborhood": "South Side",
+    "name": "Deep Mysteries Teahouse",
+    "site": "70 - 71",
+    "description": "One bowl moistens the lips and throat; Two bowls shatters loneliness and melancholy; Three bowls, thinking hard, one produces five thousand volumes; Four bowls, lightly sweating, the iniquities of a lifetime disperse towards the pores. Five bowls cleanses muscles and tendons; Six bowls accesses the realm of spirit; One cannot finish the seventh bowl, but feels only a light breeze spring up under the arms.  - from \"Song of Tea\" by Lu Tong (790–835)"
+  },
+  {
+    "id": "TC103",
+    "neighborhood": "South Side",
+    "name": "Notorious Scoundrels",
+    "site": "72",
+    "description": "Scoundrels and Gentlemen - cut from the same cloth. Join us every sunset and uncork your dinner in our lounge."
+  },
+  {
+    "id": "TC101",
+    "neighborhood": "South Side",
+    "name": "Radio SGC",
+    "site": "69",
+    "description": "RadioSGC's goal is to provide an immersive Lakes of Fire experience that stimulates the mind and body. Where attendees can experience the Burner culture, atmosphere, and artistic expression through the beauty of broadcasting on FM and Digital devices! Tune into volunteer generated content from your car at gate, wherever you camp, at our skillful and consensually placed sound stations, or by joining us live at the radio booth. We even simulcast the Burn soundtrack for those that watch from afar. Want your voice heard? We have a microphone for you and our DJs can promote engagement with you camp's events!"
+  },
+  {
+    "id": "TC95",
+    "neighborhood": "South Side",
+    "name": "Still Bayou",
+    "site": "53 - 55",
+    "description": "Welcome to Still Bayou, your swamp oasis. Wander through for swamp treats, a Hurricane party, and dance in the trees with the Will o' the Wisps."
+  },
+  {
+    "id": "TC100",
+    "neighborhood": "South Side",
+    "name": "TELETWERKERS",
+    "site": "68",
+    "description": "Welcome to TELETWERKERS Camp - the ultimate convergence of corporate acumen and playa exhilaration. Positioned at the vanguard of the Lakes of Fire experience, we're not just a camp; we're a high-octane, immersive ecosystem where dynamic tele-working and electrifying twerking synergize to redefine paradigms. Here, we're not just pushing the envelope—we're redesigning it for peak performance and unparalleled joy.  Sure, we're taking the piss on corporate buzzwords, but if you need to \"work remotely\" for some time on satellite internet, stop on by.  Wifi and Espresso from 9-5pm, every day.  Business attire required - but will be provided. Twerking workshops... optional?"
+  },
+  {
+    "id": "TC98",
+    "neighborhood": "South Side",
+    "name": "That's What Cheese Said",
+    "site": "61 - 62",
+    "description": "We are gettin' cheesy with it! Participate in the cultivation of gouda vibrations in our swiss cheese inspired ambiance. Grab a grilled cheese on your loop, or stay, hang, and join us in celebration of all things cheesy."
+  },
+  {
+    "id": "TC94",
+    "neighborhood": "South Side",
+    "name": "The Catapult",
+    "site": "52",
+    "description": "At The Catapult, \"You Bring It, We Fling It!\".  We're a diner-themed escape room style puzzle that occasionally serves food and always serves non-alcoholic beverages.  The Catapult opens tomorrow!"
+  },
+  {
+    "id": "TC96",
+    "neighborhood": "South Side",
+    "name": "The Funkyard",
+    "site": "56 - 57",
+    "description": "Shop our bazaar; Envelop yourself in a  cornucopia of textures and patterns. Amplify your look and peruse our racks. “Have a snack, or be the snack!” New plus size rack for the Buxom burners. Come thrift and snack with us! Home to the poetry corner, positivity board and LOF official scrapbook. Funk yer burn!"
+  },
+  {
+    "id": "TC99",
+    "neighborhood": "South Side",
+    "name": "Valhalla!!",
+    "site": "63 - 67",
+    "description": "Valhalla! A haven for fallen warriors where mortal men are treated as the Gods they truly are, and prepare themselves for Ragnarok, the last battle. Valhalla is a place for the wanderers and warriors of the Lake to rest their weary feet around a fire and be entertained by stories while drinking mead and eating meat. A place where they can prepare themselves for battle with games of strength, dexterity, and wit. A place to wonder at the beauty of art and partake in Loki's mischief."
+  },
+  {
+    "id": "TC40",
+    "neighborhood": "Uptown",
+    "name": "2:39 PBS - The Squirrel Nest/POND",
+    "site": "41 - 42",
+    "description": "2:39 is a multi-regional collaborative camp, provide food, drink,  fire & Water art, a small shrine, a cuddle aquarium - & always a welcome environment"
+  },
+  {
+    "id": "TC35",
+    "neighborhood": "Uptown",
+    "name": "Camp Not Here",
+    "site": "34",
+    "description": "Feel free to stop by but we probably aren't here. Feed your introvert through relaxing coloring, cloud gazing, and contemplation. Sit around, become Not Here."
+  },
+  {
+    "id": "TC49",
+    "neighborhood": "Uptown",
+    "name": "Camp One More Thing!",
+    "site": "115",
+    "description": "Camp One More Thing where there is always one more thing getting added to the mix! Come  chill in our roadside lounge area and have a drink from the bar while being entertained by boingable objects and some fun art contributions. We always love the company!"
+  },
+  {
+    "id": "TC41",
+    "neighborhood": "Uptown",
+    "name": "Damp Doodles",
+    "site": "43",
+    "description": "Stop by and get your doodle on! Just remember... nothing lasts forever."
+  },
+  {
+    "id": "TC44",
+    "neighborhood": "Uptown",
+    "name": "Deep House of Pancakes",
+    "site": "107",
+    "description": "Welcome to Deep House of Pancakes, where beats and breakfast collide! Immerse yourself in themed DJ sets featuring 808s and pancakes, alongside a lineup of deep house bangers. Whether you're craving fluffy stacks in the morning or seeking late-night indulgence, we've got you covered. Our griddle is always sizzling, serving up piping hot pancakes and freshly brewed coffee. Operating on our own unique schedule, we might be open in the morning, late at night, or somewhere in between—or maybe not at all. Just follow the glow of our pancakes sign, and let the rhythm guide you to a culinary and musical experience unlike any other."
+  },
+  {
+    "id": "TC43",
+    "neighborhood": "Uptown",
+    "name": "Drink, Bitch!",
+    "site": "104 - 106",
+    "description": "Drink, Bitch! is in its 5th year with your favorite off key refreshments! Come join us for scheduled drink offerings: Lemonade social, My Tie Mai Tais, our famous Bloody Mary's, Absinthe Ritual and Apple Pie Moonshine! Come relax and talk story on our world class inflatable couches and explore our Aquarium of Wonder! We offer paddleboard lessons and loaners and suspension /bondage demonstrations for all ages and levels. We have a mobile emergency Rice Krispy and beverage cart, but you must answer questions first!"
+  },
+  {
+    "id": "TC46",
+    "neighborhood": "Uptown",
+    "name": "HippoCampUs",
+    "site": "110 - 111",
+    "description": "HippoCampUs is celebrating the bodies of our community! Come connect with, affirm, and appreciate your body! Visit our annual Ror-chest Test print making and interpretation, along with other paint and sensory activities. Come dip your chest in ink and post it on our billboard or for our black light body painting event. Our space will be open 24/7 for all bodies alike to come enjoy and interpret Ror-chest prints, giving them good vibes and kind words. When you are using your body for gallivanting the burn, stop by for a drink at our hydration station or the occasional alcoholic beverage."
+  },
+  {
+    "id": "TC36",
+    "neighborhood": "Uptown",
+    "name": "I love you",
+    "site": "35",
+    "description": "We are in space. No one knows what's going on. I love you."
+  },
+  {
+    "id": "TC47",
+    "neighborhood": "Uptown",
+    "name": "Jupiter's Arcade",
+    "site": "112",
+    "description": "Jupiter's Arcade offers the 200 most popular video games from 30+ years ago.  Feel the joy of our classic console and cabinet arcade games!  Mention this ad to Jupiter for sticker or patch. Also cup/bowl gifting/exchange table for \"burners without containers.\" We accept quality donations of clean, non-breakable cups/bowls. We randomly serve various quesadillas from our kitchen, and mobile grill wagon. PawPaw wine tasting at Crappy Bar, Friday 4-6p."
+  },
+  {
+    "id": "TC32",
+    "neighborhood": "Uptown",
+    "name": "LoF Yacht Club",
+    "site": "31",
+    "description": "Are you Not Sure where to launch your watercraft? Are you Not Sure if you received your watercraft permit? Are you Not Sure about water safety? Did you forget to bring a Personal Flotation Device (PFD)? Come visit us at the LoF Yacht Club we are Not Sure and we can help you out."
+  },
+  {
+    "id": "TC38",
+    "neighborhood": "Uptown",
+    "name": "Los Mayones",
+    "site": "36 - 38",
+    "description": "Los Mayones, San Escobar…. Not only a destination but also a state of mind!"
+  },
+  {
+    "id": "TC33",
+    "neighborhood": "Uptown",
+    "name": "Not Sure JellyBEEs",
+    "site": "32",
+    "description": "The BEEs pollinated in the seas! Buzz on by our Underwater Hive to grab bitchin Bee garb, accentuate your stinger, or beebop your antennae doodads. Swarm into the waters and join our collective JellyBEE Hive as we infest the 'promised lands'."
+  },
+  {
+    "id": "TC34",
+    "neighborhood": "Uptown",
+    "name": "Parents of the Caribbean",
+    "site": "33",
+    "description": "Welcome to the whimsical shores of Imaginarium Aquarium, where fantastical seas meet the vibrant spirit of the Caribbean! Behold, as we proudly present \"Parents of the Caribbean.\" Set sail with us on a voyage of adventure and discovery, where the treasures we seek are not gold doubloons, but precious memories shared with fellow seafaring parents. Our camp is a sanctuary amidst the bustling waves, where weary pirate parents can find respite and camaraderie. Join us for a myriad of family-friendly activities that will delight both young and old buccaneers alike."
+  },
+  {
+    "id": "TC37",
+    "neighborhood": "Uptown",
+    "name": "Pool Party",
+    "site": "35A",
+    "description": "POOL PARTY!! Pool party will be a celebration of all things pool party. With inflatable pools for cooling off and several novelty pools, pool related puns, and pool related games."
+  },
+  {
+    "id": "TC42",
+    "neighborhood": "Uptown",
+    "name": "Schott Klinik and Pharmacy",
+    "site": "102 - 103",
+    "description": "Various wayward medical professionals and fire folk have congregated in our Schott Klinik, Pharmacy & Leisure Center for many years, offering bad medical advice, poorly chosen remarks, not to mention unconventional and unacceptable behavior. We ain't right in the head. We'll be serving up popcorn, boozes & Coneys. All the good stuff is DarkRaven's responsibility. Any complaints may be addressed to and are the responsibility of the Harv."
+  },
+  {
+    "id": "TC45",
+    "neighborhood": "Uptown",
+    "name": "Struggle Bus",
+    "site": "108 - 109",
+    "description": "Our struggles are real, but our busses are not. Grab a fashionable, wearable Struggle Bus to take on a you-powered adventure; stop in for happy hour, a flavor tripping event for your lazy taste buds, a cocktail (or mocktail) featuring a flower that will leave your mouth buzzing with excitement; or just give your feet a break and rest up in our lounge."
+  },
+  {
+    "id": "TC39",
+    "neighborhood": "Uptown",
+    "name": "The Slippery Pickle",
+    "site": "39 - 40",
+    "description": "Stop by The Slippery Pickle for picklebacks or try some whiskey lemonade - don't forget your cup! Just the Juice shots available for our non-drinking friends. Open most afternoons & whenever else we feel like it. Now with the Slippery Pickle Ride for our entertainment!"
+  },
+  {
+    "id": "TC48",
+    "neighborhood": "Uptown",
+    "name": "We Don't Need Another Hero/Rita's Cafe",
+    "site": "113 - 114",
+    "description": "We are your cozy neighborhood bar or greasy spoon. If your neighborhood is an irradiated wasteland with cannibals and killer robots. Come for the survival. Stay for the charm."
+  },
+  {
+    "id": "TC112",
+    "neighborhood": "West End",
+    "name": "Beantown",
+    "site": "87A",
+    "description": "We're just some little guys! Beantown is a transmasculine theme camp that revels in the joy of trans experience. We offer a trans gathering space for chatting, relaxing, and snacking.  Come to our Beanie Weenies party for tasty baked beans and lil weenies!"
+  },
+  {
+    "id": "TC106",
+    "neighborhood": "West End",
+    "name": "Camp Pop-a-Squat",
+    "site": "78 - 79",
+    "description": "For our junior year, Camp Pop-a-Squat is coming in hot! Step right up and enjoy our tradition of morning yoga, hot, flowering tea and hand rolled joints. At our camp, you will find impromptu performances throughout the event and are welcome to come make kandi bracelets anytime. Are you a pole-a-rina?! Come try our brand new X-Stage out and show us what you got. Don't miss our floating water tent, it will be the comfiest spot to land and pop a squat!  We will be providing groovy tunes this year brought to you by ARCHANGEL & guests. Come check out Camp-Pop-a-Squat!!!"
+  },
+  {
+    "id": "TC109",
+    "neighborhood": "West End",
+    "name": "Evolutionary Illumination",
+    "site": "84",
+    "description": "Evolutionary Illumination invites you to interact with a 20' interactive kaleidoscopic fractal video screen! Driven by the magic of Lakes of Fire and its participants, our feedback rig responds to people in a magically interactive experience in front of a giant, interactive, and evolving wall of color, patterns, and dance. Feedback with the video creates a never-the-same pattern, color, and light show that reacts to participants playing, dancing, spinning, and contemplating the edges of light and wonder."
+  },
+  {
+    "id": "TC120",
+    "neighborhood": "West End",
+    "name": "Guerilla Cheese",
+    "site": "90",
+    "description": "Can you find it? Deep in the forests of Lucky Lake a secret den of scallywags and scoundrels has found a foothold in Lakes of Fire. As they sneak undetected through the burn they plan to take part in the most despicable gifting of all: Grilled Cheese. ARE THEY EVEN ON THE MAP??? Guerrilla Cheese, if you can find it, eat it."
+  },
+  {
+    "id": "TC108",
+    "neighborhood": "West End",
+    "name": "LaGoon Reef",
+    "site": "82 - 83",
+    "description": "Come take a dive at LaGoon Reef! We've previously brought you Goon Garden and Grandma Gussie's Home For Wayward Burners, now follow us into the ocean to find a fabulous sunken treasure costume closet, a more accessible reprise of last year's Octopus Garden, a sensory sensation called the SeaMonkey ShagPad, and a new audio/visual projection experience on The Cube you've come to know and love all nestled in a beautiful coral reef path. Our DJ Frog Legz will be present to provide the jams and beats to keep all you land lovers movin and groovin."
+  },
+  {
+    "id": "TC107",
+    "neighborhood": "West End",
+    "name": "Lux Ephemera",
+    "site": "80 - 81",
+    "description": "The ephemeral light invites you to be and flow in our space.  Our aim is to provide top notch Sound, Drinks and Art from a teeny little camp."
+  },
+  {
+    "id": "TC116",
+    "neighborhood": "West End",
+    "name": "MEOW*TOWN",
+    "site": "85",
+    "description": "MEOW*TOWN provides a wide mixture of cat themed activities including the Mystical Kitties Tea & Tarot Lounj, the CAT*HEDRAL dance club, the MEOW*TOWN Marina Art boats, cat theme self play activities, and more."
+  },
+  {
+    "id": "TC113",
+    "neighborhood": "West End",
+    "name": "My Big Fat Weiner",
+    "site": "87B",
+    "description": "Come check out my Big Fat Weiner! Quality meat with lots of toppings. Spend your night swallowing our meat, taking a snack break and having a good laugh at life. Serving Thursday and Friday around 9, until there gone."
+  },
+  {
+    "id": "TC111",
+    "neighborhood": "West End",
+    "name": "Prism Lakehouse",
+    "site": "87",
+    "description": "Prism Lakehouse is a group of neurodivergent queerdos, offering a variety of queer joy and experiences! Check out the interactive Rainbow Pipe Dream water installation! How many water wheels can you spin? Don't miss our nature themed craft workshops! Find insight from a queer tarot reading. Take home one of our polymer clay earring offerings! Come watch or even join our queer talent show! Dive in to some deeper discussions on queerness and our experiences. And stop by Friday at 4:20 to witness Erica and Emily's gay wedding!"
+  },
+  {
+    "id": "TC115",
+    "neighborhood": "West End",
+    "name": "Sunrise Saloon",
+    "site": "89",
+    "description": "Beach facing bar open sunrise hours approximately 5AM-9AM Swinging doors facing the road lead you down the right path A place to wind down from the night or ramp up for the day Refreshing pre batched specialty cocktails/Electrolytes/fruit floating options on the water Cafe Tables and Comfy Beach Loungers Sunglasses/floppy hats/slips/robes/sunscreen available Motown/Low Fi music  No Cuddle Puddles/No Special requests/No complaining Shenanigans and Hijinks welcome"
+  },
+  {
+    "id": "TC117",
+    "neighborhood": "West End",
+    "name": "Superfriends",
+    "site": "91",
+    "description": "Come dance to the beat and chill by the pool, sign up for swimming lessons, and have a lovely lounge drink"
+  },
+  {
+    "id": "TC118",
+    "neighborhood": "West End",
+    "name": "Syncytium",
+    "site": "92 - 95, W Field",
+    "description": "Syncytium!!! Warm yourself at our fires. Dance to our vibes, experience our art. Drink our drinks. Enjoy our snark"
+  },
+  {
+    "id": "TC110",
+    "neighborhood": "West End",
+    "name": "The Gayborhood",
+    "site": "86",
+    "description": "Come visit the Gayborhood: home of your favorite queerdos and a handful of straights in an inclusive, disability-friendly space welcome to all. Stop for a rest in the gaybeds or take a dip at the Nood Beach; join a discussion on identity or get in touch with your body through gentle movement. We have a couple of workshop spaces so check out the calendar to see what's going on! From Tea-for-T Time to the Nood Beach Weiner Roast there's sure to be something to help you queer your mind."
+  },
+  {
+    "id": "TC114",
+    "neighborhood": "West End",
+    "name": "Unregulated Camp",
+    "site": "88",
+    "description": "Unregulated Camp is a home brew dive bar, dispensing a wide range of tasty, hand-crafted libations from our draft system. Our offerings will include cold home brewed beer, cider, draft cocktails, and cold brew coffee. Nonalcoholic drinks will also be available. Stop by to learn how to make your own home brew. We'll be brewing on site. After dark, we strongly encourage participants to push our buttons… if the bus is on fire, we're open!"
+  },
+  {
+    "id": "TC105",
+    "neighborhood": "West End",
+    "name": "Videogasm",
+    "site": "75 - 77",
+    "description": "Videogasm featuring the Playa Theater. Every night from dusk till at least 2 am we will be showing a variety of shorts, parodies, music videos, cult films, VJ sets, interactive video art, Burning Man related videos and more on our large lakefront screen. In the afternoon, chill to the music in our Sleepy Pickle Lounge, sing some karaoke, play with our water themed games, or try one of our fishbowl cocktails. Grab a handmade Lakes of Fire “Imaginarium Aquarium” trinket from our gifting tree or a  tiny squeaky pig from our Piggie Pool. Live shadowcast of the Rocky Horror Picture Show Friday at midnight!"
+  }
+]
