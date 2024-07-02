@@ -1,16 +1,12 @@
 import styles from './lof-map.module.scss';
 
-/* eslint-disable-next-line */
-export interface LofMapProps {}
-
-export function LofMap(props: LofMapProps) {
+export function LofMap() {
   return (
     <div className={styles['container']}>
-      {/* <iframe
+      <iframe
         title="Lakes of Fire 2024 Interactive Map"
-        src="https://opensea-2023-map.lof.breakfreeproductions.com/"
-      /> */}
-      <img src="lof-generic-map.png" alt="Lucky Lake Campground General Map" />
+        src="https://opensea-2024-map.lof.breakfreeproductions.com/"
+      />
     </div>
   );
 }
