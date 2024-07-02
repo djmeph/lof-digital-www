@@ -2,54 +2,8 @@
   "coalesce": {
     "coalesce": [
       {
-        "event_id": 354,
-        "title": "The Cosmic Bureau of Lost Things",
-        "event_description": "Take a lost item home. Or send a once-loved item to wander. Discover\r\nMOOP from around the galaxy (stock from distant planets running low).\r\nDrop by from dawn till dusk to peruse this surplus of space oddities or add to it from your own excess of curios in your cargo hold.\r\n(art, wearables, baubles, trinkets, items great and small, prepare to be dazzled by a kaleidoscope of cosmic curiosities.)",
-        "site_id": "132",
-        "hosting_location": "The Robot and The Mermaid",
-        "event_recurrence": "multiple",
-        "heart_count": 1,
-        "alcohol": false,
-        "red_light": false,
-        "fire_art": false,
-        "spectacle": false,
-        "crafting": false,
-        "food": false,
-        "sober": false,
-        "event_times": [
-          {
-            "event_time_id": 1122,
-            "starting": "2024-07-17T10:00:00",
-            "ending": "2024-07-17T20:00:00",
-            "day_of_week": "Wednesday",
-            "all_day": false
-          },
-          {
-            "event_time_id": 1123,
-            "starting": "2024-07-18T10:00:00",
-            "ending": "2024-07-18T20:00:00",
-            "day_of_week": "Thursday",
-            "all_day": false
-          },
-          {
-            "event_time_id": 1124,
-            "starting": "2024-07-19T10:00:00",
-            "ending": "2024-07-19T20:00:00",
-            "day_of_week": "Friday",
-            "all_day": false
-          },
-          {
-            "event_time_id": 1125,
-            "starting": "2024-07-20T10:00:00",
-            "ending": "2024-07-20T20:00:00",
-            "day_of_week": "Saturday",
-            "all_day": false
-          }
-        ]
-      },
-      {
         "event_id": 357,
-        "title": "2024 Fire Arts Safety Training",
+        "title": "Fire Arts Safety Training 2024",
         "event_description": "FIRE LOVERS,\r\n\r\nYou know who you are! Those that love to connect and feel the heat close as we move our bodies!\r\n\r\nAny Fire Artist is welcome to come perform in LAKES OF FIRE 2024: IMAGINARIUM AQUARIUM! \"Conclave\" is the group fire performance done prior to lighting the Effigy on Saturday evening. \r\n\r\nOur conclave group will perform together in front of the Effigy and all of our Lakes Of Fire community. It is our pleasure of warming up the night for the festivities to come!  \r\n\r\nAll skill levels are welcome! Come join the fun and shake your fire booty with us.\r\n\r\n→→ All Conclave performers are required to attend one Lakes of Fire FAST \"Fire Arts Safety Training\" course. *\r\n* Unless you attended a FAST meeting last year in 2023. ",
         "site_id": null,
         "hosting_location": "Effigy",
@@ -64,14 +18,14 @@
         "sober": true,
         "event_times": [
           {
-            "event_time_id": 1133,
+            "event_time_id": 2481,
             "starting": "2024-07-18T14:00:00",
             "ending": "2024-07-18T14:45:00",
             "day_of_week": "Thursday",
             "all_day": false
           },
           {
-            "event_time_id": 1134,
+            "event_time_id": 2482,
             "starting": "2024-07-19T14:00:00",
             "ending": "2024-07-19T14:45:00",
             "day_of_week": "Friday",
@@ -118,6 +72,52 @@
           },
           {
             "event_time_id": 1129,
+            "starting": "2024-07-20T10:00:00",
+            "ending": "2024-07-20T20:00:00",
+            "day_of_week": "Saturday",
+            "all_day": false
+          }
+        ]
+      },
+      {
+        "event_id": 354,
+        "title": "The Cosmic Bureau of Lost Things",
+        "event_description": "Take a lost item home. Or send a once-loved item to wander. Discover\r\nMOOP from around the galaxy (stock from distant planets running low).\r\nDrop by from dawn till dusk to peruse this surplus of space oddities or add to it from your own excess of curios in your cargo hold.\r\n(art, wearables, baubles, trinkets, items great and small, prepare to be dazzled by a kaleidoscope of cosmic curiosities.)",
+        "site_id": "132",
+        "hosting_location": "The Robot and The Mermaid",
+        "event_recurrence": "multiple",
+        "heart_count": 1,
+        "alcohol": false,
+        "red_light": false,
+        "fire_art": false,
+        "spectacle": false,
+        "crafting": false,
+        "food": false,
+        "sober": false,
+        "event_times": [
+          {
+            "event_time_id": 2483,
+            "starting": "2024-07-17T10:00:00",
+            "ending": "2024-07-17T20:00:00",
+            "day_of_week": "Wednesday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2484,
+            "starting": "2024-07-18T10:00:00",
+            "ending": "2024-07-18T20:00:00",
+            "day_of_week": "Thursday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2485,
+            "starting": "2024-07-19T10:00:00",
+            "ending": "2024-07-19T20:00:00",
+            "day_of_week": "Friday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2486,
             "starting": "2024-07-20T10:00:00",
             "ending": "2024-07-20T20:00:00",
             "day_of_week": "Saturday",
@@ -6818,6 +6818,45 @@
         ]
       },
       {
+        "event_id": 358,
+        "title": "Conclave 2024",
+        "event_description": "Conclave is going to keep swimming, are you?\r\n\r\nAny Fire Artist, or movement artist, is welcome to come perform in LAKES OF FIRE 2024: IMAGINARIUM AQUARIUM! \"Conclave\" is the group fire performance done prior to lighting the Effigy on Saturday evening. Or, if you're open to safety, or add another art form, we would love to have you!\r\n\r\nOur conclave group will perform together in front of the Effigy and all of our Lakes Of Fire community. It is our pleasure of warming up the night for the festivities to come!  \r\n\r\nAll skill levels are welcome! Come join the fun and shake your fire booty with us.\r\n\r\n→→ All Conclave performers are required to attend one Lakes of Fire FAST \"Fire Arts Safety Training\" course. *\r\n* Unless you attended a FAST meeting last year in 2023. \r\n\r\n→→ We are doing Conclave rehearsals on Thursday and Friday at 3PM at Effigy. \r\n      ** These are not mandatory but we encourage you to come to at least one if you are able. 😊\r\n\r\n(NOT MANDATORY) Conclave Rehearsals  -\r\n🐠 July 18, Thursday || 3PM at Effigy\r\n🐠 June 19, Friday || 3PM at Effigy\r\n\r\nMANDATORY Conclave Rehearsal  -\r\n🐠 July 20, Saturday || 6PM at Effigy prepared for Conclave * \r\n     * You must checked in by 6:30PM or you will not be able to participate",
+        "site_id": null,
+        "hosting_location": "Effigy",
+        "event_recurrence": "multiple",
+        "heart_count": 1,
+        "alcohol": false,
+        "red_light": true,
+        "fire_art": true,
+        "spectacle": true,
+        "crafting": false,
+        "food": false,
+        "sober": true,
+        "event_times": [
+          {
+            "event_time_id": 2478,
+            "starting": "2024-07-18T15:00:00",
+            "ending": "2024-07-18T16:00:00",
+            "day_of_week": "Thursday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2479,
+            "starting": "2024-07-19T15:00:00",
+            "ending": "2024-07-19T16:00:00",
+            "day_of_week": "Friday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2480,
+            "starting": "2024-07-20T18:00:00",
+            "ending": "2024-07-20T22:00:00",
+            "day_of_week": "Saturday",
+            "all_day": false
+          }
+        ]
+      },
+      {
         "event_id": 627,
         "title": "Meditation & Restoration",
         "event_description": "Unwind and realign with sound bath, calming refreshments, aromatherapy, and various healing arts sessions offered daily.",
@@ -7488,6 +7527,52 @@
         ]
       },
       {
+        "event_id": 700,
+        "title": "A Musicofilia Heavy Petting Aquarium",
+        "event_description": "Have you ever wanted to have an intimate yet sensual experience with a musical instrument? Then come on by to our heavy petting aquarium, where you get to interact and play and frolic with a variety of friendly instruments all excited for you to put them as gently or as firmly as you like! And if you pet on a few instruments at the same time, you can even make a lil jam together! Our zoo will have eight instruments including but not limited to: an ancient Violin, a fun size Viola, a mystical Djambe, a hard rockin guitar, and even a Keyboard with more sounds than you’ll know what to do with! And there are even some exciting, experimental, and delicious cocktails included if the instruments like how you pet them!! \r\n🎏🎻🍹",
+        "site_id": "H",
+        "hosting_location": "Cat Camp!",
+        "event_recurrence": "multiple",
+        "heart_count": 6,
+        "alcohol": true,
+        "red_light": false,
+        "fire_art": false,
+        "spectacle": true,
+        "crafting": false,
+        "food": false,
+        "sober": false,
+        "event_times": [
+          {
+            "event_time_id": 2488,
+            "starting": "2024-07-17T17:00:00",
+            "ending": "2024-07-17T19:00:00",
+            "day_of_week": "Wednesday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2489,
+            "starting": "2024-07-18T12:00:00",
+            "ending": "2024-07-18T15:00:00",
+            "day_of_week": "Thursday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2490,
+            "starting": "2024-07-19T14:00:00",
+            "ending": "2024-07-19T16:00:00",
+            "day_of_week": "Friday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2491,
+            "starting": "2024-07-20T13:00:00",
+            "ending": "2024-07-20T15:00:00",
+            "day_of_week": "Saturday",
+            "all_day": false
+          }
+        ]
+      },
+      {
         "event_id": 665,
         "title": "Imaginarium Terrariums Workshop with Scarlett ",
         "event_description": "Come down to Kidsville to make your very own Terrarium with sand, rocks, shells and a variety of living moss and plants to choose from. \r\nCreate your very own enclosed micro environment. No green thumbs needed.",
@@ -7721,6 +7806,45 @@
             "event_time_id": 1945,
             "starting": "2024-07-20T13:00:00",
             "ending": "2024-07-20T15:00:00",
+            "day_of_week": "Saturday",
+            "all_day": false
+          }
+        ]
+      },
+      {
+        "event_id": 793,
+        "title": "Shadow Puppetry at Umbra Penumbra",
+        "event_description": "As night falls, come explore a world of shadows and history... Divine goddesses dwelling amid shades of magical light, surrounded by offerings of love.  Who will visit this shrine, and honor them with a story?\r\n\r\nShadow puppetry has ancient roots, with its origin traced back to several cultures, including China, India, and Indonesia. The art form likely began as a way to illustrate stories during religious ceremonies or entertain audiences in various cultural rituals, eventually evolving into a captivating form of visual storytelling. The goal of Umbra, Penumbra is to offer the puppeteer an opportunity to explore and reflect upon the dichotomy between light and dark in collaboration and community with others, rather than in isolation.",
+        "site_id": "33",
+        "hosting_location": "Umbra Penumbra",
+        "event_recurrence": "multiple",
+        "heart_count": 0,
+        "alcohol": false,
+        "red_light": false,
+        "fire_art": false,
+        "spectacle": true,
+        "crafting": false,
+        "food": false,
+        "sober": false,
+        "event_times": [
+          {
+            "event_time_id": 2495,
+            "starting": "2024-07-18T20:00:00",
+            "ending": "2024-07-18T23:11:00",
+            "day_of_week": "Thursday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2496,
+            "starting": "2024-07-19T20:00:00",
+            "ending": "2024-07-19T23:11:00",
+            "day_of_week": "Friday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2497,
+            "starting": "2024-07-20T20:00:00",
+            "ending": "2024-07-20T23:11:00",
             "day_of_week": "Saturday",
             "all_day": false
           }
@@ -8177,6 +8301,45 @@
             "starting": "2024-07-17T18:30:00",
             "ending": "2024-07-17T19:30:00",
             "day_of_week": "Wednesday",
+            "all_day": false
+          }
+        ]
+      },
+      {
+        "event_id": 794,
+        "title": "Meditation and Memorial at Umbra Penumbra",
+        "event_description": "Visit this sacred place in the Pines to reflect.  Feel the connection to nature, the world around, each other, and loved ones joining us in spirit.",
+        "site_id": "33",
+        "hosting_location": "Umbra Penumbra",
+        "event_recurrence": "multiple",
+        "heart_count": 0,
+        "alcohol": false,
+        "red_light": false,
+        "fire_art": false,
+        "spectacle": false,
+        "crafting": false,
+        "food": false,
+        "sober": false,
+        "event_times": [
+          {
+            "event_time_id": 2498,
+            "starting": "2024-07-18T08:00:00",
+            "ending": "2024-07-18T17:00:00",
+            "day_of_week": "Thursday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2499,
+            "starting": "2024-07-19T08:00:00",
+            "ending": "2024-07-19T17:00:00",
+            "day_of_week": "Friday",
+            "all_day": false
+          },
+          {
+            "event_time_id": 2500,
+            "starting": "2024-07-20T08:00:00",
+            "ending": "2024-07-20T17:00:00",
+            "day_of_week": "Saturday",
             "all_day": false
           }
         ]
@@ -10683,6 +10846,31 @@
         ]
       },
       {
+        "event_id": 554,
+        "title": "POC Cookout, 5th Annual",
+        "event_description": "Grill and chill with us at the 5th annual POC Cookout.  Come for the food, and stay for the Community!  There will be deep cuts, fun games, and besties new and old as we reconnect, celebrate and uplift each other.  San Escobar, 1-4pm, bring a plate, yourself and friend.  Everyone is invited to the Cookout to share space and burn with our dope af POC community at Lucky Lake.   The music... lit!  The food... made with love.  The community...is family.  And the vibes... ***immaculate***!",
+        "site_id": "36 - 38",
+        "hosting_location": "San Escobar",
+        "event_recurrence": "single",
+        "heart_count": 1,
+        "alcohol": false,
+        "red_light": false,
+        "fire_art": false,
+        "spectacle": false,
+        "crafting": false,
+        "food": true,
+        "sober": false,
+        "event_times": [
+          {
+            "event_time_id": 2487,
+            "starting": "2024-07-19T13:00:00",
+            "ending": "2024-07-19T16:00:00",
+            "day_of_week": "Friday",
+            "all_day": false
+          }
+        ]
+      },
+      {
         "event_id": 489,
         "title": "Somatic Movement for Tension Release",
         "event_description": "Tired of unwanted tension in the body and want to learn how to gain more freedom, expansion and comfort in movement for the rest of the burn (or for the rest of your life??)? Learn how gaining a deeper awareness through subtle movement patterns and breath work helps you to release unwanted tension and regain mobility. Starting with an introduction to somatic movement, you’ll learn about the body’s trauma patterns. Then you’ll be guided through several gentle movements to sense their impact your body’s ability to notice and release tension. This multi- day workshop could be a great one- off, or you could return the following day to delve deeper into the practice. The whole session will take 45 min- 1 hour. This workshop is great for anyone who suffers from chronic pain, muscle tension and anxiety to name a few. This is also helpful if you have a movement practice of your own (like dance or flow) that you want to improve with tension release to increase mobility. The instructor, Big Kris (Kris Smith) is a functional fitness expert with CPT certification for 10 years, with 6 years experience teaching somatic movement.",
@@ -11006,31 +11194,6 @@
         ]
       },
       {
-        "event_id": 554,
-        "title": "5th Annual POC Cookout",
-        "event_description": "Grill and chill with us at the 5th annual POC Cookout.  Come for the food, and stay for the Community!  There will be deep cuts, fun games, and besties new and old as we reconnect, celebrate and uplift each other.  San Escobar, 1-4pm, bring a plate, yourself and friend.  Everyone is invited to the Cookout to share space and burn with our dope af POC community at Lucky Lake.   The music... lit!  The food... made with love.  The community...is family.  And the vibes... ***immaculate***!",
-        "site_id": "36 - 38",
-        "hosting_location": "San Escobar",
-        "event_recurrence": "single",
-        "heart_count": 1,
-        "alcohol": false,
-        "red_light": false,
-        "fire_art": false,
-        "spectacle": false,
-        "crafting": false,
-        "food": true,
-        "sober": false,
-        "event_times": [
-          {
-            "event_time_id": 2118,
-            "starting": "2024-07-19T13:00:00",
-            "ending": "2024-07-19T16:00:00",
-            "day_of_week": "Friday",
-            "all_day": false
-          }
-        ]
-      },
-      {
         "event_id": 649,
         "title": "Gender DiversiTea!",
         "event_description": "Come have a casual cuppa with your fellow trans, non-binary, and gender diverse Gaybors. A variety of both hot and iced teas will be available along with some tiny nibbles. 🥰",
@@ -11071,45 +11234,6 @@
             "event_time_id": 2398,
             "starting": "2024-07-20T17:00:00",
             "ending": "2024-07-20T18:00:00",
-            "day_of_week": "Saturday",
-            "all_day": false
-          }
-        ]
-      },
-      {
-        "event_id": 358,
-        "title": "2024 Conclave",
-        "event_description": "Conclave is going to keep swimming, are you?\r\n\r\nAny Fire Artist, or movement artist, is welcome to come perform in LAKES OF FIRE 2024: IMAGINARIUM AQUARIUM! \"Conclave\" is the group fire performance done prior to lighting the Effigy on Saturday evening. Or, if you're open to safety, or add another art form, we would love to have you!\r\n\r\nOur conclave group will perform together in front of the Effigy and all of our Lakes Of Fire community. It is our pleasure of warming up the night for the festivities to come!  \r\n\r\nAll skill levels are welcome! Come join the fun and shake your fire booty with us.\r\n\r\n→→ All Conclave performers are required to attend one Lakes of Fire FAST \"Fire Arts Safety Training\" course. *\r\n* Unless you attended a FAST meeting last year in 2023. \r\n\r\n→→ We are doing Conclave rehearsals on Thursday and Friday at 3PM at Effigy. \r\n      ** These are not mandatory but we encourage you to come to at least one if you are able. 😊\r\n\r\n(NOT MANDATORY) Conclave Rehearsals  -\r\n🐠 July 18, Thursday || 3PM at Effigy\r\n🐠 June 19, Friday || 3PM at Effigy\r\n\r\nMANDATORY Conclave Rehearsal  -\r\n🐠 July 20, Saturday || 6PM at Effigy prepared for Conclave * \r\n     * You must checked in by 6:30PM or you will not be able to participate",
-        "site_id": null,
-        "hosting_location": "Effigy",
-        "event_recurrence": "multiple",
-        "heart_count": 1,
-        "alcohol": false,
-        "red_light": true,
-        "fire_art": true,
-        "spectacle": true,
-        "crafting": false,
-        "food": false,
-        "sober": true,
-        "event_times": [
-          {
-            "event_time_id": 1135,
-            "starting": "2024-07-18T15:00:00",
-            "ending": "2024-07-18T16:00:00",
-            "day_of_week": "Thursday",
-            "all_day": false
-          },
-          {
-            "event_time_id": 1136,
-            "starting": "2024-07-19T15:00:00",
-            "ending": "2024-07-19T16:00:00",
-            "day_of_week": "Friday",
-            "all_day": false
-          },
-          {
-            "event_time_id": 1137,
-            "starting": "2024-07-20T18:00:00",
-            "ending": "2024-07-20T22:00:00",
             "day_of_week": "Saturday",
             "all_day": false
           }
@@ -11647,52 +11771,6 @@
             "event_time_id": 2228,
             "starting": "2024-07-20T10:00:00",
             "ending": "2024-07-20T19:00:00",
-            "day_of_week": "Saturday",
-            "all_day": false
-          }
-        ]
-      },
-      {
-        "event_id": 700,
-        "title": "𝒜 𝗠𝘂𝘀𝗶𝗰𝗼𝗳𝗶𝗹𝗶𝗮 ℍ𝕖𝕒𝕧𝕪 ℙ𝕖𝕥𝕥𝕚𝕟𝕘 𝒜𝕢𝕦𝕒𝕣𝕚𝕦𝕞 🎏",
-        "event_description": "Have you ever wanted to have an intimate yet sensual experience with a musical instrument? Then come on by to our heavy petting aquarium, where you get to interact and play and frolic with a variety of friendly instruments all excited for you to put them as gently or as firmly as you like! And if you pet on a few instruments at the same time, you can even make a lil jam together! Our zoo will have eight instruments including but not limited to: an ancient Violin, a fun size Viola, a mystical Djambe, a hard rockin guitar, and even a Keyboard with more sounds than you’ll know what to do with! And there are even some exciting, experimental, and delicious cocktails included if the instruments like how you pet them!! \r\n🎏🎻🍹",
-        "site_id": "H",
-        "hosting_location": "Cat Camp!",
-        "event_recurrence": "multiple",
-        "heart_count": 6,
-        "alcohol": true,
-        "red_light": false,
-        "fire_art": false,
-        "spectacle": true,
-        "crafting": false,
-        "food": false,
-        "sober": false,
-        "event_times": [
-          {
-            "event_time_id": 2250,
-            "starting": "2024-07-17T17:00:00",
-            "ending": "2024-07-17T19:00:00",
-            "day_of_week": "Wednesday",
-            "all_day": false
-          },
-          {
-            "event_time_id": 2251,
-            "starting": "2024-07-18T12:00:00",
-            "ending": "2024-07-18T15:00:00",
-            "day_of_week": "Thursday",
-            "all_day": false
-          },
-          {
-            "event_time_id": 2252,
-            "starting": "2024-07-19T14:00:00",
-            "ending": "2024-07-19T16:00:00",
-            "day_of_week": "Friday",
-            "all_day": false
-          },
-          {
-            "event_time_id": 2253,
-            "starting": "2024-07-20T13:00:00",
-            "ending": "2024-07-20T15:00:00",
             "day_of_week": "Saturday",
             "all_day": false
           }

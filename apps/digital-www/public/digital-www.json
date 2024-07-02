@@ -3,7 +3,8 @@
     {
       "id": "G1",
       "type": "grant",
-      "artist": "Bilal Amhaz",
+      "legal_name": "Bilal Amhaz",
+      "artist": "B",
       "title": "Aqua-Hearse",
       "funded": "$4,000",
       "location": "1",
@@ -12,6 +13,7 @@
     {
       "id": "G2",
       "type": "grant",
+      "legal_name": "James Villalpando",
       "artist": "James Villalpando",
       "title": "Inferno Lotus",
       "funded": "$3,000",
@@ -21,7 +23,8 @@
     {
       "id": "G3",
       "type": "grant",
-      "artist": "Kathryn Mueller",
+      "legal_name": "Kathryn Mueller",
+      "artist": "Kit",
       "title": "Ties of Connection",
       "funded": "$114",
       "location": "30",
@@ -30,6 +33,7 @@
     {
       "id": "G4",
       "type": "grant",
+      "legal_name": "Trinity White",
       "artist": "Trinity White",
       "title": "Tree Star City",
       "funded": "$1,000",
@@ -39,15 +43,17 @@
     {
       "id": "G5",
       "type": "grant",
-      "artist": "Nicole Robertson",
+      "legal_name": "Nicole Robertson",
+      "artist": "Nicole",
       "title": "Gikkinishikiogoi",
-      "funded": "",
+      "funded": "$400",
       "location": "11",
       "description": "Koi fish are known as a symbol of longevity. Sadly, these will have a short life span. Join us on North Beach on Thursday night to grill some fish."
     },
     {
       "id": "G6",
       "type": "grant",
+      "legal_name": "Holly Sprick",
       "artist": "Holly Sprick",
       "title": "Birds of a Feather",
       "funded": "$250",
@@ -57,7 +63,8 @@
     {
       "id": "G7",
       "type": "grant",
-      "artist": "Daniel Wood",
+      "legal_name": "Daniel Wood",
+      "artist": "Monkey",
       "title": "Kaleidospace",
       "funded": "$639",
       "location": "20",
@@ -66,7 +73,8 @@
     {
       "id": "G8",
       "type": "grant",
-      "artist": "Jennifer Espenscheid",
+      "legal_name": "Jennifer Espenscheid",
+      "artist": "JLovE",
       "title": "Lumella - Light Star",
       "funded": "$5,100",
       "location": "22",
@@ -75,7 +83,8 @@
     {
       "id": "G9",
       "type": "grant",
-      "artist": "Marqueia Watson",
+      "legal_name": "Miss Rio Watson",
+      "artist": "Miss Rio Watson",
       "title": "Umbra Penumbra",
       "funded": "$2,450",
       "location": "33",
@@ -84,6 +93,7 @@
     {
       "id": "G10",
       "type": "grant",
+      "legal_name": "Mariah Spain",
       "artist": "Mariah Spain",
       "title": "Atlantean Tunnel",
       "funded": "$300",
@@ -93,6 +103,7 @@
     {
       "id": "G11",
       "type": "grant",
+      "legal_name": "Jamie Adams",
       "artist": "Jamie Adams",
       "title": "Hermit Crab Homes",
       "funded": "$350",
@@ -102,7 +113,8 @@
     {
       "id": "G12",
       "type": "grant",
-      "artist": "Scotty Lon",
+      "legal_name": "Scotty Lon",
+      "artist": "Scotty",
       "title": "Insect Art",
       "funded": "$169",
       "location": "16",
@@ -111,7 +123,8 @@
     {
       "id": "G13",
       "type": "grant",
-      "artist": "Mike Hartnett",
+      "legal_name": "Mike Hartnett",
+      "artist": "Limerick",
       "title": "Leather and Limericks",
       "funded": "$315",
       "location": "21",
@@ -120,7 +133,8 @@
     {
       "id": "G14",
       "type": "grant",
-      "artist": "Joris Prikken",
+      "legal_name": "Joris Prikken",
+      "artist": "Joris",
       "title": "Cap’n Saicin & Mztress Scoville present the Infinite Heat  (nee Scoville Chou Chou)",
       "funded": "$270",
       "location": "25",
@@ -129,7 +143,8 @@
     {
       "id": "G15",
       "type": "grant",
-      "artist": "Kateri McMullen",
+      "legal_name": "Kateri McMullen",
+      "artist": "Very Kateri",
       "title": "Bubbles, Bodies, and Barriers - Show Me Where it Hurts",
       "funded": "$2,750",
       "location": "5",
@@ -138,7 +153,8 @@
     {
       "id": "G16",
       "type": "grant",
-      "artist": "Rob Hogan",
+      "legal_name": "Rob Hogan",
+      "artist": "Sheldon Drax",
       "title": "Flow Portraits",
       "funded": "$160",
       "location": "9",
@@ -147,7 +163,8 @@
     {
       "id": "G17",
       "type": "grant",
-      "artist": "Karen Long",
+      "legal_name": "Karen Long",
+      "artist": "Lacey",
       "title": "Minni the Mobile Mushroom",
       "funded": "$540",
       "location": "23",
@@ -156,7 +173,8 @@
     {
       "id": "G18",
       "type": "grant",
-      "artist": "Melissa Larson",
+      "legal_name": "Melissa Larson",
+      "artist": "Melissa",
       "title": "Seahorse Surprise",
       "funded": "$458",
       "location": "26",
@@ -165,7 +183,8 @@
     {
       "id": "G19",
       "type": "grant",
-      "artist": "Riley Strickland",
+      "legal_name": "Riley Strickland",
+      "artist": "Grandma",
       "title": "The Slippery Pickle Ride",
       "funded": "$600",
       "location": "27",
@@ -174,7 +193,8 @@
     {
       "id": "G20",
       "type": "grant",
-      "artist": "Julie Tyios",
+      "legal_name": "Julie Tyios",
+      "artist": "Mistress",
       "title": "Muiraqua",
       "funded": "$1,454",
       "location": "24",
@@ -183,7 +203,8 @@
     {
       "id": "G21",
       "type": "grant",
-      "artist": "Alec Rudek",
+      "legal_name": "Alec Rudek",
+      "artist": "Alec",
       "title": "Jellyfish Invasion!",
       "funded": "$1,546",
       "location": "19",
@@ -192,7 +213,8 @@
     {
       "id": "G22",
       "type": "grant",
-      "artist": "Daniel Webber",
+      "legal_name": "Daniel Webber",
+      "artist": "Jinx",
       "title": "Jaws Cream Truck",
       "funded": "$500",
       "location": "17",
@@ -201,7 +223,8 @@
     {
       "id": "G23",
       "type": "grant",
-      "artist": "Bo Lawler",
+      "legal_name": "Bo Lawler",
+      "artist": "Zarquon",
       "title": "Fire Bell",
       "funded": "$300",
       "location": "8",
@@ -210,6 +233,7 @@
     {
       "id": "G24",
       "type": "grant",
+      "legal_name": "Melinda Burke",
       "artist": "Melinda Burke",
       "title": "Trashy Tides",
       "funded": "$100",
@@ -219,7 +243,8 @@
     {
       "id": "G25",
       "type": "grant",
-      "artist": "Krista Bignall-Cadrel",
+      "legal_name": "Krista Bignall-Cadrel",
+      "artist": "Punky",
       "title": "Jellychime Smacks",
       "funded": "$599",
       "location": "18",
@@ -228,7 +253,8 @@
     {
       "id": "G26",
       "type": "grant",
-      "artist": "Lucrecia Zepeda",
+      "legal_name": "Lucrecia Zepeda",
+      "artist": "Cree",
       "title": "Good Reef",
       "funded": "$955",
       "location": "12",
@@ -237,7 +263,8 @@
     {
       "id": "G27",
       "type": "grant",
-      "artist": "Renzo Tormen",
+      "legal_name": "Renzo Tormen",
+      "artist": "Thanks Daddy",
       "title": "Frog Frenzy",
       "funded": "$250",
       "location": "10",
@@ -246,7 +273,8 @@
     {
       "id": "G28",
       "type": "grant",
-      "artist": "Basil Ross",
+      "legal_name": "Basil Ross",
+      "artist": "Basil",
       "title": "Teach's Hole",
       "funded": "$750",
       "location": "29",
@@ -255,7 +283,8 @@
     {
       "id": "G29",
       "type": "grant",
-      "artist": "Alexander Talionis",
+      "legal_name": "Alexander Talionis",
+      "artist": "Lexington",
       "title": "Sonic Multiverse Low Frequency experience",
       "funded": "$1,150",
       "location": "28",
@@ -264,6 +293,7 @@
     {
       "id": "G30",
       "type": "grant",
+      "legal_name": "Kae Kimball",
       "artist": "Kae Kimball",
       "title": "Doom Room",
       "funded": "$1,098",
@@ -273,7 +303,8 @@
     {
       "id": "G31",
       "type": "grant",
-      "artist": "Zoe Beaudry",
+      "legal_name": "Zoe Beaudry",
+      "artist": "Princess",
       "title": "The Bun Dial",
       "funded": "$366",
       "location": "6",
@@ -282,6 +313,7 @@
     {
       "id": "G32",
       "type": "grant",
+      "legal_name": "Cameron Vannatter",
       "artist": "Cameron Vannatter",
       "title": "Baby Beacon",
       "funded": "$1,305",
@@ -291,7 +323,8 @@
     {
       "id": "H1",
       "type": "honoraria",
-      "artist": "Mitchell Hoffman",
+      "legal_name": "Mitchell Hoffman",
+      "artist": "Giraffe",
       "title": "Slime Corp Cubicle",
       "funded": "$2,000",
       "location": "Notorious Scoundrels",
@@ -300,26 +333,19 @@
     {
       "id": "H2",
       "type": "honoraria",
-      "artist": "Boris Kostov",
+      "legal_name": "Boris Kostov",
+      "artist": "BoKo",
       "title": "Illumiloti Ignisis",
       "funded": "$17,000",
       "location": "South Beach",
       "description": "Illumiloti Ignisis (ilu-mi-lo-ti ig-ni-sis) Consisting of a group of lotus flowers, this installation floats on the surface of the water. The lotus, deeply rooted in Eastern cultures, symbolizes peace, purity and calmness. The installation embodies these concepts with its form and slow shift of lights through the color spectrum. The three larger flowers emit flames from the center representing a release of energy. The composition with the three large and six smaller flowers, illuminate the surface of the water creating a beautiful and captivating experience for the audience."
     },
     {
-      "id": "H3",
-      "type": "honoraria",
-      "artist": "Jeremy Besemer",
-      "title": "Celestial Guardian",
-      "funded": "$1,500",
-      "location": "Tequila TV",
-      "description": "Large fire sculpture built from steel with accents in copper and brass, Inspired by the Artists travels to Southeast Asia."
-    },
-    {
       "id": "H4",
       "type": "honoraria",
-      "artist": "Big Papa",
-      "title": "Lauren Robinson",
+      "legal_name": "Lauren Robinson",
+      "artist": "Hambone",
+      "title": "Big Papa",
       "funded": "$500",
       "location": "Sideways Potato People",
       "description": "Large interactive fiberglass & foam potato, much bigger than an average Russet. Inspired to make people laugh, create whimsy and spectacle. Big Papa is an exercise in having fun and being outrageous."
@@ -327,8 +353,9 @@
     {
       "id": "H5",
       "type": "honoraria",
-      "artist": "Sea'Star'Splosion",
-      "title": "Heather Jerome",
+      "legal_name": "Heather Jerome",
+      "artist": "faerymama",
+      "title": "Sea'Star'Splosion",
       "funded": "$500",
       "location": "Inferni’peligo",
       "description": "A 7' tall steel can'delabra, Sea'Star'Splosion will have the appearance of an underwater coral ecosystem and as a beacon and blessing of Love and Light upon the community."
@@ -336,7 +363,8 @@
     {
       "id": "H6",
       "type": "honoraria",
-      "artist": "Ashley Brown",
+      "legal_name": "Ashley Brown",
+      "artist": "Zesty",
       "title": "The Gifting Cheese",
       "funded": "$500",
       "location": "That's What Cheese Said",
@@ -345,6 +373,7 @@
     {
       "id": "H7",
       "type": "honoraria",
+      "legal_name": "Carlos Vallejo Duran",
       "artist": "Carlos Vallejo Duran",
       "title": "Palmas de Fuego",
       "funded": "$1,500",
@@ -354,7 +383,8 @@
     {
       "id": "H8",
       "type": "honoraria",
-      "artist": "Sarah Davitt",
+      "legal_name": "Sarah Davitt",
+      "artist": "Hapto",
       "title": "Do androids dream of electric kittens?",
       "funded": "$500",
       "location": "In the Pines",
@@ -363,7 +393,8 @@
     {
       "id": "H9",
       "type": "honoraria",
-      "artist": "Victoria Primeau & Hoyle Anderson",
+      "legal_name": "Victoria Primeau & Hoyle Anderson",
+      "artist": "Raspberry & Hoyle",
       "title": "Lakes of Fire Entrance sign",
       "funded": "$500",
       "location": "LoF Entrance",
@@ -826,7 +857,7 @@
       "neighborhood": "North Side",
       "name": "Camp Recharge",
       "site": "8",
-      "description": "Our camp requires a power source and potable water to offer services to the community. Historically, we have been placed at site 8 which is a perfect location for us. We share the power with those who request access to power art installations on the beach. If available, we would love to have that same space because people know to look for us there."
+      "description": "Come to Camp Recharge to have your power restored physically, spiritually, and electronically. You'll have it made in the shade in our Recharge Room (BYO charging cord) and can enjoy a breezy cat nap in our hammocks by the lake. We offer electronics charging, self-serve shiatsu massagers, handwashing station, hydrating drinks, a first aid kit, OTC meds, topical treatments, and much more! We may have extra pain treatment options for our chronic pain cronies. Unfuck yer day!"
     },
     {
       "id": "TC7",
