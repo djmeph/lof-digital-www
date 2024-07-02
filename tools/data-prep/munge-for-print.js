@@ -16,6 +16,12 @@ var main = async () => {
     filePath.replace('tpl', 'art')
   );
 
+  artArray = artArray.sort(
+    (a, b) =>
+      (a.type == 'grant' ? 0 : 1) - (b.type == 'grant' ? 0 : 1) ||
+      a.title.localeCompare(b.title)
+  );
+
   writeFileSync(
     outPath.replace('tpl', 'art'),
     stringify(artArray),
@@ -259,7 +265,8 @@ var main = async () => {
     // Exclude all-day Sunday events because there is no such thing!
     .filter(
       (event_time) =>
-        event_time.sched_day_of_week != 'Sunday' || !event_time.all_day
+        event_time.sched_day_of_week != 'Sunday' ||
+        !event_time.tag_all_day.length > 0
     );
 
   writeFileSync(

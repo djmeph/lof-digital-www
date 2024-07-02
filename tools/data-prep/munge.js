@@ -11,10 +11,11 @@ var main = async () => {
   const radioArray = await csv({ delimiter: '\t' }).fromFile(
     filePath.replace('tpl', 'radio')
   );
-  // Sort the camps first by neighborhood, then by name
-  const campsArray = await csv({ delimiter: '\t' })
-    .fromFile(filePath.replace('tpl', 'camps'))
-    .sort((a, b) => b.neighborhood > a.neighborhood || b.name > a.name);
+
+  const campsArray = await csv({ delimiter: '\t' }).fromFile(
+    filePath.replace('tpl', 'camps')
+  );
+
   const vehiclesArray = await csv({ delimiter: '\t' }).fromFile(
     filePath.replace('tpl', 'vehicles')
   );
