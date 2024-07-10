@@ -6,18 +6,20 @@
 #     --cache-from type=registry,ref=ghcr.io/djmeph/lof-digital-www:buildcache \
 #     --push .
 
-FROM node:20-alpine
-ARG port=3000
-WORKDIR /src
+FROM node:20-alpine as builder
 
-RUN apk add --update python3 make g++ && rm -rf /var/cache/apk/* \
-    && npm install -g node-gyp
+RUN apk add --no-cache python3 make g++ && npm install -g node-gyp
 
 COPY dist/apps/digital-www/package.json ./
 RUN yarn install --network-timeout 300000
-COPY --chown=node:node dist/apps/digital-www .
 
+FROM node:20-alpine as app
+ARG port=3000
 USER node
 ENV PORT ${port}
+
+COPY --from=builder node_modules node_modules
+COPY dist/apps/digital-www .
+
 EXPOSE ${PORT}
 CMD yarn start -p $PORT
