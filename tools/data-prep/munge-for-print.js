@@ -275,6 +275,19 @@ var main = async () => {
     null,
     'utf8'
   );
+
+  // ========== ART ==========
+  let scoutsArray = await csv({ delimiter: '\t' }).fromFile(
+    filePath.replace('tpl', 'scouts')
+  );
+
+  writeFileSync(
+    outPath.replace('tpl', 'scouts'),
+    stringify(scoutsArray),
+    null,
+    'utf8'
+  );
+
   // ========== END ==========
 };
 
