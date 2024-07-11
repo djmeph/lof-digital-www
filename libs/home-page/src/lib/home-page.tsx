@@ -165,12 +165,12 @@ export function HomePage() {
           </p>
           <h3>Saturday</h3>
           <p>
-            <b>8:00 A.M. EST – 4:00 PM EST.</b> Participants only! No
+            <b>10:00 A.M. EST – 4:00 PM EST.</b> Participants only! No
             spectators, please.
           </p>
           <h3>Sunday</h3>
           <p>
-            <b>8:00 A.M. EST – 3:00 PM EST.</b> Exodus only. All participants
+            <b>10:00 A.M. EST – 3:00 PM EST.</b> Exodus only. All participants
             except for organizers, DPW, and LNT must be off the property by 3:00
             P.M.
           </p>
