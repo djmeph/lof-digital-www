@@ -21,5 +21,5 @@ ENV PORT ${port}
 COPY --from=builder node_modules node_modules
 COPY dist/apps/digital-www .
 
-EXPOSE ${PORT}
+EXPOSE ${port}
 CMD yarn start -p $PORT
