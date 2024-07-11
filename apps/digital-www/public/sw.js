@@ -15,8 +15,21 @@ const cacheClone = async (e) => {
     console.log('service worker installed');
   });
 
-  self.addEventListener('activate', () => {
+  self.addEventListener('activate', (event) => {
     console.log('service worker activated');
+
+    event.waitUntil(
+      caches.keys().then((keyList) =>
+        Promise.all(
+          keyList.map((key) => {
+            if (key !== cacheName) {
+              console.log(`Clearing stale cache ${key}`);
+              return caches.delete(key);
+            }
+          })
+        )
+      )
+    );
   });
 
   self.addEventListener('fetch', (e) => {
