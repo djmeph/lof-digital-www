@@ -145,6 +145,19 @@ export function HomePage() {
         <Row />
         <Row className="mx-2 mt-2 mb-4 text-white">
           <h2 id="gate-hours">Gate Hours</h2>
+          <h4>Large Vehicle Entry Closes At Sunset</h4>
+          <p>
+            If you are entering Lakes of Fire with a vehicle{' '}
+            <b>larger than a Sprinter van</b>, you must be through the Gate
+            before sunset (9:35 PM Eastern Standard Time). Our Gate volunteers
+            need to be able to look at and into your vehicle exhaustively before
+            you are allowed to enter, and the Placement team will not place you
+            at your campsite in the dark.
+            <br />
+            <b>You cannot stay overnight outside the Gate.</b> Absolutely no
+            overnight parking on our property without getting through Gate
+            first.
+          </p>
           &nbsp; &nbsp;
           <h3>Tuesday</h3>
           <p>
